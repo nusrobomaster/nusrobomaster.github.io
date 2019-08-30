@@ -13,12 +13,13 @@ branch: docs
 
 install:
     - npm install
-    - npm run build
 script:
-    - yarn build
+    - npm run build
 deploy:
   provider: pages
+  local_dir: docs/.vuepress/dist
   skip_cleanup: true
+  repo: nusrobomaster/nusrobomaster.github.io
   github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
   keep_history: true
   on:
