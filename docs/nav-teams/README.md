@@ -10,6 +10,8 @@ Since require each team to be able to operate independently, hence a good mix of
 
 ## Register as Team (IMPORTANT)
 
+_TODO: add excel file for registration_
+
 Deliverables by  __16th September 2019__:
 - __Registration form__ with 3 ~ 5 core team members' particulars, email to [Ms Suzanne](mailto:engkohs@nus.edu.sg)
     - The team could autonomously recruit more people upon successful registration
@@ -24,23 +26,24 @@ The point of the registration process is not to force you to fix your team membe
 
 The responsibility of the person is to:
 - Conceive collectively for a overval NUS team name and slogan
-- Arrangement for wall deco, sofa, chairs, water dispenser etc. to make our place cosier
 - Keep a record of the assets of the team in the Room
 - Ensure room safety
+- Arrangement for wall deco, sofa, chairs, water dispenser etc. to make our place cosier
 
 ### Notes on The Web Page
 
-__Using Git and VuePress__
+#### Using Git and VuePress
 
 Git Version Control is very important in managing digital work of the team. It is worth learning if no one in the team knows it yet.
 
 The website we are using is created by VuePress, which is a web generator from Markdown language. Markdown is very simple to learn (in minutes) hence you dont need to know much html to start writing web pages!
 
-Explore yourselves and read more from the README file at https://github.com/nusrobomaster/nusrobomaster.github.io .
+Explore yourselves and read more from the README file at the [repo](https://github.com/nusrobomaster/nusrobomaster.github.io).
 
 
-__Content Guideline__
+#### Proposal Content Guideline
 
+Need not follow strictly:
 - Self introductions
 - Proposed manpower arrangement
 - Proposed timeline and milestones

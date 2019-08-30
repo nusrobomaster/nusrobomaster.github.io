@@ -13,5 +13,5 @@ features:
   details: Conveniently located in FoE, there is a dedicated workshop to develop and test the robots. Contribute your ideas to make our room better and cosier!
 - title: Our Documentation
   details: We promise to share our design files, and strive to write good documentation, for the benefits of new team mates and wider robotics community.
-footer: MIT Licensed | Copyright © 2019 Faculty of Engineering, National University of Singapore
+footer: MIT Licensed | Copyright © 2019 NUS Engineering
 ---

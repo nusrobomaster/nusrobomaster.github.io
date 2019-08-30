@@ -5,5 +5,7 @@
 
 [Onboard Computer: DJI Manifold 2](https://www.dji.com/sg/manifold-2)
 
+[Robomaster Mecanum Wheel](https://www.robomaster.com/zh-CN/products/components/detail/135)
+
 ## Reference Design
 [RoboRTS](https://robomaster.github.io/RoboRTS-Tutorial/#/en/roborts)
