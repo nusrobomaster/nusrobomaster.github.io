@@ -11,10 +11,13 @@ branches:
 
 branch: docs
 
+before_install:
+  - export TZ=Asia/Singapore
+
 install:
-    - npm install
+  - npm install
 script:
-    - npm run build
+  - npm run build
 deploy:
   provider: pages
   local_dir: docs/.vuepress/dist
