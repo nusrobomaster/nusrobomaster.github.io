@@ -30,32 +30,14 @@ The responsibility of the person is to:
 
 ### Notes on The Web Page
 
-__Using Git__
+__Using Git and VuePress__
 
 Git Version Control is very important in managing digital work of the team. It is worth learning if no one in the team knows it yet.
 
 The website we are using is created by VuePress, which is a web generator from Markdown language. Markdown is very simple to learn (in minutes) hence you dont need to know much html to start writing web pages!
 
-To upload your team web page, follow the following step:
-- Clone the repository: https://github.com/nusrobomaster/nusrobomaster.github.io
-- Make sure you are on `docs` branch
-- [__Important__] checkout a new branch for example `dev/your-team-name`
-- Create a `your-team-name.md` file under `nav-teams` folder
-- Commit changes as you like
-- In the meanwhile, wait for your github username to be added as collaborators
-- Push your changes to the remote server when ready
-- Make a pull request, from your `dev/your-team-name` branch to `docs` branch
-- Once the pull request is approved, the website will be automatically updated by Travis CI, happy surfing!
+Explore yourselves and read more from the README file at https://github.com/nusrobomaster/nusrobomaster.github.io .
 
-
-__Using VuePress Locally__
-
-When you are creating your `your-team-name.md`, you would like to preview how the web page is generated. Yes, you can! This is how you do it.
-
-On Linux machine:
-- make sure nodejs and npm is installed
-- in the git top folder, execute `npm install`, this will install the javascript dependencies
-- then, execute `npm serve`, and follow the instructions to open the localhost link, to see the preview!
 
 __Content Guideline__
 
