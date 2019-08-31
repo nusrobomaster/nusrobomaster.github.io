@@ -9,7 +9,7 @@ Therefore, we are breaking up all NUS participants into several teams (around 5 
 We require each team to be able to operate independently, hence a good mix of talents from all disciplines would be beneficial.
 
 ## Register as Team (IMPORTANT)
-[__Registration form__](./assets/RoboMaster_Team_Registration.doc) with 3 ~ 5 core team members' particulars, email to [Ms Suzanne](mailto:engkohs@nus.edu.sg)
+[__Registration form__](/RoboMaster_Team_Registration.doc) with 3 ~ 5 core team members' particulars, email to [Ms Suzanne](mailto:engkohs@nus.edu.sg)
 - Registration form to Suzanne by __12th September 2019__
 - Assign one person to be in the __RoboMaster Room Committee__ (indicate in the form)
 - The team could autonomously recruit more people upon successful registration
