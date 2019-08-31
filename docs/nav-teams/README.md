@@ -1,6 +1,6 @@
 # Introduction of Teams
 
-Registration for NUS RoboMaster Team is open until __16th September 2019__. All participants have to register as a team, not as individuals. 
+Registration for NUS RoboMaster Team is open until __12th September 2019__. All participants have to register as a team, not as individuals. 
 
 If you have read the 2019 rules, you may understand that there are 7 robots to be built in total. As it is the first year we are joining the competition, we have absolutely zero existing assets.
 

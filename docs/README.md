@@ -10,7 +10,7 @@ features:
 - title: Our Teams
   details: A great place to get to know our teams and what we are up to now! We will update our design methodologies and build progress here. Join us :)
 - title: Our RoboMaster Room
-  details: Conveniently located in FoE, there is a dedicated workshop to develop and test the robots. Contribute your ideas to make our room better and cosier!
+  details: Conveniently located in NUS Engineering, there is a dedicated workshop to develop and test the robots. Contribute your ideas to make our room better and cosier!
 - title: Our Documentation
   details: We promise to share our design files, and strive to write good documentation, for the benefits of new team mates and wider robotics community.
 footer: MIT Licensed | Copyright © 2019 NUS Engineering

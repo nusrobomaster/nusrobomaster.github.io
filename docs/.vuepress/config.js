@@ -22,7 +22,10 @@ module.exports = {
       { text: 'Home', link: '/' },
       // { text: 'Tutorials', link: '/1-tutorials/' },
       // { text: 'External', link: 'https://google.com' },
-     ...barConfig.nav],
+      
+     ...barConfig.nav,
+     { text: 'GitHub', link: 'https://github.com/nusrobomaster/' }
+    ],
     sidebar: barConfig.sidebar,
     lastUpdated: 'Last Updated',
     editLinks: false,
