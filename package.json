@@ -19,6 +19,7 @@
   "devDependencies": {
     "markdown-it-task-lists": "^2.1.1",
     "vuepress": "^1.0.3",
-    "vuepress-bar": "^0.1.1"
+    "vuepress-bar": "^0.1.1",
+    "vuepress-plugin-disqus": "^0.1.1"
   }
 }

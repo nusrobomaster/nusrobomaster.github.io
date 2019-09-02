@@ -5,7 +5,7 @@ heroImage: /rm-logo.png
 heroText: NUS RoboMaster Team 2020
 tagline: Onboarding The 7-vs-7 Robot Battle
 actionText: Register as Team
-actionLink: /nav-teams/#register-as-team
+actionLink: /nav-teams/#team-registration
 features:
 - title: Our Teams
   details: A great place to get to know our teams and what we are up to now! We will update our design methodologies and build progress here. Join us :)

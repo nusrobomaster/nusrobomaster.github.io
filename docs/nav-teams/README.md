@@ -62,3 +62,8 @@ The website we are using is created by VuePress, which is a web generator from M
 
 Explore yourselves and read more from the README file at the [repo](https://github.com/nusrobomaster/nusrobomaster.github.io).
 
+---
+
+<ClientOnly>
+<Disqus shortname="nusrobomaster" />
+</ClientOnly>
