@@ -2,19 +2,19 @@
 
 ## Introduction
 
-Nguyen Tuan Dung
+### Nguyen Tuan Dung
 
 I am currently a year 1 Mechanical Engineering student who is also second majored in iDP. I have had 4 years of experience with robotics in secondary and high school. One of the competitions I participated in was VEX Robotics Competition. Within the four years, I have won 4 tournament champions and 3 excellent award for high school category in Singapore VEX Robotics Competition. I also moved on to represent Singapore in the World VEX Robotics Championship twice and the highest award I achieved was Division Finalist. For robotics, my interest focuses on mechanical design and building of the robot. I can also become the pilot or provide coaching for pilot during match.
 
-Nicholas
+### Nicholas
 
 A year 4 EE student interested in the field of robotics. Worked with Temasek Laboratories to design, develop and test an IR LED module. In 2014, I developed a system to tackle the issue of myopia. Components used were Arduino Uno, Ultrasonic sensor, buzzer, LED, Relay. I have basic electronic circuits and digital design knowledge. Last semester I took Feedback Control System module and am currently taking Industrial Control System module.
 
-Boby Halim
+### Boby Halim
 
 I am a year 1 Mechanical Engineering student. Although I do not have prior background in robotics, I have taken part in research project before when I was in JC. The project was about Demonstration Kit for Battery-less RF Energy Harvesting where I presented it at Singapore Science Engineering Fair (SSEF). In robotics, I would like to learn more about the mechanics and the process of building a robot, including the various fabrication methods. I am also interested in the design phase of a robot through the use of CAD such as Solidworks.
 
-Isaiah Koh
+### Isaiah Koh
 
 I am currently a year 1 Computer Science and Business Administration DDP student. In my free time, I have undertaken several personal coding projects including a basic Android app and a Sudoku Solver that solves through a combination of logic and brute force methods.
 
@@ -35,7 +35,7 @@ No| Role          |  Description                        | Assigned to       |
 
 ## Timeline & Milestones
 
-![Timeline](./assets/robocop-timeline.jpeg)
+![Timeline](./assets/robocop-timeline.jpg)
 
 ## Robot Design Considerations
 
