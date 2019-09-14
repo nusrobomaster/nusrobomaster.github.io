@@ -23,8 +23,8 @@ No| Role          |  Description                        | Assigned to       |
 --|---------------|---                                  |---                |
  1|  Mechanical   |  Chassis; Suspension                |  Dung (Leader)   |
  2|  Mechanical   |  Gun; Gimbals system                | Open Position|
- 3|  Electrical   |  Power management; Electric Drive; Fail-safe   |  Sangit |
- 4|  Electronics  |  Sensor interface; Close-loop Control | Huimin          | 
+ 3|  Electrical   |  Power management; Electric Drive; Fail-safe   |  Open Position |
+ 4|  Electronics  |  Sensor interface; Close-loop Control | Open Position          | 
  5|  Software     | Linux OS; Sensor drivers            | Isaiah     | 
  6|  Software     | Computer vision; Motion planning    | Open Position     | 
  7|  Operation    | Sponsorships; Chinese-English Translation | Open Position     |   
