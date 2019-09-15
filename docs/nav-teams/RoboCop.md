@@ -39,7 +39,26 @@ No| Role          |  Description                        | Assigned to       |
 
 ## Robot Design Considerations
 
-### Base
+### Base (Chassis & Wheels)
+
+* Sizing abiding to compeition rules
+* Suspension system suitable to overcome field terrain and obstacles
+* Shock absorbers to avoid damage and bending of shaft, chassis and other components of the base
+
+### Turret (Intake, Turning & Cannon)
+
+* Freedom of motion in horizontal and vertical direction for turret -> also self-stabilized to ensure stable shot on target
+* Projectile intake and magazine size 
+* Smooth projectile transmission to cannon 
+* Type of cannon 
+
+### Miscellaneous Parts
+
+* Choice of motor, cortex, materials for various parts
+
+## General Design and Fabrication Method
+
+### Base (Chassis & Wheels)
 
 Firstly, we decided to have a square-shaped base with four mecanum wheel for our robot. The purpose of a metal square frame surrounding the robot is to ensure its sturdiness taken into account that collisions will happen in game. Mecanum wheels fit into this design since it can be mounted like normal wheel while providing the same style of movement as omni wheel.
 
