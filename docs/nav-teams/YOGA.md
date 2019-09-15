@@ -1,4 +1,4 @@
-RoboMasters YOGA
+#RoboMasters YOGA
 
 # Introduction of Team
 
@@ -7,6 +7,7 @@ RoboMasters YOGA
 I am a year 3 electrical engineering student pursuing an IoT specialization. I am currently doing my Industrial Attachment (IA) at NUS Optical Science and Engineering Center, in charge of developing software for an industrial smart microscope. I am passionate about embedded systems design, machine learning, and computer vision. My current IA project requires me to make use of computer vision algorithms to develop a passive autofocus system for the smart microscope. Some of my past projects include designing a digital real-time audio processing device using an FPGA and simulating the operation of a fitness tracking system using an ARM Cortex-M3 based microcontroller. I hope to strengthen my skill sets in embedded systems, microcontroller programming and interfacing, as well as my knowledge of computer vision and machine learning algorithms through participating in this competition.
 
 ## Ganapathy Sanath Balaji
+![Sanath](./assets/YOGA-Sanath.jpg)
 I am a year 2 Computer engineering student. I am interested in the fields of embedded programming, theoretical computer science, and artificial intelligence. I have previously participated in robotics competitions during my secondary schooling. I do have a little bit of electrical engineering background because I was an EE student for 1 year before I transferred over to CEG. During my time at NUS, I have previously designed a real-time voice scope using an FPGA and also programmed a m-bot based on Arduino to perform simple tasks. My future plans are to pursue a career in AI. I do think that joining the robomasters team could be hugely beneficial for me.
 
 ## R Ramana
@@ -14,6 +15,7 @@ I am a year 2 Computer engineering student. I am interested in the fields of emb
 I am a first year computer engineering student keen on pursuing Intelligent Systems as a specialization. I am passionate about technology especially machine learning and AI. I feel that RoboMasters will be a great platform to strengthen my skill sets as we will not only be working on the software but also the hardware components, which is in line with my field of studies. Furthermore, this is a good opportunity to work with fellow like minded peers on a project, which would be very helpful as it would give us all a glimpse of the working world where we will work in teams in order to achieve certain key performance indicators.
 
 ## Aritejh KR Goil
+![Aritejh](./assets/YOGA-Aritejh.jpg)
 I am a year 1 Engineering Science student, who is interested in designing electrical and mechanical components. I have previously participated in various robotics competitions, the latest one involving designing and electronic car. I have worked with power delivery and control systems as well as sensor integrations. My future plan is to work in the energy or automation sector, and RoboMasters would be highly beneficial for the latter as I can build up my skills in computer vision, multi-level systems integration, embedded systems, and 3d modeling.
 
 ## Tze Yee Koh
@@ -36,17 +38,6 @@ No| Role          |  Description                        | Assigned to       |
  For interested people to join our team, please contact Telegram @aritejh
 
 # Timeline
-<!-- Date     | DJI Deliverable     |  Team YOGA                   | Gimbal Subteam    |
----------|---------------------|---                           |---                |
- 01 Oct  |                     |  Season Start                |  Season Start     |
- 22 Oct  |  Season Schedule    |                              |                   |
- 21 Dec  |                     |                              |  Gimbal Design Freeze  |
- 01 Jan  |                     |  Design Freeze               |                   |
- 14 Jan  |                     |  Electronics Integration into Chassis  |  Migration of Visual Tracking Algorithm    |
- 23 Jan  |  BOM, Design Review |                              |                   |
- 28 Feb  |                     | Full Robot Integration       | Gimbal Integration|   
- 01 Mar  |  Robot Assessment Video    |                       |                   |  
- July    |  Competition        |                              |                   | -->
 
 ![Timeline](./assets/YOGA-timeline1.png)
 ![Timeline](./assets/YOGA-timeline2.png)
@@ -65,7 +56,6 @@ There are no submissions due  during the the date period not shown in the gantt 
 
 5. We will design a cantilever suspension system for the chassis of the robot to keep the robot stable on uneven terrain. This ensures the clarity of the incoming video stream for the pilot and optimizes the performance of the computer vision aiming algorithm.
 ![Chassis_Suspension](./assets/YOGA-Chassis_Suspension.png)
-
 6. Feeding mechanism (shooting vs feeder)
 There will be a feeding mechanism that propels the projectiles vertically upwards from the projectile storage chamber fixed on the chassis into a U-bend that acts as a small holding chamber to ensure that the firing mechanism is not bottlenecked by the feeder mechanism. We use snail motors to propel the projectiles for both the feeding and firing mechanism.
 
