@@ -16,20 +16,19 @@ I am a year 1 Mechanical Engineering student. Although I do not have prior backg
 
 ### Isaiah Koh
 
-I am currently a year 1 Computer Science and Business Administration DDP student. In my free time, I have undertaken several personal coding projects including a basic Android app and a Sudoku Solver that solves through a combination of logic and brute force methods.
+I am currently a year 1 Computer Science and Business Administration DDP student. In my free time, I have undertaken several personal coding projects including a basic Android app and a Sudoku Solver that solves through a combination of logic and brute force methods. I have expeirence with Java and C++. Also, I know how to use GitHub and VuePress.
 
 ### Proposed Manpower Arrangement
 No| Role          |  Description                        | Assigned to       | 
 --|---------------|---                                  |---                |
  1|  Mechanical   |  Chassis; Suspension                |  Dung (Leader)   |
- 2|  Mechanical   |  Gun; Gimbals system                | Open Position|
- 3|  Electrical   |  Power management; Electric Drive; Fail-safe   |  Open Position |
- 4|  Electronics  |  Sensor interface; Close-loop Control | Open Position          | 
+ 2|  Mechanical   |  Gun; Gimbals system                | Dung  |
+ 3|  Electrical   |  Power management; Electric Drive; Fail-safe   |  Nicholas |
+ 4|  Electronics  |  Sensor interface; Close-loop Control | Nicholas | 
  5|  Software     | Linux OS; Sensor drivers            | Isaiah     | 
  6|  Software     | Computer vision; Motion planning    | Open Position     | 
- 7|  Operation    | Sponsorships; Chinese-English Translation | Open Position     |   
- 8|  Operation    | Accounting; Publicity Materials     | Boby     |  
- 9|  Pilot        | TX & RX system; Game-play strategy  |  Nicholas            |
+ 7|  Operation    | Accounting; Publicity Materials     | Boby     |  
+ 8|  Pilot        | TX & RX system; Game-play strategy  |  Nicholas            |
 
  For interested people to join our team, please contact Telegram @xxxx 
 
@@ -39,23 +38,55 @@ No| Role          |  Description                        | Assigned to       |
 
 ## Robot Design Considerations
 
-### Base
+### Base (Chassis & Wheels)
+
+* Sizing abiding to compeition rules
+* Suspension system suitable to overcome field terrain and obstacles
+* Shock absorbers to avoid damage and bending of shaft, chassis and other components of the base
+
+### Turret (Intake, Turning & Cannon)
+
+* Freedom of motion in horizontal and vertical direction for turret -> also self-stabilized to ensure stable shot on target
+* Projectile intake and magazine size 
+* Smooth projectile transmission to cannon 
+* Type of cannon 
+
+### Miscellaneous Parts
+
+* Choice of motor, cortex, materials for various parts
+
+## General Design and Fabrication Method
+
+### Base (Chassis & Wheels)
 
 Firstly, we decided to have a square-shaped base with four mecanum wheel for our robot. The purpose of a metal square frame surrounding the robot is to ensure its sturdiness taken into account that collisions will happen in game. Mecanum wheels fit into this design since it can be mounted like normal wheel while providing the same style of movement as omni wheel.
 
-> pic1, pic2
+![Base](./assets/robocop-base.jpg)
 
-Next, we decided to install an independent suspension system to each of the wheel. This allows the robot to overcome obstacles better without bending the chassis and other connecting axles and joints. In detailed, we would employ a double wishbone suspension system which a draft of its can be seen in Pic 2. We will also have four motors with inbuilt encoder for each of the wheel. This will allow us to perform turning actions simply by coding the speed and rotation direction of each wheel and avoid the trouble of designing a steering system. 
+![Side View of Wheel](./assets/robocop-wheelside.jpg)
 
-Some other consideration is the mounting of Health bar, Armour Plates and Cortex to the base. The details of these will be decided when a more detailed design is developed.
+Next, we decided to install an independent suspension system to each of the wheel. This allows the robot to overcome obstacles better without bending the chassis and other connecting axles and joints. In detail, we would employ a modified version of double wishbone suspension system which a draft of its can be seen in Pic 2 and Pic 3. The four joints shown in pic 2 are free to rotate and the degree of rotation is limited by the shock absorber system shown in Pic 3.  In addition, a second piston might be added to the lower two bars to increase sturdiness of suspension system. We will also have four motors with inbuilt encoder for each of the wheel. This will allow us to perform turning actions simply by coding the speed and rotation direction of each wheel and avoid the trouble of designing a steering system.
+
+![Suspension](./assets/robocop-suspension.jpg)
+
+Some other consideration is the mounting of Health bar, Armour Plates and Cortex to the base. The details of these will be decided when a more detailed design is developed. The gearing ratio as well as exact design for shock absorber and suspension will also need to be calculated, modelled and prototyped.
 
 ### Turret (Intake + Turning + Cannon)
 
-Our design for the intake and cannon resembles to that of a tennis ball machine. The intake and projectiles container will be a square box. (Pic 3) The intake will lead to a slanted downward tray system with the width of roughly 20mm so that projectiles move through the tray in single file.  Between the projectiles container leading to the tray will be two rollers with soft wing to assist the projectiles inside the tray. At the end of the tray is a spring stopper. (Pic 4) The stopper is pulled down when the turret shoot and released back when not shooting. The cannon will employ a double flywheel system consisting of two soft rolling wheel putting 16 mm horizontally apart from each other. 
+![Turret](./assets/robocop-turret.jpg)
 
-A Gimbal stabilized turret will also be designed for the cannon to ensure its smooth movement horizontally and vertically.
+Our design for the intake and cannon resembles to that of a tennis ball machine. The intake and projectiles container will be a square box. (Pic 4) The intake will lead to a tray + conveyor belt system with the width of the tray to be roughly 20mm so that projectiles move through the tray in single file.  Between the projectiles container leading to the tray will be funnel designed such that the ball is delivered in one by one to avoid jamming. At the end of the tray is a stopper. (Pic 4) The stopper is pulled down when the turret shoot and released back when not shooting. The cannon will employ a double flywheel system consisting of two soft rolling wheel putting 16 mm horizontally
+
+A gimbal self-stabilized turret will also be designed for the cannon to ensure its smooth movement horizontally and vertically as well as stability while moving and shooting at the same time. 
 
 Laser pointer will be attached below gun barrel while camera with vision sensor above (not directly attached to the barrel but above.)
+
+### Fabrication Method
+
+* The main material used for the frame and chassis during prototype phase is aluminium. This is because aluminium is light and is relatively easy to modify compared to other metals. Steel might be tested for the outer frame of the robot. However, weight is a consideration since steel is three times heavier than aluminium. 
+* Most of the plastic parts of the robots will be 3D-modelled and 3D-printed. 
+* Some other parts that are required and need to be sourced are: metal screws, nuts, spacing, brusher, metal shaft, bearings and gears. 
+
 
 ### Miscellaneous Parts
 
@@ -87,4 +118,4 @@ We have decided to use the VN-100. As we do not require GPS on the inertial sens
 
 ### Proposed Budget
 
-...
+SGD 2000
