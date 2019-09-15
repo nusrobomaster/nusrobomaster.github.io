@@ -111,4 +111,4 @@ We have decided to use the VN-100. As we do not require GPS on the inertial sens
 
 ### Proposed Budget
 
-...
+SGD 2000
