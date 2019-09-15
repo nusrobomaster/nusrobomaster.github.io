@@ -16,20 +16,19 @@ I am a year 1 Mechanical Engineering student. Although I do not have prior backg
 
 ### Isaiah Koh
 
-I am currently a year 1 Computer Science and Business Administration DDP student. In my free time, I have undertaken several personal coding projects including a basic Android app and a Sudoku Solver that solves through a combination of logic and brute force methods.
+I am currently a year 1 Computer Science and Business Administration DDP student. In my free time, I have undertaken several personal coding projects including a basic Android app and a Sudoku Solver that solves through a combination of logic and brute force methods. I have expeirence with Java and C++. Also, I know how to use GitHub and VuePress.
 
 ### Proposed Manpower Arrangement
 No| Role          |  Description                        | Assigned to       | 
 --|---------------|---                                  |---                |
  1|  Mechanical   |  Chassis; Suspension                |  Dung (Leader)   |
- 2|  Mechanical   |  Gun; Gimbals system                | Open Position|
- 3|  Electrical   |  Power management; Electric Drive; Fail-safe   |  Open Position |
- 4|  Electronics  |  Sensor interface; Close-loop Control | Open Position          | 
+ 2|  Mechanical   |  Gun; Gimbals system                | Dung (Leader)  |
+ 3|  Electrical   |  Power management; Electric Drive; Fail-safe   |  Nicholas |
+ 4|  Electronics  |  Sensor interface; Close-loop Control | Nicholas | 
  5|  Software     | Linux OS; Sensor drivers            | Isaiah     | 
  6|  Software     | Computer vision; Motion planning    | Open Position     | 
- 7|  Operation    | Sponsorships; Chinese-English Translation | Open Position     |   
- 8|  Operation    | Accounting; Publicity Materials     | Boby     |  
- 9|  Pilot        | TX & RX system; Game-play strategy  |  Nicholas            |
+ 7|  Operation    | Accounting; Publicity Materials     | Boby     |  
+ 8|  Pilot        | TX & RX system; Game-play strategy  |  Nicholas            |
 
  For interested people to join our team, please contact Telegram @xxxx 
 
