@@ -22,7 +22,7 @@ I am currently a year 1 Computer Science and Business Administration DDP student
 No| Role          |  Description                        | Assigned to       | 
 --|---------------|---                                  |---                |
  1|  Mechanical   |  Chassis; Suspension                |  Dung (Leader)   |
- 2|  Mechanical   |  Gun; Gimbals system                | Dung (Leader)  |
+ 2|  Mechanical   |  Gun; Gimbals system                | Dung  |
  3|  Electrical   |  Power management; Electric Drive; Fail-safe   |  Nicholas |
  4|  Electronics  |  Sensor interface; Close-loop Control | Nicholas | 
  5|  Software     | Linux OS; Sensor drivers            | Isaiah     | 
