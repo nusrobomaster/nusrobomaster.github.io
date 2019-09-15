@@ -76,7 +76,7 @@ Having analysed the past year competitions and rule book we have come up with so
 
     - Suspension to protect the internals and at the same time increase stability of gun 
 
-    ![Suspension](./assets/suspension_WD.png)
+    ![Suspension](.nav-teams/assets/suspension_WD.png)
     
     - Suspension will be considered towards the later part of the build process where we have a rough weight of the robot and its structures. We will source the suspension to spec of the robot.  
     
