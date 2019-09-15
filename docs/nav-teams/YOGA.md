@@ -50,6 +50,7 @@ No| Role          |  Description                        | Assigned to       |
 
 ![Timeline](./assets/YOGA-timeline1.png)
 ![Timeline](./assets/YOGA-timeline2.png)
+There are no submissions due  during the the date period not shown in the gantt chart.
 
 # Robot Design Considerations
 
