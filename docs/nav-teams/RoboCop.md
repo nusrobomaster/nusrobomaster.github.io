@@ -81,6 +81,13 @@ A gimbal self-stabilized turret will also be designed for the cannon to ensure i
 
 Laser pointer will be attached below gun barrel while camera with vision sensor above (not directly attached to the barrel but above.)
 
+### Fabrication Method
+
+* The main material used for the frame and chassis during prototype phase is aluminium. This is because aluminium is light and is relatively easy to modify compared to other metals. Steel might be tested for the outer frame of the robot. However, weight is a consideration since steel is three times heavier than aluminium. 
+* Most of the plastic parts of the robots will be 3D-modelled and 3D-printed. 
+* Some other parts that are required and need to be sourced are: metal screws, nuts, spacing, brusher, metal shaft, bearings and gears. 
+
+
 ### Miscellaneous Parts
 
 #### Processor: Manifold 2-G (128GB) General
