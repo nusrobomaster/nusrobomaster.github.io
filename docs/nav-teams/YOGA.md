@@ -36,7 +36,7 @@ No| Role          |  Description                        | Assigned to       |
  For interested people to join our team, please contact Telegram @aritejh
 
 # Timeline
-Date     | DJI Deliverable     |  Team YOGA                   | Gimbal Subteam    |
+<!-- Date     | DJI Deliverable     |  Team YOGA                   | Gimbal Subteam    |
 ---------|---------------------|---                           |---                |
  01 Oct  |                     |  Season Start                |  Season Start     |
  22 Oct  |  Season Schedule    |                              |                   |
@@ -46,7 +46,7 @@ Date     | DJI Deliverable     |  Team YOGA                   | Gimbal Subteam  
  23 Jan  |  BOM, Design Review |                              |                   |
  28 Feb  |                     | Full Robot Integration       | Gimbal Integration|   
  01 Mar  |  Robot Assessment Video    |                       |                   |  
- July    |  Competition        |                              |                   |
+ July    |  Competition        |                              |                   | -->
 
 ![Timeline](./assets/YOGA-timeline1.png)
 ![Timeline](./assets/YOGA-timeline2.png)
