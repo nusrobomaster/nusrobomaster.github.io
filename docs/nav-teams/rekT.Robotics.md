@@ -23,8 +23,8 @@ No| Role          |  Description                        | Assigned to       |
 --|---------------|---                                  |---                |
  1|  Mechanical   | Chassis; Suspension                 |  Hwaye            |
  2|  Mechanical   | Gun; Gimbals system                 |  Je Sean          |
- 3|  Electrical   | Power management; Electric Drive; Fail-safe   | |
- 4|  Electronics  | Sensor interface; Close-loop Control  |          | 
+ 3|  Electrical   | Power management; Electric Drive; Fail-safe   | Ru Min |
+ 4|  Electronics  | Sensor interface; Close-loop Control  |  Ru Min        | 
  5|  Software     | Linux OS; Sensor drivers            | Hwaye             | 
  6|  Software     | Computer vision; Motion planning    | Je Sean           | 
  7|  Operation    | Sponsorships; Chinese-English Translation |Hwaye, Kelly |   
