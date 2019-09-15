@@ -32,7 +32,7 @@ No| Specialisation     |  Description                        | Personnel       |
 
 ## Timeline and Milestones
 
-pic here
+![Timeline](./assets/Timeline_WD.png)
 
 For the external DJI timeline, it is based off past year deadlines.  
 For the internal NUS timeline, it is a timeline with sufficient buffer zones to satisfy the requirement set by DJI (such as midterm video assessment). 
