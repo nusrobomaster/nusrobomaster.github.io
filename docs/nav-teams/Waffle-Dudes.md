@@ -76,7 +76,7 @@ Having analysed the past year competitions and rule book we have come up with so
 
     - Suspension to protect the internals and at the same time increase stability of gun 
 
-    ![Suspension](./assets/suspension_WD.png)
+    ![Suspension](./assets/Suspension_WD.png)
     
     - Suspension will be considered towards the later part of the build process where we have a rough weight of the robot and its structures. We will source the suspension to spec of the robot.  
     
@@ -105,7 +105,9 @@ Having analysed the past year competitions and rule book we have come up with so
 
     - Gravity feed balls into chamber 
 
-    pic here
+    ![Funnel](./assets/Funnel_WD.png)
+    
+    ![Mechanism](./assets/Paintball_Mechanism_WD.png)
 
 3. Gun Stabiliser 
 
