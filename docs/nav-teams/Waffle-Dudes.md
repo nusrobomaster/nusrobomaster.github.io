@@ -78,9 +78,9 @@ Having analysed the past year competitions and rule book we have come up with so
 
     ![Suspension](./assets/Suspension_WD.png)
     
-    - Suspension will be considered towards the later part of the build process where we have a rough weight of the robot and its structures. We will source the suspension to spec of the robot.  
+    - Suspension will be considered towards the later part of the build process where we have a rough weight of the robot and its structures. We will source the suspension to specifications of the robot.  
     
-    - Type of suspension to consider: Hydraulic (from RC car), easily available from hobby stores in Singapore, magnetic dampers which we can DIY from neodymium magnets
+    - Types of suspension to consider: Hydraulic (from RC car), easily available from hobby stores in Singapore, magnetic dampers which we can DIY from neodymium magnets
 
 ### Gameplay Considerations
 
@@ -107,7 +107,11 @@ Having analysed the past year competitions and rule book we have come up with so
 
     ![Funnel](./assets/Funnel_WD.png)
     
+    *Funnel Design*
+    
     ![Mechanism](./assets/Paintball_Mechanism_WD.png)
+
+    *Paintball mechanism to be considered for the launcher*
 
 3. Gun Stabiliser 
 
