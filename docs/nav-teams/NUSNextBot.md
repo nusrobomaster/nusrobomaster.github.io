@@ -41,7 +41,39 @@ No| Role          |  Description                        | Assigned to       |
 ## Timeline & Milestones
 
 
-  tbc...
+  **Now ~ Oct 2019** Based on the rules of RoboMaster2019, all members start to learn relevant skills and concepts for their roles.
+  - Mechanical: Get familiar with suspension system, launching system and modeling of the robot
+  - Electrical: Familiar with designing of power system and microcontroller programming
+  - Software: Get familiar with ROS and some useful tools. Utilize the official forum
+
+  **Oct 2019 ~ End Nov 2019:** Prepare for ***rulebook exam (November 20)*** and the submission of ***season schedule (November 30)*** . Based on the rules of RoboMaster2020, plan the strategies and the relevant design in detail. If possible, start to assemble some components of the robot based on the plans.
+  - Mechanical: Try to finish the modeling of each part of the robot
+  - Electrical: Simulate power system to ensure that it meets the requirement of DJI
+  - Software: Write some parts of the module (obstacle avoidance, image processing, etc.)
+
+  **Dec 2019 ~ Jan 2020:** Assemble the Standard robot. Prepare for the submission of the ***Technical Proposal to the competition committee (January 23)*** .
+  - Mechanical: Assemble the mechanical parts of the robot
+  - Electrical: Test the electrical system and completed hardware programming
+  - Software: Enhancements
+
+  **Jan 2020 ~ Feb 2020:** Integrate mechanical/electrical/software components. Begin testing the robot and film the ***Mid-term Robot Assessment Video (March 1)*** .
+  - Mechanical: Test and adjust the launching system to fulfill the mid-term assessment requirements
+  - Electrical: Work on any sections that does not fulfill the trail
+  - Software: Test and adjust the system according mid-term assessment requirements
+
+  **Mar 2020 ~ April 2020:** Purchase and assemble the referee system for the robot. Continue to test and improve robot capabilities. Practice and refine interactions between robots (eg. Engineer passing projectiles to Standard). 
+  - Mechanical: Assemble all the sections of robot
+  - Electrical: Assemble the final product and ensure that the electrical system works as expected (i.e. enough operation time)
+  - Software: Complete and test UI to ensure operations are smooth
+
+  **May 2020 ~ June 2020:** Pilot training. May organize some competitions with other standard robots in NUS team to discuss and improve the strategies. ***Film the final robot assessment video (June 3)*** and ***prepare for the online referee system exam (June 4)*** . Keep adjusting the robot for better performance. Analyse the gameplay of teams from China (regional competitions will start in May) and improve our robot and strategies.
+  - Mechanical: Adjust the mechanical sections of the robot for better performance
+  - Electrical: Integrate the referee system and ensure that the robot is ready for competition
+  - Software: Test referee system and adjust the software sections for competition
+
+  **July 2020:** International Regional Competition starts. No more significant changes. 
+
+  **July 2020 ~ August 2020:** Final Tournament
 
 ## Robot Design Framework
 
@@ -96,6 +128,7 @@ No| Role          |  Description                        | Assigned to       |
 
 ![Software-Framework](./assets/NUSNextBot-Software_Framework.png)
 *Figure1. Software Framework*
+
 &nbsp;&nbsp;&nbsp;&nbsp;Here is the software framework which illustrate the general design of the robot in the software part. Moreover, we have 2 detailed ideas for software design based on analysis of the competition.
 
 #### Obstacle Avoidance:
@@ -113,4 +146,8 @@ No| Role          |  Description                        | Assigned to       |
 ## Proposed Budget
 
 
-  tbc... 
+![Budget1](./assets/NUSNextBot-Budget1.jpg)
+
+![Budget2](./assets/NUSNextBot-Budget2.jpg)
+
+  - Total Budget: USD 5000
