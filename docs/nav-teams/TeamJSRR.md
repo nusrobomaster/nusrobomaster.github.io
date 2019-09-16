@@ -1,3 +1,4 @@
+# Team JSRR
 <p align = "center"> <img src="./assets/TeamJSRR/TeamJSRRLogo.png" alt="TeamJSRR Logo" height=40% width=40%> </p>
 
 ## Contents
