@@ -16,7 +16,7 @@ First edition
 ## Budget
 Per robot / per discipline (mecha/elec/devices)
 
-![](docs/nav-teams/assets/TitanTimeline.JPG)
+![](./assets/TitanTimeline.JPG)
 
 ## Design choices
 ### Mechanics
