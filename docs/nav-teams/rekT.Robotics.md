@@ -104,13 +104,14 @@ Mapping through Hector SLAM methods, by constantly comparing the current surroun
 Our proposed in-house driver cockpit assistant (“r.Kockpit”) will provide a highlighted augmented reality (AR) experience for the driver. The Point Cloud (3D) system from ROS’ Robot Visualisation provides high contrast edge definitions of obstacles, enemy robots and objects to improve the driver’s awareness of the playing field during intensive situations.
 
 
+
 ## General Design and Fabrication Methods
 
 We plan to use Aluminium Extrusions as the basic building block of the robot base while PVC pipes for the feeder mechanism due to their low cost and high availability of material. The feeding mechanism will utilise PVC pipes with slight bigger diameter  than projectile to ensure projectiles move in a single file without being stuck and the corner pieces to utilise bends with large bend radius to allow smooth movement. It can be easily cut and connected to form different shapes and sizes according to our needs and dimensions.
 
  ![Material 1 Photo](./assets/rekt_mat1.jpg)
  ![Material 2 Photo](./assets/rekt_mat2.jpg)
- ![Material 3 Photo](./assets/rekt_mat3.jpg)
+ ![Material 3 Photo](./assets/rekt_mat3.png)
 
 Certain parts that cannot be sourced or require more strength than 3D printed stuff we will utilise milling, lathing, CNC and other available workshop tools to fabricate certain connecting parts. Other elements that does not require high strength can be 3D modelled and 3D printed to save costs.
 
