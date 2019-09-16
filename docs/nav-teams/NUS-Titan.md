@@ -13,6 +13,8 @@ First edition
 
 ## Timeline
 
+![NUS Titan Timeline](https://drive.google.com/open?id=1dnP1ULCIEBK9AyUiop3Lx6VvC5eDOJTm)
+
 ## Budget
 Per robot / per discipline (mecha/elec/devices)
 
