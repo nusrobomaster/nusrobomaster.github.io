@@ -24,11 +24,7 @@ Per robot / per discipline (mecha/elec/devices)
 ### Mechanics
 - Motion
 
-Very sturdy chassis (steel/aluminium) so that the robot can jump over ramps without sustaining significant damage.
-
-Lightweight higher parts (low gravity center, low inertia) for more stability
-
-Need for suspension - incase of gap and jumping over the ramp
+Very sturdy chassis (steel/aluminium) so that the robot can jump over ramps without sustaining significant damage. Lightweight higher parts (low gravity center, low inertia) for more stability. Need for suspension - incase of gap and jumping over the ramp
 
 - Battle :
 Protect all parts against enemy bullets (especially moving parts, gears, electronics)
