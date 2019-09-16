@@ -94,6 +94,12 @@ No| Role          |  Description                        | Assigned to       |
 * Blaster targeting controls
 * Intelligent Controller
 
+### Referee system
+
+
+### General design and fabrication methods
+* Most parts should be bought online and machined to desired specifications. Prototype, lightweight materials can be 3D printed with Kevyn’s 3D printer, using ABS/PLA material. Samantha can buy cheap electronics and mechanical parts in Shenzhen as well if possible, as well as use laser cutting, lathing equipment etc.
+
 
 ## Proposed Budget
 No | Component Name                        |  Unit Cost (USD) | Qty | Total |
