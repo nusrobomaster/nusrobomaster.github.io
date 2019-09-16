@@ -101,4 +101,5 @@ The material for the individual customized component of the robot will made up o
 
 For some of the components that does not require high strength, we will be using 3D printing to save cost and reduce the total weight of the robot.
 
+![Uploading General Design.PNG…]()
 
