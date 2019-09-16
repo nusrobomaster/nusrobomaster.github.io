@@ -53,8 +53,8 @@ From looking at the roles played by the standard robot, we have agreed that it s
 
 
 
-*   360[°](https://www.degreesymbol.net/) Horizontal rotation
-*   90[°](https://www.degreesymbol.net/)  Vertical rotation (Minimally able to shoot above and below the middle axis)
+*   360° Horizontal rotation
+*   90° Vertical rotation (Minimally able to shoot above and below the middle axis)
 *   A combination of a good suspension and Gimbal system for Fluid and precise movement (For better control and aim)
 *   2 flywheels spinning in opposite directions will be used for launching projectiles
 *   A magazine will be mounted above the launcher. Projectiles will be fed into launcher via an opening in the magazine 
