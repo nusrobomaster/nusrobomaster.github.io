@@ -23,8 +23,7 @@ Final year mechanical engineering student. Skills: C, Java, CAD, MatLab (basic).
 No| Role          |  Description                        | Assigned to       |
 --|---------------|---                                  |---                |
  1|  Mechanical   |  Sensors & Actuators Installation   |  Rachiket, Zifei  |
- 2|  Mechanical   |  Gun; Gimbals system                |Zifei, Rachiket，
-Sambhavi|
+ 2|  Mechanical   |  Gun; Gimbals system                |Zifei, Rachiket，Sambhavi|
  3|  Electrical   |  Power management; Electric Drive; Fail-safe   |  Sambhavi, Haotian |
  4|  Electronics  |MCU, Sensor interface; Close-loop Control | Haotian, Sambhavi       |
  5|  Software     | Linux OS; drivers, ROS Integration  | Shuo, Sambhavi     |
@@ -91,9 +90,9 @@ Sambhavi|
 ### Mechanical
 
 1. Manufacturing of Chassis Parts:
-  - Materials: Aluminum or stainless steel
-  - Use sheet metal processing and CNC machining to manufacture the components and weld(for main chassis parts) or bolt(for adjustable parts) them together to achieve rigidity, uniformity and higher strength. Wielding methods of TIG and MIG can be considered to achieve the above qualities. Grind the surface to produce better surface finishing.
-  - Apply surface treatment reduce corrosion, improve hardness and prevent wear.
+   - Materials: Aluminum or stainless steel
+   - Use sheet metal processing and CNC machining to manufacture the components and weld(for main chassis parts) or bolt(for adjustable parts) them together to achieve rigidity, uniformity and higher strength. Wielding methods of TIG and MIG can be considered to achieve the above qualities. Grind the surface to produce better surface finishing.
+   - Apply surface treatment reduce corrosion, improve hardness and prevent wear.
 
 
 ## Proposed Budget
