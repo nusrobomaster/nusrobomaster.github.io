@@ -159,7 +159,10 @@ No| Component     |  Unit Price (USD)                   | Quantity       | Total
 35| ALUMINUM FLAT PLATE HA0523 (20CM X 30CM) |4|6|24|
 36| HOSIM RC SHOCK ABSORBER |13|4|52|
 37| MISCELLANEOUS ITEMS |200| |200|
-| | | | TOTAL | 3599 |
+38| NVIDIA JETSON NANO DEV KIT | 170 | 1 | 170 |
+39| TF MINI - MICRO LIDAR MODULE | 64 | 1 | 64 |
+40| ADAFRUIT ULTRASONIC DISTANCE | 4 | 1 | 4 |
+| | | | TOTAL | 3837 |
 
    
  
