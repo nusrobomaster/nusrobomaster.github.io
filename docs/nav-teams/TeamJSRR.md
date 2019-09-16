@@ -1,4 +1,4 @@
-<p align = "center"> <img src="assets/TeamJSRR/TeamJSRRLogo.png" alt="TeamJSRR Logo" height=40% width=40%> </p>
+<p align = "center"> <img src="./assets/TeamJSRR/TeamJSRRLogo.png" alt="TeamJSRR Logo" height=40% width=40%> </p>
 
 ## Contents
 1. **[Team Members](#1-team-members)**
@@ -37,13 +37,11 @@
 
 10. **[Appendix](#10-appendix)**
 	
-	10.1 [Detailed Responsibility](#101-detailed-responsibility)
+	10.1 [Detailed Responsibility](#101-non-technical-roles)
 	
 	10.2 [3D Drawings](#102-3d-drawings)
 	
 	10.3 [References](#103-references)
-	
-	10.4 [Resources](#104-resources)
 
 ## 1. Team-Members
 [Back to Top](#contents)
@@ -51,7 +49,7 @@
 We would like to express our deepest appreciation to Mechanical Engineering Department, staff and our dearest sponsor for making this competition possible to us, thus allowing us to reach our fullest potential by exposing ourselves to challenges beyond our reach. We are a team of multi-talented individuals with background ranging from Computer Engineering to Mechanical Engineering, allowing for easy workload distributions due to our experiences and skill sets.
 
 ### Raghav Bhardwaj
-<p align = "left"> <img src="assets/TeamJSRR/Raghav.png" alt="Raghav"  height=200 width=200> </p>
+<p align = "left"> <img src="./assets/TeamJSRR/Raghav.png" alt="Raghav"  height=200 width=200> </p>
 
 **Matric No:** A0184445Y          
 **Course:** Computer Engineering  
@@ -65,7 +63,7 @@ We would like to express our deepest appreciation to Mechanical Engineering Depa
 > * Creation of Website
 
 ### Rishi Mahadevan
-<p align = "left"> <img src="assets/TeamJSRR/Rishi.png" alt="Rishi" height=200 width=200> </p>
+<p align = "left"> <img src="./assets/TeamJSRR/Rishi.png" alt="Rishi" height=200 width=200> </p>
 
 **Matric No:** A0184381B        
 **Course:** Computer Engineering
@@ -79,7 +77,7 @@ We would like to express our deepest appreciation to Mechanical Engineering Depa
 > * Robotics System Architect
 
 ### Tan Guan Zhong, John
-<p align = "left"> <img src="assets/TeamJSRR/John.png" alt="John" height=200 width=200> </p>
+<p align = "left"> <img src="./assets/TeamJSRR/John.png" alt="John" height=200 width=200> </p>
 
 **Matric No:** A0154912H           
 **Course:** Mechanical Engineering
@@ -93,7 +91,7 @@ We would like to express our deepest appreciation to Mechanical Engineering Depa
 > * Engineering Simulation
 
 ### Yu Shibin
-<p align = "left"> <img src="assets/TeamJSRR/Shibin.png" alt="Shibin" height=200 width=200> </p>
+<p align = "left"> <img src="./assets/TeamJSRR/Shibin.png" alt="Shibin" height=200 width=200> </p>
 
 **Matric No:** A0169999R                
 **Course:** Mechanical Engineering
@@ -109,7 +107,7 @@ We would like to express our deepest appreciation to Mechanical Engineering Depa
 ## 2. Timeline and Milestones
 [Back to Top](#contents)
 
-<p align = "center"> <img src="assets/TeamJSRR/timeline.png" alt="Timeline"> </p>
+<p align = "center"> <img src="./assets/TeamJSRR/timeline.png" alt="Timeline"> </p>
 
 ## 3. Key Aspects
 [Back to Top](#contents)
@@ -135,69 +133,69 @@ According to the 2019 rules:
 
 We propose a **modular based design** as seen in the diagram below, where the shooting mechanism, camera, motorized platform, can be taken out and replaced easily. This is necessary due to the need for constant re-iterations of the design as well as the parts being easily damaged in the competition.
 
-<p align = "center"> <img src="assets/TeamJSRR/general_design.png" alt="General Design Schematic"> </p>
+<p align = "center"> <img src="./assets/TeamJSRR/general_design.png" alt="General Design Schematic"> </p>
 
 We can split the vehicle into 5 modules that can be easily taken apart from the system:
 
 **1. Head**
 	
-	a. Shooter Mechanism
+* Shooter Mechanism
 	
-		i. Shooter Frame
+	i. Shooter Frame
 		
-		ii. Motors
+	ii. Motors
 	
-	b. Projectile Speed Monitor
+* Projectile Speed Monitor
 	
-	c. Camera
+* Camera
 	
-	d. Ammo Box
+* Ammo Box
 	
-	e. Y and X Axis Gimbals
+* Y and X Axis Gimbals
 	
-	f. Servos
+* Servos
 	
-		i. Camera
+	i. Camera
 		
-		ii. Ammo Box Cover
+	ii. Ammo Box Cover
 	
-	g. Remote Controller Receiver
+* Remote Controller Receiver
 
 **2. Base**
 	
-	a. Motors x4
+* Motors x4
 	
-	b. Mecanum Wheels x4
+* Mecanum Wheels x4
 	
-	c. ESC x4
+* ESC x4	
+
+* ESC Center Board
 	
-	d. ESC Center Board
-	
-	e. Suspension System
+* Suspension System
 
 **3. Core**
 	
-	a. Microcontroller Unit
+* Microcontroller Unit
 	
-	b. GPU
+* GPU
 	
-	c. Referee System Main Controller
+* Referee System Main Controller
 
 **4. Chassis**
 
-	a. Rolling Chassis
+* Rolling Chassis
 	
-	b. Body Plates (To be mounted on the whole vehicle to protect its inner components)
+* Body Plates (To be mounted on the whole vehicle to protect its inner components)
 	
-	c. Head Frame (Contains the Head module)
+* Head Frame (Contains the Head module)
 	
-	d. Referee System Armour Packs
+* Referee System Armour Packs
 
 **5. Power**
 	
-	a. Battery
+* Battery
 	
-	b. Power Supply Management
+* Power Supply Management
 
 ### 4.1 Suspension Design
 Vibration control is an important aspect to consider during the design as well as the brainstorming because there is a need for a dynamic and interactive model between the manipulator and the platform to stabilise the robots when they move through rough terrain. There are two approaches: A **dependent suspension design (suspension)** or an **independent suspension design (U-joints)**. We are looking at an independent suspension system, allowing each wheel to displace vertically independent of the other wheels. In such a set-up, the whole vehicle would be more steady by  eliminating external interferences when travelling over obstacles and bumps, maintaining a higher overall accuracy.
@@ -255,7 +253,7 @@ We are planning to use a **modular system** for the ease of prototyping and debu
 ### 7.1 Movement Architecture
 For the movement of the robot, we plan to use an Arduino Mega to get the signals from the main controller (Voodo Board), through serial connection and controls a motor controller (that controls the direction of the wheel and the speed using the PID logic from the Arduino Mega to ensure that the robot can turn and move straight accurately. The odometry data such as the number of revolutions (obtained from the wheel encoder) of the wheel will be fed into the PID to adjust the robot so that it can move straight.
 
-<p align = "center"> <img src="assets/TeamJSRR/movement_architecture.png" alt="Movement Architecture"> </p>
+<p align = "center"> <img src="./assets/TeamJSRR/movement_architecture.png" alt="Movement Architecture"> </p>
 
 ### 7.2 Communication Architecture
 We plan to use Robotic Operating System (ROS) to communicate the operator’s PC with the main controller on the robot over TCP-IP communication. We plan to build a controller script, that can be controlled using WASD and X to shoot the weapon. This will give the operator a more natural gaming feel to operating the robot. We will also have a GUI that will give them alert’s on the presence of enemy robots nearby so that the operator can take the shot. 
@@ -266,20 +264,20 @@ We plan to use Robotic Operating System (ROS) to communicate the operator’s PC
 ### 8.1 Computer Vision
 We have experience with Computer Vision in the Hornet Project under NUS Bumbblebee. We have worked with **detecting objects under different lighting conditions.** We managed to detect a bucket underwater from 15 meters under varying lighting conditions without the use of any Machine learning algorithm with the computing power of an Odroid. We plan to use the same strategy that we used, dynamic whitening and contrasting using the alpha functions in the OpenCV library. This allows us to control for random increase in the lighting condition. We were successfully able to detect objects with the presence of glare by normalizing the image, then applying the dynamic whitening algorithm. After the preprocessing it will be sent to the threat detector module, which will check for the presence of any enemy bots.
 
-<p align = "center"> <img src="assets/TeamJSRR/computer_vision_architecture.png" alt="CV Architecture"> </p>
+<p align = "center"> <img src="./assets/TeamJSRR/computer_vision_architecture.png" alt="CV Architecture"> </p>
 
 ### 8.2 Automatic Threat Detection
 There are two main methods to detect objects inside an preprocessed image. Note that usage of both methods require a speed/accuracy tradeoff.
 
 #### Image Thresholding using OpenCV
-<p align = "center"> <img src="assets/TeamJSRR/threshold_example.png" alt="OpenCV Thresholding Example height=70% width=70%"> </p>
+<p align = "center"> <img src="./assets/TeamJSRR/threshold_example.png" alt="OpenCV Thresholding Example height=70% width=70%"> </p>
 
 This is the less computationally expensive method and just requires a simple CPU. Using OpenCV's inRange() we can threshold an image between a lower and upper bound based on the selected colour method together with predefined or dynamic low and high thresholds in various colour spaces like HSV, LAB or RGB. This will return a thresholded image with contours for our chosen object. These contours can be further filtered through based on their dimensions such as ratio, area, etc. This method could potentially be used to find the location (in our robot's view) of the red or blue health bars for enemy bots.
 
 However this method is very inaccurate compared to the next one.
 
 #### Object Detection using Convolutional Neural Networks
-<p align = "center"> <img src="assets/TeamJSRR/object_detection.jpg" alt="Object Detection Example height=70% width=70%"> </p>
+<p align = "center"> <img src="./assets/TeamJSRR/object_detection.jpg" alt="Object Detection Example height=70% width=70%"> </p>
 
 This method requires a standalone GPU and therefore is much more computationally expensive. However it is very accurate and has extreme generalizability provided we use a large enough dataset. In the image above, a Convolutional Neural Network (RetinaNet in particular) was trained on a custom dataset to detect cars on a highway. RetinaNet can be used for our robot as well as it is a very accurate Single Shot Detector that can provide realtime object detection on any half decent GPU.
 
@@ -288,16 +286,44 @@ The only caveat is that we would have to train the model on hundreds of manually
 ## 9. Proposed Budget
 [Back to Top](#contents)
 
-The total cost of our vehicle amounts to SGD 3487.11. For a full breakdown of our budget, [please refer to the excel sheet here.](https://docs.google.com/spreadsheets/d/1hSyFkgnE2zaKy-0w9z6346uSNQ8cyk4fTempVa0A32Q/edit#gid=0)
+The total cost of our vehicle amounts to **SGD 3487.11.** For a full breakdown of our budget, [please refer to the excel sheet here.](https://docs.google.com/spreadsheets/d/1hSyFkgnE2zaKy-0w9z6346uSNQ8cyk4fTempVa0A32Q/edit#gid=0)
 
 The proposed budget is for one unit standard vehicle and does not include any costs that might arise from damaged components. The costs are also considered without discounts to robomaster participants, and are therefore at their full price.
 
 ## 10. Appendix
 [Back to Top](#contents)
 
-### 10.1 Detailed Responsibility
+### 10.1 Non-Technical Roles
+
+**Team Leader:**
+> * Coordinates the different roles to ensure that they keep to the timeline for deliverables.
+> * Handles communication and cooperation between the different robotic teams.
+
+**Pilot:**
+> * Main person testing the robotic controls or tuning the parameters for autonomous robots.
+> * Familiar with the design and limits of the robotic system.
+> * Will most likely be one of the robotic controllers in the competition.
+> * Work together with other teams to devise strategies and tactics for the competition.
+
+**Finance:**
+> * In charge of managing the allocated funds or requesting for additional funds.
+> * Approval of material/equipment purchase for the team.
+> * Keeps a log of every material purchased and held by the team.
+
+**Safety-in-charge:**
+> * Draft and continuously review safety precautions and procedures.
+> * In charge of battery charging/disposal (especially Lipo batteries) as well as monitoring safe battery usage.
+> * Ensure that shooting mechanisms are handled safely.
+
+**Admin/Logistics:**
+> * Takes note of resources required for the team and purchases items.
+> * Has to work together with Finance and admin to ensure that funds are sufficient for the long-term and to keep resources available according to the timeline.
+> * In charge of managing documentation on Github for the team.
+
 
 ### 10.2 3D Drawings
+Drawing of our proposed vehicle: (Source: Hubei Technological University)
+<p align = "center"> <img src="./assets/TeamJSRR/bot_drawing.png" alt="Bot"> </p>
 
 ### 10.3 References
 1. [RoboMaster Open Source Forum](https://bbs.robomaster.com/portal.php)
@@ -307,5 +333,4 @@ The proposed budget is for one unit standard vehicle and does not include any co
 5. [Referee System Specification Manual 2019](https://rm-static.djicdn.com/documents/19806/351fabf70dadd1548054744443997919.pdf)
 6. [Reddit Robotics Subreddit](https://www.reddit.com/r/robotics/)
 7. [MAC RoboMaster Midterm Assessment Video](https://www.youtube.com/watch?v=acWxZVNQXAc)
-
-### 10.4 Resources
+8. [Basketball Shooter](https://www.youtube.com/watch?v=pgMU_AxzxAE)
