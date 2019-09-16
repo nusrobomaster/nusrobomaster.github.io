@@ -25,7 +25,7 @@
 ### Proposed Manpower Arrangement
 No| Role          |  Description                        | Assigned to       | 
 --|---------------|---                                  |---                |
- 1|  Software     |  Computer vision; Motion planning   |  Chen Tong(Leader)|
+ 1|  Software     |  Computer vision; Motion planning   |  Chen Tong (Leader)|
  2|  Hardware     |  Hardware programming; Circuit design  | Zhao Shi       |
  3|  Mehchanical  |  Chassis; Suspension                |  Liu Haoran       |
  4|  Software     |  Sensors; Referee System            |  Rebecca     | 
