@@ -3,7 +3,9 @@ title: BOT groundZero
 lang: en-US
 ---
 #  groundZero 
+
  The story of groundZero begins with a team of five engineering undergraduates who share the same excitement towards robotics and artificial intelligence. We strive to idealize, pilot and launch awesome robots that result in maximum impact on the job.
+ 
 ## Making groundZero perfection
 As the great Alan Turing once said:
 > Sometimes it's the people no one imagines anything of who do the things that no one can imagine
