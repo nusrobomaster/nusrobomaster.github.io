@@ -60,6 +60,8 @@
 	10.4 [Resources](#104-resources)
 
 ## 1. Team-Members
+[Back to Top](#contents)
+
 We would like to express our deepest appreciation to Mechanical Engineering Department, staff and our dearest sponsor for making this competition possible to us, thus allowing us to reach our fullest potential by exposing ourselves to challenges beyond our reach. We are a team of multi-talented individuals with background ranging from Computer Engineering to Mechanical Engineering, allowing for easy workload distributions due to our experiences and skill sets. 
 
 ### Raghav Bhardwaj
@@ -70,11 +72,11 @@ We would like to express our deepest appreciation to Mechanical Engineering Depa
 
 **About Me:**                                         
 
-Year 2 Computer Engineer with experience with **Computer Vision**, **Artificial Intelligence**, and **Game Development + 3D Animation.** Knowledge of programming languages including **Python**, **C**, **C++**, **C#**, and **Java**, and frameworks like **Tensorflow**, **Keras**, **OpenCV**, **Robot Operating System**, and **Unity3D.** Miscellaneous skills include **CAD modelling and 3D printing, Photoshop, and Video Editing.**  
+> Year 2 Computer Engineer with experience with **Computer Vision**, **Artificial Intelligence**, and **Game Development + 3D > > Animation.** Knowledge of programming languages including **Python**, **C**, **C++**, **C#**, and **Java**, and frameworks like **Tensorflow**, **Keras**, **OpenCV**, **Robot Operating System**, and **Unity3D.** Miscellaneous skills include **CAD modelling and 3D printing, Photoshop, and Video Editing.**  
 
 **Roles:**
-* Creation of Website
-* Computer Vision and Algorithms
+> * Computer Vision and Algorithms
+> * Creation of Website
 
 ### Rishi Mahadevan
 <p align = "left"> <img src="assets/TeamJSRR/Rishi.png" alt="Rishi" height=300 width=300> </p>
@@ -84,12 +86,11 @@ Year 2 Computer Engineer with experience with **Computer Vision**, **Artificial 
 
 **About Me:**
 
-*Insert details here.*
+> *Insert details here.*
 
 **Roles:**
-
-* Electrical System
-* Robotics System Architect
+> * Electrical System
+> * Robotics System Architect
 
 ### Tan Guan Zhong, John
 <p align = "left"> <img src="assets/TeamJSRR/John.png" alt="John" height=300 width=300> </p>
@@ -99,12 +100,11 @@ Year 2 Computer Engineer with experience with **Computer Vision**, **Artificial 
 
 **About Me:***
 
-*Insert details here.*
+> *Insert details here.*
 
 **Roles:**
-
-* Mechanical System Design
-* *Can add some more here hehe*
+> * Mechanical System Design
+> * *Can add some more here hehe*
 
 ### Yu Shibin
 <p align = "left"> <img src="assets/TeamJSRR/Shibin.png" alt="Shibin" height=300 width=300> </p>
@@ -114,17 +114,20 @@ Year 2 Computer Engineer with experience with **Computer Vision**, **Artificial 
 
 **About Me:**
 
-Year 4 Mechanical Engineer with experience in mechanical engineering drawings softwares such as **SolidWorks**, **AutoCAD**, **Inventor**, **ProE**, **Fusion360** and **OpenVSP** developed by NASA for aircraft modelling. Knowledgeable in the usage of different fabrication tools for rapid prototyping and proof of concepts using **CNC machining tools**, **composites materials**, **3D printing techniques (FDM, SLA)**. Miscellaneous skills include **Matlab**, **programming in Python**, **Java** and **C**, front end development for UI/UX using **HTML**, **CSS** and **bootstrap** as well as **marketing**, **sponsorship** and **business development**.
+> Year 4 Mechanical Engineer with experience in mechanical engineering drawings softwares such as **SolidWorks**, **AutoCAD**, **Inventor**, **ProE**, **Fusion360** and **OpenVSP** developed by NASA for aircraft modelling. Knowledgeable in the usage of different fabrication tools for rapid prototyping and proof of concepts using **CNC machining tools**, **composites materials**, **3D printing techniques (FDM, SLA)**. Miscellaneous skills include **Matlab**, **programming in Python**, **Java** and **C**, front end development for UI/UX using **HTML**, **CSS** and **bootstrap** as well as **marketing**, **sponsorship** and **business development**.
 
 **Roles:**
-
-* Fabrication & Rapid Prototyping
-* Material Sourcing
+> * Fabrication & Rapid Prototyping
+> * Material Sourcing
 
 ## 2. Timeline and Milestones
+[Back to Top](#contents)
+
 *Placeholder text*
 
 ## 3. Key Aspects
+[Back to Top](#contents)
+
 Design Considerations for Unmanned Ground Vehicle (UGV):
 * Agile and compact
 * Minimum height
@@ -142,6 +145,8 @@ According to the 2019 rules:
 | Maximum Weight (kg) | 20 | Includes battery |
 
 ## 4. General Design
+[Back to Top](#contents)
+
 We propose a modular based design as seen in the diagram below, where the shooting mechanism, camera, motorized platform, can be taken out and replaced easily. This is necessary due to the need for constant re-iterations of the design as well as the parts being easily damaged in the competition.
 
 *Insert image here*
@@ -155,11 +160,15 @@ We propose a modular based design as seen in the diagram below, where the shooti
 ### 4.4 Power Consumption
 
 ## 5. Protoyping
+[Back to Top](#contents)
+
 To reduce costs of prototyping, we propose **3D printing** of the different mechanisms and parts using **PolyLactic Acid (PLA) and Acrylonitrile Butadiene Styrene (ABS)**. With 3D printing, we can efficiently determine if mechanisms operate as intended and perform re-iterations of the design, without wasting resources for the final competition vehicle. We have chosen these materials due to different considerations such as their relatively comparable **structural strength**, **cost for rapid prototyping** as well as **easy access to equipment** for producing a prototype.
 
 An alternative method would be to use **lego structures to act as a quick yet cost-friendly** method to prototype and test the more crucial parts of the robot (eg. Shooting mechanism, movement and computer vision algorithms).
 
 ## 6. Fabrication Materials and Methods
+[Back to Top](#contents)
+
 The fabrication methods listed below and not exhaustive and there are various advantages and disadvantages to each of them. Which is why we must utilise a whole range of methods/materials according to the purpose.
 
 ### 6.1 Materials
@@ -183,18 +192,22 @@ There are certain parts of the vehicle that do not require a high strength, and 
 For thin materials (thin aluminium and acrylic sheets), laser cutting can be a quick, efficient and accurate fabrication method. Especially in the prototyping phase. 
 
 ## 7. System Architecture
+[Back to Top](#contents)
 
 ### 7.1 Movement Architecture
 
 ### 7.2 Communication Architecture
 
 ## 8. Artificial Intelligence and Algorithms
+[Back to Top](#contents)
 
 ### 8.1 Computer Vision
 
 ### 8.2 Automatic Threat Detection
 
 ## 9. Proposed Budget
+[Back to Top](#contents)
+
 The proposed budget is for one unit standard vehicle and does not include any costs that might arise from damaged components. The costs are also considered without discounts to robomaster participants, and at it’s full price.
 
 | Category | Item | Model | Details | Cost (USD) | Qty | Total Cost (USD) |
@@ -212,6 +225,7 @@ The proposed budget is for one unit standard vehicle and does not include any co
 ### 9.5 RoboMaster Referee System
 
 ## 10. Appendix
+[Back to Top](#contents)
 
 ### 10.1 Detailed Responsibility
 
