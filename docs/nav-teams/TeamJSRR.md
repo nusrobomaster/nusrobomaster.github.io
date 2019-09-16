@@ -1,4 +1,4 @@
-<p align = "left"> <img src="assets/TeamJSRR/TeamJSRRLogo.png" alt="TeamJSRR Logo" height=40% width=40%> </p>
+<p align = "center"> <img src="assets/TeamJSRR/TeamJSRRLogo.png" alt="TeamJSRR Logo" height=40% width=40%> </p>
 
 ## Contents
 1. **[Team Members](#1-team-members)**
@@ -119,7 +119,7 @@ We would like to express our deepest appreciation to Mechanical Engineering Depa
 ## 2. Timeline and Milestones
 [Back to Top](#contents)
 
-*Placeholder text*
+<p align = "center"> <img src="assets/TeamJSRR/timeline.png" alt="Timeline"> </p>
 
 ## 3. Key Aspects
 [Back to Top](#contents)
@@ -145,7 +145,7 @@ According to the 2019 rules:
 
 We propose a **modular based design** as seen in the diagram below, where the shooting mechanism, camera, motorized platform, can be taken out and replaced easily. This is necessary due to the need for constant re-iterations of the design as well as the parts being easily damaged in the competition.
 
-*Insert image here*
+<p align = "center"> <img src="assets/TeamJSRR/general_design.png" alt="General Design Schematic"> </p>
 
 We can split the vehicle into 5 modules that can be easily taken apart from the system:
 1. Head
@@ -236,6 +236,8 @@ We are planning to use a **modular system** for the ease of prototyping and debu
 ### 7.1 Movement Architecture
 For the movement of the robot, we plan to use an Arduino Mega to get the signals from the main controller (Voodo Board), through serial connection and controls a motor controller (that controls the direction of the wheel and the speed using the PID logic from the Arduino Mega to ensure that the robot can turn and move straight accurately. The odometry data such as the number of revolutions (obtained from the wheel encoder) of the wheel will be fed into the PID to adjust the robot so that it can move straight.
 
+<p align = "center"> <img src="assets/TeamJSRR/movement_architecture.png" alt="Movement Architecture"> </p>
+
 ### 7.2 Communication Architecture
 We plan to use Robotic Operating System (ROS) to communicate the operator’s PC with the main controller on the robot over TCP-IP communication. We plan to build a controller script, that can be controlled using WASD and X to shoot the weapon. This will give the operator a more natural gaming feel to operating the robot. We will also have a GUI that will give them alert’s on the presence of enemy robots nearby so that the operator can take the shot. 
 
@@ -253,7 +255,29 @@ The proposed budget is for one unit standard vehicle and does not include any co
 
 | Category | Item | Model | Details | Cost (USD) | Qty | Total Cost (USD) |
 | ---      | ---  | ---   | ---     | ---        | --- | ---              |
-| | Z-axis Gimbal | Turnigy HD 3508 Brushless Gimbal Motor | Function: Rotate head about z axis (Yaw) Link: https://hobbyking.com/en_us/turnigy-hd-3508-brushless-gimbal-motor-bldc.html | $28.54 | 1 | $28.54 |
+| Head | Z-axis Gimbal | Turnigy HD 3508 Brushless Gimbal Motor | Function: Rotate head about z axis (Yaw) [Link](https://hobbyking.com/en_us/turnigy-hd-3508-brushless-gimbal-motor-bldc.html) | 28.54 | 1 | 28.54 |
+| | Y-axis Gimbal | Turnigy HD 3508 | | 28.54 | 1 | 28.54 |
+| | Gimbal Motor Controller | Tarot ZYZ22 GOPRO Brushless Camera Gimbal Controller | [Link](https://hobbyking.com/en_us/tarot-zyz22-gopro-brushless-camera-gimbal-controller.html) | 22.2 | 1 | 22.2 |
+| | First Person View Camera | RunCam 5 | Weight: 0.056kg [Link](https://sea.banggood.com/RunCam-5-12MP-56g-Smallest-4K-Cam-HD-Recording-145-Degree-NTSCPAL-16943-Switchable-FPV-Action-Camera-Bulit-in-Battery-for-RC-Racing-Drone-p-1494081.html?p=SP07155769873201608T&custlinkid=440530&cur_warehouse=CN) | S$138.40 | 1 | S$138.40 |
+| | Ammo Box & Cover | Material: PLA, Fabrication Method: 3D Printing | Accounted in raw materials | | |
+| | Servo (Controls pitch of Camera) | HS-5625MG (High speed digital servo) | Function: An additional degree of freedom (independent of shooter) for the camera. Requires a servo with high stall torque to reduce camera shake. [Link](https://hitecrcd.com/products/servos/sport-servos/digital-sport-servos/hs-5625mg/product) | 49 | 1 | 49 |
+| | Servo (Controls Ammo box cover) | HS-311 Standard Economy Servo (Analogue) | Function: Open and close ammo box to receive ammo pellets. [Link](https://hitecrcd.com/products/servos/sport-servos/analog-sport-servos/hs-311/product) | 15 | 1 | 15 |
+| | Laser | RoboMaster Red Dot Laser | Function: Provides aiming calibration for computer-vision controlled shooter | 14 | 1 | 14 |
+| | Pellet transportation motor | RoboMaster M2006 P36 Brushless DC Gear Motor | Function: Transport motor | 41 | 1 | 41 |
+| | Pellet propulsion motors | | | | | |
+| | Remote controller receiver | RoboMaster Robot Remote Controller Receiver | | 35 | 1 | 35 |
+| Chassis | Servo Brackets | Standard Servo Brackets | Function: Holds the servo in place, and can be mounted to main chassis. [Link (merely for price indication)](https://www.robotshop.com/en/servo-brackets-standard.html) | 12 | | |
+| | Rolling Chassis | | Fabrication costs to be determined | | | |
+| | Head frame | | Fabrication costs to be determined | | | |
+| | Suspension | | Fabrication costs to be determined | | | |
+| Base | Mecanum Wheels | RoboMaster Mecanum Wheel (left) | Weight: 0.353kg | 79 | 2 | 158 |
+|      |                | RoboMaster Mecanum Wheel (right) | Weight: 0.353kg | 79 | 2 | 158 |
+| | DC Brushless motors | RoboMaster M3508 P19 Brushless DC Gear Motor | Weight: 0.365kg [Link](https://www.robomaster.com/en-US/products/components/general/M3508) | 79 | 4 | 316 |
+| | Motor cables and concentrator | RoboMaster M3508 Accessories Kit | | 54 | 1 | 54 |
+| | Electronic Speed Controllers | RoboMaster C620 Brushless DC Motor Speed Controller | Function: controls M3508 motor. Weight: 0.035kg | 63 | 4 | 252 |
+| | ESC Center Board | RoboMaster ESC Center Board | | 13 | 1 | 13 |
+| | Arduino | Arduino Mega 2560 | [Link](https://sea.banggood.com/Mega2560-R3-ATMEGA2560-16AU-CH340-Board-With-USB-For-Arduino-p-940935.html?rmmds=buy&cur_warehouse=CN) | 11.17 | 3 | 33.51 |
+| | Motor controller | TB6612FNG Dual DC Stepper Motor Driver | [Link](https://www.lazada.sg/products/best-selling-tb6612fng-dual-dc-stepper-motor-driver-module-controller-board-for-arduino-i292165237-s480025749.html?ef_id=EAIaIQobChMIzMW0uLrV5AIV2IRwCh35egGpEAQYASABEgKfbfD_BwE:G:s&s_kwcid=AL!4281!3!242381247295!!!u!762460417326!&exlaz=d_1:mm_150050845_51350205_2010350205::12:1025267241!54483208270!!!pla-762460417326!c!762460417326!480025749!129806539&gclid=EAIaIQobChMIzMW0uLrV5AIV2IRwCh35egGpEAQYASABEgKfbfD_BwE) | S$5.09 | 4 | S$20.36 |
 
 ### 9.1 Electronic Parts
 
