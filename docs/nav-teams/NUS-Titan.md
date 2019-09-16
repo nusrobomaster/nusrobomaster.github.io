@@ -124,7 +124,7 @@ Very sturdy chassis (steel/aluminium) so that the robot can jump over ramps with
 Lightweight higher parts (low gravity center, low inertia) for more stability
 Need for suspension - incase of gap and jumping over the ramp
 
-- Battle
+- Battle :
 Protect all parts against enemy bullets (especially moving parts, gears, electronics)
   - Maybe design a “shell”, put on top to protect as much as possible
   - Heavy parts at the bottom (battery, chassis)
@@ -145,12 +145,12 @@ As general as possible (common to all robots, can change platform), starting wit
 
 - Multi robot target tracking (use information from multiple robots to find target)
 - Laser fixed on drone pointing at enemies 
-Aim assist
-CV to detect trajectory, then compensate
-Incoming projectiles detection:
-Camera could detect enemies' canons and their orientation
-Robots could accordingly “hide” their vulnerable parts (rotating).
-Artillery
-Spin stabilize the launcher
-Stationary robot, base is spinning while canon is static:
-Video feedback should have a stationary mode, while it is actually spinning (refresh the video feed only when the camera actually crosses a fixed absolute angle)
+- Aim assist
+  - CV to detect trajectory, then compensate
+- Incoming projectiles detection:
+  - Camera could detect enemies' canons and their orientation
+  - Robots could accordingly “hide” their vulnerable parts (rotating).
+- Artillery
+- Spin stabilize the launcher
+- Stationary robot, base is spinning while canon is static:
+  - Video feedback should have a stationary mode, while it is actually spinning (refresh the video feed only when the camera actually crosses a fixed absolute angle)
