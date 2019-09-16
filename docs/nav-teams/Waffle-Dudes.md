@@ -4,9 +4,11 @@
 
 **Chen Yao**
 
+Hello everyone, my name is Chen Yao, a year two Mechanical Engineering student. With an avid interest in robotics from years of experience with my school robotics team. After participating in various national competitions, I feel that I am rather familiar and comfortable with robotics systems. Nonetheless, I do hope to further build up my knowledge and expertise throughout the course of this project. Additionally, I have a good sense and knowledge in tools handling which I hope to apply to the small-scale robots that we’ll be working with in this competition. 
+
 **Matthew Ong**
 
-Hi, I am a Year 2 Mechanical Eng student. Main goal of joining the competition is to have fun and learn something at the same time.
+Hi, I am a Year 2 Mechanical Eng student. Little experience in robotics - only had a short course with Lego Mindstorm back in secondary school. Main goal of joining this project is to have fun and learn something new at the same time.
 
 **Haikal**
 
@@ -14,7 +16,11 @@ Hello everyone, my name is Haikal Yusuf, a Year 2 Mechanical Engineering student
 
 **Vanessa**
 
+Hi, I am Vanessa, a Year 1 Common Engineering student. Previously, I have only read up very briefly about robotics online. As of currently, due to the lack of practical knowledge and experience in robotics, I will read, search and do up some hands-on application so that I will not drag my teammates down. As such, to build up on my knowledge, I will read up more on the operation and pilot side of things to navigate systems better.  From there, I can also learn more extensively from my teammates, so that I can craft out my own insights in the ideation of the systems for my teammates. Through this project, not only will I hope to experience the new and interesting robotics environment and learn more of the relevant engineering skills, but also build up friendships and teamwork along the way. 
+
 **Ashwin**
+
+Hi, I am Ashwin Nelanuthala, a year 2 Phd Student in Biological Sciences. I did my B.E in Mechanical Engineering and MSc in Physics. I have worked on a few engineering and science projects which required extensive designing and testing. Some of them include designing fixtures for special purpose machines in industry and high frequency invertors for my master’s thesis. My current Phd also involves designing microscopes and extensive programming for image processing. I would like to help the team in managing both electrical and mechanical systems. While working for this competition, I also wish to improve upon my image processing and software development skills. I hope that my engineering background and experience would help me guide the team to work effectively and I would love to learn and contribute to new ideas and experiences while working on this very interesting project. 
 
 ## Proposed Manpower Arrangement
 No| Specialisation     |  Description                        | Personnel       | 
@@ -26,8 +32,8 @@ No| Specialisation     |  Description                        | Personnel       |
  5|  Electrical     | Battery, Power Distribution System            | Ashwin     | 
  6|  Electronics    | Sensors and Cameras    | Ashwin     | 
  7|  Software    | Onboard Computer and OS | Ashwin     |   
- 8|  Software    | Aimbot/ Aim Assist     | Open     |  
- 9|  Pilot        | Operator/ Gameplay Strategy  |  Open            |
+ 8|  Software    | Aimbot/ Aim Assist     | Vanessa     |  
+ 9|  Pilot        | Operator/ Gameplay Strategy  |  Vanessa            |
 
 
 ## Timeline and Milestones
@@ -69,8 +75,10 @@ Having analysed the past year competitions and rule book we have come up with so
     - Mimic cars where there is a crumple zone to absorb the force with a rigid interior structure to protect the internal components
 
     - Simple design, minimise moving parts
+    
+    ![Bumpers](./assets/Bumper_WD.jpeg)
 
-2. Some slopes up to about 20 degress including a gap on two of the roads where robot has to "jump" across
+2. Some slopes up to about 20 degress including a gap on two of the roads where robot has to "jump" across (ability to climb 20 degrees also a competition requirement)
 
     - Low centre of gravity while keeping within size constrains to prevent overturns
 
@@ -98,6 +106,8 @@ Having analysed the past year competitions and rule book we have come up with so
         2. Flywheel
 
     - Laser for visual assistance when aiming
+    
+    - Compressed air must not exceed 20 MPa, initial firing speed limit 30 m/s
 
 2. Ammo collection and feeding mechanism 
 
@@ -140,6 +150,8 @@ Having analysed the past year competitions and rule book we have come up with so
 7. Motor/ Battery/ Electronic Speed Control, Power Distribution Box
 
     - Use DJI made parts in the interest of time. Only when unable to meet our requirements (e.g. not enough power), should we consider other alternatives
+    
+    - Must comply to rules, e.g. power consumption to be under 80W
 
 8. Ultrasonic Sensor
 
@@ -164,6 +176,8 @@ Having analysed the past year competitions and rule book we have come up with so
    *Source: https://www.whichcar.com.au/car-news/car-camouflage-how-carmakers-hide-prototypes-explained*
 
    - Rubber / Spring cushions around the referee plates, thus when the robot is hit, the referee plates not be in the same position for the second shot. Therefore, it lowers the damage taken as the opponent might have to recalibrate their aim
+   
+   - The guards (bumper system) will be designed such that it is angled and have a smooth finish to be able to deflect and incoming collision and prevent our robot from getting tangled with others
 
 ### Fabrication Method
 
