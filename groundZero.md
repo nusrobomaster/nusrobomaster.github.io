@@ -115,8 +115,6 @@ Using the dropping height, to create an interaction :
 In the competition, the resistance mainly from the x direction
 
 
-
-
 ### Proposed Budget
 
 | Part            | Product Name       | Quantity      | Price (USD) | Total |
