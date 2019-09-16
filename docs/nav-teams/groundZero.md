@@ -33,8 +33,8 @@ I am a year 2 industrial and system engineering student in NUS. I am passionate 
 ### Proposed Manpower Arrangement
 No| Role          |  Description                        | Assigned to       | 
 --|---------------|---                                  |---                |
- 1|  Mechanical   |  To be confirmed               |  Brian (Leader)   |
- 2|  Mechanical   |  To be confirmed                  | Open Position|
+ 1|  Mechanical   |  To be confirmed               |  Nathan (Leader)   |
+ 2|  Mechanical   |  To be confirmed                  | Wei Jie |
  3|  Software   |  To be confirmed     |  Lin Geyu | 
  4|  Software  |  To be confirmed   | Chen Qixing          | 
  5|  Software     | To be confirmed           | Mai Xueqiao
