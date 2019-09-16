@@ -103,6 +103,11 @@ Mapping through Hector SLAM methods, by constantly comparing the current surroun
 
 Our proposed in-house driver cockpit assistant (“r.Kockpit”) will provide a highlighted augmented reality (AR) experience for the driver. The Point Cloud (3D) system from ROS’ Robot Visualisation provides high contrast edge definitions of obstacles, enemy robots and objects to improve the driver’s awareness of the playing field during intensive situations.
 
+### Fail Safe Mechanisms
+
+Based on Murphy’s Law, we should always plan for the worse. Stress test would be conducted to prepare the robot in the most stringent conditions. Every component of the robot should be labelled to facilitate troubleshooting. 
+
+Electric Voltage and Current Limiter Control Boards should be added to prevent over-current and over-voltage to sensitive electronics. Cooling systems are added to dissipate heat to prevent overheating and maximise efficiency of electronic components.
 
 
 ## General Design and Fabrication Methods
