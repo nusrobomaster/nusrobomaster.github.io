@@ -44,7 +44,7 @@
 	
 	10.3 [References](#103-references)
 
-## 1. Team-Members
+## 1. Team Members
 [Back to Top](#contents)
 
 We would like to express our deepest appreciation to Mechanical Engineering Department, staff and our dearest sponsor for making this competition possible to us, thus allowing us to reach our fullest potential by exposing ourselves to challenges beyond our reach. We are a team of multi-talented individuals with background ranging from Computer Engineering to Mechanical Engineering, allowing for easy workload distributions due to our experiences and skill sets.
