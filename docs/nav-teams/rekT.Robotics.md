@@ -14,7 +14,7 @@ A dare-to-dream Mechanical Engineering freshman from NUS. With a strong passion,
 
 ![Je Sean](./assets/rekt_jesean.jpg)
 
-I am currently a Year 1 Mechanical Engineering student and have quite a large interest in the field of robotics. I was part of the robotics team back in Secondary and High School. Having also had the opportunity to participate in WRO, it showed me how designs and concepts can vary widely between others and my own and this really sparked a fire within me to further dive into the field of robotics. I loved seeing when my robot is able to run as designed, it is almost as if watching your child grow up. From the stages of conception or the final stage of completion, every step of the way is a learning journey. Whenever I stumble across an obstacle I will take it as a challenge and not rest until it has been solved.
+I am currently a Year 1 Mechanical Engineering student and have quite a large interest in the field of robotics. I was part of the robotics team back in Secondary and High School. Having also had the opportunity to participate in WRO, it showed me how designs and concepts can vary widely between others and my own and this really sparked a fire within me to further dive into the field of robotics. I loved seeing when my robot is able to run as designed, it is almost as if watching your child grow up. From the stages of conception or the final stage of completion, every step of the way is a learning journey. Whenever I stumble across an obstacle I will take it as a challenge and not rest until it has been solved. I have also undertaken an apprenticeship in a mechanic shop, providing me with relevant skills on how to use power tools and the use of nuts and bolts for fabrication techniques and mechanical systems that are readily-used in the industry.
 
 ### Teo Ru Min (Ru Min)
 
@@ -55,13 +55,15 @@ No| Role          |  Description                        | Assigned to       |
 
 ### BASE
 
-1. Mecanum wheels are to be utilised as the main driving wheel. The base of the robot in contact with the ground would form a square/rectangle, such that the centre of rotation of the base is equidistant to all four wheels.
+1. Mecanum wheels are to be utilised as the main driving wheel. The base of the robot in contact with the ground would form a square/rectangle, such that the centre of rotation of the base is equidistant to all force wheels.
 
-2. Each individual wheel and motor assembly will be suspended by a cantilever system to ensure stability of robot during jumps, climbing over inclined surfaces and collisions with other robots.
+2. Each individual wheel and motor assembly will be suspended by a double wishbone system to ensure stability of robot during jumps, climbing over inclined surfaces and collisions with other robots.
 
-3. Wheels to be directly mounted onto driving motors to reduced total suspended weight and reduce stress on suspension system and reduce positioning error due to slight flexing in the power transmission (such as flex from chains or rubber pulleys)
+3. The use of coilovers to dampen oscillations and provide a smoother ride and movement and allow for precision targeting of turret.
 
-4. Bumper to be placed around the wheels to prevent the wheels from getting stuck in the event of collision or projectiles being stuck. Small plating and foam insulation to cover up crevices and prevent projectiles from getting stuck and robot from getting damaged.
+4. Wheels to be directly mounted onto driving motors to reduced total suspended weight and reduce stress on suspension system and reduce positioning error due to slight flexing in the power transmission (such as flex from chains or rubber pulleys).
+
+5. Bumper to be placed around the wheels to prevent the wheels from getting stuck in the event of collision or projectiles being stuck. Small plating and foam insulation to cover up crevices and prevent projectiles from getting stuck and robot from getting damaged.
 
 ![Wheel Photo](./assets/rekt_wheel.jpg)
 
@@ -79,13 +81,36 @@ No| Role          |  Description                        | Assigned to       |
 
 5. A “carousel” like system with slanted base leading to the feeding system in the bottom of hopper to feed projectiles to the turret. Bullets will be fired by feeding the gun with projectiles to ensure continuous fire rate.
 
-6. The feeding system will be mounted in the centre of rotation for all axis of gimbal (i.e. axis of yaw and axis of pitch) to allow for rotation along both axis of gimbal. Each connection will be sleeved into each other to ensure unobstructed path for projectiles and all joints to be fit with rollers to ensure smooth movement.
+6. A cone to be placed over the rotating mechanism to direct the projectiles into the firing mechanism.
+
+7. The feeding system will be mounted in the centre of rotation for all axis of gimbal (i.e. axis of yaw and axis of pitch) to allow for rotation along both axis of gimbal. Each connection will be sleeved into each other to ensure unobstructed path for projectiles and all joints to be fit with rollers to ensure smooth movement.
+
 
 ![Gun Photo](./assets/rekt_gun.jpg)
 
+### RADAS (reKt.robotiKs Advanced Driver Assistance System)
+
+The RADAS aims to provide the robot with spatial awareness, while increasing accuracy and intuitive driver controls.
+
+LIDAR (Light Detection and Ranging) serves as the robot’s eyes on long haul obstacles. However, the blind spot pertaining to LIDAR at short distances (approximately 0.3m)  is compensated by the Ultrasonic Sensor. The set of LIDAR and Ultrasonic Sensors are mounted at all directions of the robot, providing a 360 degree obstacle detection mechanism. With the help of the GPS module, the robot is able to map the tournament grounds on the fly.
+
+ - Main Controller   : Nvidia Jetson Nano Developer Kit
+ - LIDAR Module      : TFMini - Micro LIDAR Module (SN-LIDAR-TFMINI)
+ - Ultrasonic Module :  Adafruit 3942 Ultrasonic Kit 
+ - GPS module        : Robomaster UWB Positioning System Set
+
+Mapping through Hector SLAM methods, by constantly comparing the current surrounding situations with provided data of map dimensions,  will allow the robot to be localised on the map. It provides the robot with knowledge about pin-point locations on the map. This is especially useful for functions that require exact locations, eg., Activating runes or performing certain team strategy formations.
+
+Our proposed in-house driver cockpit assistant (“r.Kockpit”) will provide a highlighted augmented reality (AR) experience for the driver. The Point Cloud (3D) system from ROS’ Robot Visualisation provides high contrast edge definitions of obstacles, enemy robots and objects to improve the driver’s awareness of the playing field during intensive situations.
+
+
 ## General Design and Fabrication Methods
 
-We plan to use Aluminium Extrusions as the basic building block of the robot base while PVC pipes for the feeder mechanism due to their low cost and high availability of material. The feeding mechanism will utilise PVC pipes with slight bigger diameter  than projectile to ensure projectiles move in a single file without being stuck and the corner pieces to utilise bends with large bend radius to allow smooth movement. It can be easily cut and connected to form different shapes and sizes according to our needs and dimensions. 
+We plan to use Aluminium Extrusions as the basic building block of the robot base while PVC pipes for the feeder mechanism due to their low cost and high availability of material. The feeding mechanism will utilise PVC pipes with slight bigger diameter  than projectile to ensure projectiles move in a single file without being stuck and the corner pieces to utilise bends with large bend radius to allow smooth movement. It can be easily cut and connected to form different shapes and sizes according to our needs and dimensions.
+
+ ![Material 1 Photo](./assets/rekt_mat1.jpg)
+ ![Material 2 Photo](./assets/rekt_mat2.jpg)
+ ![Material 3 Photo](./assets/rekt_mat3.jpg)
 
 Certain parts that cannot be sourced or require more strength than 3D printed stuff we will utilise milling, lathing, CNC and other available workshop tools to fabricate certain connecting parts. Other elements that does not require high strength can be 3D modelled and 3D printed to save costs.
 
