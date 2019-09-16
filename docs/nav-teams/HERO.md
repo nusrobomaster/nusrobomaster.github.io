@@ -65,7 +65,7 @@ I am a year 3 Computer Engineering who have an interest in ML with supervised le
 
 #### Firing mechanism
 
-gif file
+![Projectile](./assets/HERO-pic-4.gif)
 
 Components:
 - Motor for the firing wheel mechanism
@@ -94,7 +94,7 @@ Components:
         - Rotating arm   
 - Barrel  
     - Aluminium profile for sturdiness and with gaps to minimise air resistance in barre
-
+     ![equation](./assets/HERO-pic-11.png)   
 - Gimbal
    - Commercial-bought 2-axis stabilizing gimbal (~40-50USD, but usually made only for smartphones) (3-axis variants are more industrial-grade, but in range of few hundreds) with PID modulation on step servos and integrated controller board that can interface using GPIO with computational device of choice
    - <a href="https://tinyurl.com/y5fad6os">Tarot 3-axis (GPIO-compatible,, 149$)</a> 
