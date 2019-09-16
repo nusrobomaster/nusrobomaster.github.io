@@ -5,32 +5,58 @@
 2. **[Timeline and Milestones](#2-timeline-and-milestones)**
 3. **[Key Aspects](#3-key-aspects)**
 4. **[General Design](#4-general-design)**
-	4.1 [Suspension Design](#41suspension-design)
+	
+	4.1 [Suspension Design](#41-suspension-design)
+	
 	4.2 [Weight Distribution](#42-weight-distribution)
+	
 	4.3 [Chassis Optimization](#43-chassis-optimization)
+	
 	4.4 [Power Consumption](#44-power-consumption)
+
 5. **[Prototyping](#5-prototyping)**
 6. **[Fabrication Materials and Methods](#6-fabrication-materials-and-methods)**
+	
 	6.1 [Materials](#61-materials)
+	
 	6.2 [Machining](#62-machining)
+	
 	6.3 [3D Printing](#63-3d-printing)
+	
 	6.4 [Laser Cutting](#64-laser-cutting)
+
 7. **[System Architecture](#7-system-architecture)**
+	
 	7.1 [Movement Architecture](#71-movement-architecture)
+	
 	7.2 [Communication Architecture](#72-communication-architecture)
+
 8. **[Artificial Intelligence and Algorithms](#8-artificial-intelligence-and-algorithms)**
+	
 	8.1 [Computer Vision](#81-computer-vision)
+	
 	8.2 [Automatic Threat Detection](#82-automatic-threat-detection)
+
 9. **[Proposed Budget](#9-proposed-budget)**
+	
 	9.1 [Electronic Parts](#91-electronic-parts)
+	
 	9.2 [Robotic Structure](#92-robotic-structure)
+	
 	9.3 [Power Supply](#93-power-supply)
+	
 	9.4 [Remote Control](#94-remote-control)
+	
 	9.5 [RoboMaster Referee System](#95-robomaster-referee-system]
+
 10. **[Appendix](#10-appendix)**
+	
 	10.1 [Detailed Responsibility](#101-detailed-responsibility)
+	
 	10.2 [3D Drawings](#102-3d-drawings)
+	
 	10.3 [References](#103-references)
+	
 	10.4 [Resources](#104-resources)
 
 ## 1. Team-Members
