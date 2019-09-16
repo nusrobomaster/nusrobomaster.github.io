@@ -47,8 +47,6 @@ No| Role          |  Description                        | Assigned to       |
 * Consists of wheel rollers and damping rings.
 * Expandable wheels -> May reduce hits while in motion and technically not illegal until they patch this next year. There is a maximum of 10cm allowed for in-game expansion, so the max legal increase in radius of each wheel is 5cm.
 
-![Wheels](./assets/expandable-wheels.jpg)
-
 ### Chassis
 
 * Front, Rear, Left, Right Armor
