@@ -1,4 +1,5 @@
 # Team JSRR
+<p align = "left"> <img src="assets/TeamJSRR/TeamJSRRLogo.png" alt="TeamJSRR Logo"> </p>
 
 ## Contents
 1. **[Team Members](#1-team-members)**
@@ -47,7 +48,7 @@
 	
 	9.4 [Remote Control](#94-remote-control)
 	
-	9.5 [RoboMaster Referee System](#95-robomaster-referee-system]
+	9.5 [RoboMaster Referee System](#95-robomaster-referee-system)
 
 10. **[Appendix](#10-appendix)**
 	
@@ -72,7 +73,7 @@ We would like to express our deepest appreciation to Mechanical Engineering Depa
 
 **About Me:**                                         
 
-> Year 2 Computer Engineer with experience with **Computer Vision**, **Artificial Intelligence**, and **Game Development + 3D > > Animation.** Knowledge of programming languages including **Python**, **C**, **C++**, **C#**, and **Java**, and frameworks like **Tensorflow**, **Keras**, **OpenCV**, **Robot Operating System**, and **Unity3D.** Miscellaneous skills include **CAD modelling and 3D printing, Photoshop, and Video Editing.**  
+> Year 2 Computer Engineer with experience with **Computer Vision**, **Artificial Intelligence**, and **Game Development + 3D Animation.** Knowledge of programming languages including **Python**, **C**, **C++**, **C#**, and **Java**, and frameworks like **Tensorflow**, **Keras**, **OpenCV**, **Robot Operating System**, and **Unity3D.** Miscellaneous skills include **CAD modelling and 3D printing, Photoshop, and Video Editing.**  
 
 **Roles:**
 > * Computer Vision and Algorithms
@@ -159,7 +160,7 @@ We propose a modular based design as seen in the diagram below, where the shooti
 
 ### 4.4 Power Consumption
 
-## 5. Protoyping
+## 5. Prototyping
 [Back to Top](#contents)
 
 To reduce costs of prototyping, we propose **3D printing** of the different mechanisms and parts using **PolyLactic Acid (PLA) and Acrylonitrile Butadiene Styrene (ABS)**. With 3D printing, we can efficiently determine if mechanisms operate as intended and perform re-iterations of the design, without wasting resources for the final competition vehicle. We have chosen these materials due to different considerations such as their relatively comparable **structural strength**, **cost for rapid prototyping** as well as **easy access to equipment** for producing a prototype.
@@ -173,13 +174,13 @@ The fabrication methods listed below and not exhaustive and there are various ad
 
 ### 6.1 Materials
 
-#### 1. Aluminium
+#### Aluminium
 One of the materials used in designing and fabricating the covers that protect the top of the robot is formed sheet aluminium. Aluminium is easy to machine, and with proper structural design, it can possess a high strength to weight ratio.
-#### 2. Steel
+#### Steel
 The skeletal structure of the rolling chassis will need to be extremely rigid and strong to significantly reduce any deformation that can occur from collisions as well as enemy pellets. We can use steel beams and brackets to assemble the main skeleton.
-#### 3. Acrylic
+#### Acrylic
 Acrylic’s transparency makes it a suitable material for the chassis during the prototype stage. It is inexpensive and easy to machine. It is used so we can visualize and check the internal mechanisms of the shooter/motors and effectively troubleshoot problems.
-#### 4. Fasteners
+#### Fasteners
 Nuts and bolts are the bread and butter of most mechanical assemblies. However, in order to save time from having to regularly take apart the modules in the prototyping phase, we also propose zip ties and velcro straps as an inexpensive and more efficient alternative to traditional fastening methods.
 
 ### 6.2 Machining
@@ -232,5 +233,12 @@ The proposed budget is for one unit standard vehicle and does not include any co
 ### 10.2 3D Drawings
 
 ### 10.3 References
+1. [RoboMaster Open Source Forum](https://bbs.robomaster.com/portal.php)
+2. [Official RoboMaster Resource](https://www.robomaster.com/en-US/resource/pages/1016?type=announcementSub)
+3. [Campus Labs](https://auburn.campuslabs.com/engage/organization/aurobomaster/documents/view/787345)
+4. [RoboMaster Images](https://www.robomaster.com/en-US/resource/image)
+5. [Referee System Specification Manual 2019](https://rm-static.djicdn.com/documents/19806/351fabf70dadd1548054744443997919.pdf)
+6. [Reddit Robotics Subreddit](https://www.reddit.com/r/robotics/)
+7. [MAC RoboMaster Midterm Assessment Video](https://www.youtube.com/watch?v=acWxZVNQXAc)
 
 ### 10.4 Resources
