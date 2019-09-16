@@ -13,10 +13,12 @@ First edition
 
 ## Timeline
 
+![](./assets/TitanTimeline.JPG)
+
 ## Budget
 Per robot / per discipline (mecha/elec/devices)
 
-![](./assets/TitanTimeline.JPG)
+![](./assets/TitanBudget.JPG)
 
 ## Design choices
 ### Mechanics
@@ -44,6 +46,8 @@ As general as possible (common to all robots, can change platform), starting wit
 ## Technologies
 
 ### Ideas
+
+![](./assets/TitanDesign.JPG)
 
 - Multi robot target tracking (use information from multiple robots to find target)
 - Laser fixed on drone pointing at enemies 
