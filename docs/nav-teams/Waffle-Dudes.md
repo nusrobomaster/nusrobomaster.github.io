@@ -52,11 +52,11 @@ Having analysed the past year competitions and rule book we have come up with so
  
 1. Can only shoot non-aerial robots
    
-    - Gun swivel movement does not need to extend to high angles over vertical axis
+    - Gun swivel movement does not need to extend to high angles along vertical axis
 
 2. Only 1 17mm launching mechanism and one laser
 
-    - Also limited by "barrel heat" mechanic, hence there is a need to focus on the accuraccy of the gun - make every shot count
+    - Also limited by "barrel heat" mechanic, hence there is a need to focus on the accuracy of the gun - make every shot count
 
 3. 17 mm ball projectile specifications
 
@@ -106,13 +106,13 @@ Having analysed the past year competitions and rule book we have come up with so
 
     - Laser for visual assistance when aiming
     
-    - Compressed air must not exceed 20 MPa, initial firing speed limit 30 m/s
+    - Compressed air pressure must not exceed 20 MPa, initial firing speed limit of 30 m/s
 
 2. Ammo collection and feeding mechanism 
 
     - Simple “double funnel”, the interior will be lined with soft material like silicone, so the balls do not bounce back out easily 
 
-    - Gravity feed balls into chamber 
+    - Gravity feed balls into gun 
 
     ![Funnel](./assets/Funnel_WD.png)
     
