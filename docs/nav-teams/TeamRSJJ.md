@@ -9,19 +9,16 @@ We would like to express our deepest appreciation to Mechanical Engineering Depa
 ### 1. Raghav Bhardwaj
 **Matric No:** A0184445Y          
 **Course:** Computer Engineering  
-#### About Me
-Year 2 Computer Engineer with experience with **Computer Vision**, **Artificial Intelligence**, and **Game Development + 3D Animation.** 
 
-Knowledge of programming languages including **Python**, **C**, **C++**, **C#**, and **Java**, and frameworks like **Tensorflow**, **Keras**, **OpenCV**, **Robot Operating System**, and **Unity3D.** 
-
-Miscellaneous skills include **CAD modelling and 3D printing, Photoshop, and Video Editing.**
-#### Roles
+**About Me:**                                                                                                                                      
+Year 2 Computer Engineer with experience with **Computer Vision**, **Artificial Intelligence**, and **Game Development + 3D Animation.** Knowledge of programming languages including **Python**, **C**, **C++**, **C#**, and **Java**, and frameworks like **Tensorflow**, **Keras**, **OpenCV**, **Robot Operating System**, and **Unity3D.** Miscellaneous skills include **CAD modelling and 3D printing, Photoshop, and Video Editing.**                                                  
+**Roles:**                                                                                                                                            
 * Creation of Website
 * Computer Vision and Algorithms
 
 ### 2. Rishi Mahadevan
-> **Matric No:** A0184381B        
-> **Course:** Computer Engineering
+**Matric No:** A0184381B        
+**Course:** Computer Engineering
 
 *Insert details here.*
 #### Roles
@@ -29,8 +26,8 @@ Miscellaneous skills include **CAD modelling and 3D printing, Photoshop, and Vid
 * Robotics System Architect
 
 ### 3. Tan Guan Zhong
-> **Matric No:** A0154912H           
-> **Course:** Mechanical Engineering
+**Matric No:** A0154912H           
+**Course:** Mechanical Engineering
 
 *Insert details here.*
 #### Roles
