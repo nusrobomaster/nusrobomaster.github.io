@@ -1,8 +1,8 @@
-# NUS Titan
-## General plan
++# NUS Titan
+General plan
 First edition
 
-## Team 
++## Team 
 - Team name: NUS Titan
 - Member: Lim Zhi Sheng Andre, Loh Yuan Ting Kevin, Sylvain Riondet, Jeremy Chew Xuan Yu, Nguyen Ngoc Gia Bao
 - Diversity: We need each robot to have a good codesign between mechanics, electronics, programming and automation. Maybe even controlling/playing. As such, when creating the team, we aim to have at least one person from each of the 3 main engineering disciplines (Mechanical, Electrical and Computer).
@@ -11,16 +11,16 @@ First edition
   - a robot (hero, engineer, ...).
   - a function/speciality (shooting/vision, chassis, programming, strategy).
 
-## Timeline
++## Timeline
 
 ![](./assets/TitanTimeline.JPG)
 
-## Budget
++## Budget
 Per robot / per discipline (mecha/elec/devices)
 
 ![](./assets/TitanBudget.JPG)
 
-## Design choices
++## Design choices
 ### Mechanics
 - Motion
 
@@ -33,17 +33,17 @@ Protect all parts against enemy bullets (especially moving parts, gears, electro
   - Maybe design a “shell”, put on top to protect as much as possible
   - Heavy parts at the bottom (battery, chassis)
 
-### Electronics
++### Electronics
 ROS on a combination of NVidia / NUC / Compute stick
 Uniform design across robots, except maybe drone for maintenance speed and convenience. 
 Power monitoring for the board and power-hungry peripherals.
 Power board for motors/ actuators.
 
-### Programming
++### Programming
 Distribute power to shooting (vision+motor) > moving 
 As general as possible (common to all robots, can change platform), starting with newest versions to avoid updates
 
-## Technologies
++## Technologies
 
 ### Ideas
 
