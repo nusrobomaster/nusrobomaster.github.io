@@ -4,8 +4,8 @@
 1. **[Team Members](#1-team-members)**
 2. **[Timeline and Milestones](#2-timeline-and-milestones)**
 3. **[Key Aspects](#3-key-aspects)**
-4. **[General Design](#4-general-design)**
-	
+4. <details>**[General Design](#4-general-design)**
+	<summary>
 	4.1 [Suspension Design](#41-suspension-design)
 	
 	4.2 [Weight Distribution](#42-weight-distribution)
@@ -13,6 +13,8 @@
 	4.3 [Chassis Optimization](#43-chassis-optimization)
 	
 	4.4 [Power Consumption](#44-power-consumption)
+	</summary>
+</details>
 
 5. **[Prototyping](#5-prototyping)**
 6. **[Fabrication Materials and Methods](#6-fabrication-materials-and-methods)**
