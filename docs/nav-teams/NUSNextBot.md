@@ -49,14 +49,17 @@ No| Role          |  Description                        | Assigned to       |
 ### Mechanical Key Design
 
 ![Mech-Rough-Design](./assets/NUSNextBot-Rough_Design.jpeg)
-<center>*Graph1. Rough Design of The Robot*</center>
+*Graph1. Rough Design of The Robot*
+
 &nbsp;&nbsp;&nbsp;&nbsp;This graph is the draft of the robot. As all the components are not available now, the size and shape are unknown. Therefore, it can only be drawn roughly. For mechanical parts, the robot can be divided into 3 parts: chassis, gimbal and gun system. The design of the chassis includes the suspension system design as well.
 
 #### Gun System
 
 ![Mech-Launching-System](./assets/NUSNextBot-Lauching_System.jpeg)
-<center>*Graph 2. Launching system*</center>
+*Graph 2. Launching system*
+
 &nbsp;&nbsp;&nbsp;&nbsp;The systems shown in graph 2 is the launching system, which is important for the robot to attack opponents in the competition. Above the system is the magazine, which is used to store the projectiles needed for launching. There is a dial under the magazine , which is responsible for dialing the projectile into the supply link. Each time the dial rotates, a projectile is dialed into the hole of the supply link.
+
 &nbsp;&nbsp;&nbsp;&nbsp;After a projectile fall into the hole, it will slip onto the friction wheel. The friction wheel is driven by two reverse-rotating DC brushless motors. Projectile is subjected to the squeezing friction of the two rotating friction wheels to obtain the kinetic energy for launching.
     
   1. **Magazine:**
@@ -74,9 +77,11 @@ No| Role          |  Description                        | Assigned to       |
 #### Chassis
 
 ![Mech-Chassis](./assets/NUSNextBot-Chassis.jpeg)
-<center>*Graph3. Chassis*</center>
+*Graph3. Chassis*
+
 ![Mech-Suspension-System](./assets/NUSNextBot-Suspension_System.jpeg)
-<center>*Graph4. Suspension System*</center>
+*Graph4. Suspension System*
+
 &nbsp;&nbsp;&nbsp;&nbsp;The suspension system in graph 4 is one kind of non-independent suspension system, which has the advantages of high loads, low cost and simple structure.
 
 ### Electrical Key Design
@@ -90,18 +95,19 @@ No| Role          |  Description                        | Assigned to       |
 ### Software Key Design
 
 ![Software-Framework](./assets/NUSNextBot-Software_Framework.png)
-<center>*Figure1. Software Framework*</center>
+*Figure1. Software Framework*
 &nbsp;&nbsp;&nbsp;&nbsp;Here is the software framework which illustrate the general design of the robot in the software part. Moreover, we have 2 detailed ideas for software design based on analysis of the competition.
 
 #### Obstacle Avoidance:
 ![Obstacle-Avoidance](./assets/NUSNextBot-Obstacle_Avoidance.jpeg)
-<center>*Figure2. Flowchart of Obstacle Avoidance*</center>
+*Figure2. Flowchart of Obstacle Avoidance*
 
 &nbsp;&nbsp;&nbsp;&nbsp;We plan to use sensors on the left, right, and trail of the robot to do obstacle avoidance work. Consider not to affect the operation of the player during competition, the obstacle avoidance is designed to show warning message only instead of stopping the robot compulsorily. We will test and give a safe distance value. If the distance between the robot and the obstacle is less than safe value, a warning message with the distance and position of the obstacle will be shown. Consider the colors of floor and environment are dark, we cannot use IR sensors. And consider the weight and the cost of laser, we may not use laser as well. Some of us tried laser and SLAM in the former project, it is nice when the speed of the robot is slower. So we may use ultrasonic sensors and KITTI vision.Obstacle avoidance algorithm will be added if we decide to use a click to set a destination.
 
 #### Auto-Aiming:
 ![Auto-Aiming](./assets/NUSNextBot-Auto_Aiming.png)
-<center>*Figure3. Flowchart of Auto-aiming*</center>
+*Figure3. Flowchart of Auto-aiming*
+
 &nbsp;&nbsp;&nbsp;&nbsp;Since it is hard for a pilot to aim opponents’ robot, we think it is necessary to implement a function to help the robot to auto-aim the target (armors) when it is close to the enemy. Thus, we designed a part of control system to make it work. This algorithm (Figure2) will read in image information from image processing module when auto-aiming is activated. After trying to detect the light bar around the armor, if it captures the light bar improperly, the module will proceed to read the next frame of the video. Otherwise, the algorithm will try to predict the areas which may have the armor and decide which part we are going to attack. Then, the algorithm will analyze the position of the target area and its distance from the center point on the screen. After processing the data, this module will send a value to gimbal control to adjust the position of the gun then shoot the target armor.
 
 ## Proposed Budget
