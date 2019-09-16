@@ -2,7 +2,7 @@
 
 ## Introduction of Team members 
 
-### Samantha Song Jielin (Leader)
+### Samantha Song (Leader)
 I am a year 3 Biomedical Engineering student. I am in interested in robotics, AI and machine learning, and hope to  further my skills in these areas during my 6 months stay in Shenzhen. With knowledge that I learnt from my internship at a makerspace, I have experience in building robot cars, and can help in the fields of hardware/electronics and software.
 
 ### Tan Ning Xuan
