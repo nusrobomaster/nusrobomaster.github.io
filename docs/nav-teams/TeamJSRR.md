@@ -34,16 +34,6 @@
 	8.2 [Automatic Threat Detection](#82-automatic-threat-detection)
 
 9. **[Proposed Budget](#9-proposed-budget)**
-	
-	9.1 [Electronic Parts](#91-electronic-parts)
-	
-	9.2 [Robotic Structure](#92-robotic-structure)
-	
-	9.3 [Power Supply](#93-power-supply)
-	
-	9.4 [Remote Control](#94-remote-control)
-	
-	9.5 [RoboMaster Referee System](#95-robomaster-referee-system)
 
 10. **[Appendix](#10-appendix)**
 	
@@ -82,7 +72,7 @@ We would like to express our deepest appreciation to Mechanical Engineering Depa
 
 **About Me:**
 
-> Rishi loves to push the limit of his knowledge and as such has worked in the **Hornet Project as part of NUS Bumbblebee.** He has also worked on creating a **webserver**, **database management** and on **NLP projects, such as detecting symptoms from patient's speech.**
+> Rishi loves to push the limit of his knowledge and as such has worked in the **Hornet Project as part of NUS Bumbblebee.** He has also worked on creating a **webserver**, **database management** and on **NLP projects, such as detecting symptoms from patient's speech.** Rishi has coded applications and projects in **Python**, **Javascript**, **PHP**, **C**, **C++** and **Java**. He also has experience with machine learning and image processing libraries such as **Tensorflow**, **OpenCV**, **Nltk.** Rishi is a person who believes in Rapid prototyping and a LEAN approach to any project and this is no exception!
 
 **Roles:**
 > * Electrical System
@@ -96,11 +86,11 @@ We would like to express our deepest appreciation to Mechanical Engineering Depa
 
 **About Me:**
 
-> John is passionate about making cool engineering ideas come to life. Having worked on **mechanisms and engineering simulations** for **drones**, **acoustic system**s and **parallel manipulators**, he would love to expand his knowledge and skills in other displicines.
+> John is passionate about making cool engineering ideas come to life. Having worked on **mechanisms and engineering simulations** for **drones**, **acoustic systems** and **parallel manipulators**, he would love to expand his knowledge and skills in other displicines. He has experience in various **Fabrication techniques** such as **CAD modelling (SOLIDWORKS, AUTOCAD, RHINO3D)**, **parametric design**, **CNC machining** and **3D printings**. In addition, he has worked on engineering simulation in companies using **MATLAB**, **SIMULINK** and **SOLIDWORKS SIMULATION.**
 
 **Roles:**
 > * Mechanical System Design
-> * *Can add some more here hehe*
+> * Engineering Simulation
 
 ### Yu Shibin
 <p align = "left"> <img src="assets/TeamJSRR/Shibin.png" alt="Shibin" height=200 width=200> </p>
@@ -282,14 +272,14 @@ We have experience with Computer Vision in the Hornet Project under NUS Bumbbleb
 There are two main methods to detect objects inside an preprocessed image. Note that usage of both methods require a speed/accuracy tradeoff.
 
 #### Image Thresholding using OpenCV
-<p align = "center"> <img src="assets/TeamJSRR/threshold_example.png" alt="OpenCV Thresholding Example"> </p>
+<p align = "center"> <img src="assets/TeamJSRR/threshold_example.png" alt="OpenCV Thresholding Example height=70% width=70%"> </p>
 
 This is the less computationally expensive method and just requires a simple CPU. Using OpenCV's inRange() we can threshold an image between a lower and upper bound based on the selected colour method together with predefined or dynamic low and high thresholds in various colour spaces like HSV, LAB or RGB. This will return a thresholded image with contours for our chosen object. These contours can be further filtered through based on their dimensions such as ratio, area, etc. This method could potentially be used to find the location (in our robot's view) of the red or blue health bars for enemy bots.
 
 However this method is very inaccurate compared to the next one.
 
 #### Object Detection using Convolutional Neural Networks
-<p align = "center"> <img src="assets/TeamJSRR/object_detection.jpg" alt="OpenCV Thresholding Example"> </p>
+<p align = "center"> <img src="assets/TeamJSRR/object_detection.jpg" alt="Object Detection Example height=70% width=70%"> </p>
 
 This method requires a standalone GPU and therefore is much more computationally expensive. However it is very accurate and has extreme generalizability provided we use a large enough dataset. In the image above, a Convolutional Neural Network (RetinaNet in particular) was trained on a custom dataset to detect cars on a highway. RetinaNet can be used for our robot as well as it is a very accurate Single Shot Detector that can provide realtime object detection on any half decent GPU.
 
@@ -298,57 +288,9 @@ The only caveat is that we would have to train the model on hundreds of manually
 ## 9. Proposed Budget
 [Back to Top](#contents)
 
-The proposed budget is for one unit standard vehicle and does not include any costs that might arise from damaged components. The costs are also considered without discounts to robomaster participants, and at it’s full price.
+The total cost of our vehicle amounts to SGD 3487.11. For a full breakdown of our budget, [please refer to the excel sheet here.](https://docs.google.com/spreadsheets/d/1hSyFkgnE2zaKy-0w9z6346uSNQ8cyk4fTempVa0A32Q/edit#gid=0)
 
-| Category | Item | Model | Details | Cost (USD - unless specified) | Qty | Total Cost (USD - unless specified) |
-| ---      | ---  | ---   | ---     | ---        | --- | ---              |
-| Head | Z-axis Gimbal | Turnigy HD 3508 Brushless Gimbal Motor | Function: Rotate head about z axis (Yaw) [Link](https://hobbyking.com/en_us/turnigy-hd-3508-brushless-gimbal-motor-bldc.html) | 28.54 | 1 | 28.54 |
-| | Y-axis Gimbal | Turnigy HD 3508 | | 28.54 | 1 | 28.54 |
-| | Gimbal Motor Controller | Tarot ZYZ22 GOPRO Brushless Camera Gimbal Controller | [Link](https://hobbyking.com/en_us/tarot-zyz22-gopro-brushless-camera-gimbal-controller.html) | 22.2 | 1 | 22.2 |
-| | First Person View Camera | RunCam 5 | Weight: 0.056kg [Link](https://sea.banggood.com/RunCam-5-12MP-56g-Smallest-4K-Cam-HD-Recording-145-Degree-NTSCPAL-16943-Switchable-FPV-Action-Camera-Bulit-in-Battery-for-RC-Racing-Drone-p-1494081.html?p=SP07155769873201608T&custlinkid=440530&cur_warehouse=CN) | S$139.79 | 1 | S$139.79 |
-| | Ammo Box & Cover | Material: PLA, Fabrication Method: 3D Printing | Accounted in raw materials | | |
-| | Servo (Controls pitch of Camera) | HS-5625MG (High speed digital servo) | Function: An additional degree of freedom (independent of shooter) for the camera. Requires a servo with high stall torque to reduce camera shake. [Link](https://hitecrcd.com/products/servos/sport-servos/digital-sport-servos/hs-5625mg/product) | 49 | 1 | 49 |
-| | Servo (Controls Ammo box cover) | HS-311 Standard Economy Servo (Analogue) | Function: Open and close ammo box to receive ammo pellets. [Link](https://hitecrcd.com/products/servos/sport-servos/analog-sport-servos/hs-311/product) | 15 | 1 | 15 |
-| | Laser | RoboMaster Red Dot Laser | Function: Provides aiming calibration for computer-vision controlled shooter | 14 | 1 | 14 |
-| | Pellet transportation motor | RoboMaster M2006 P36 Brushless DC Gear Motor | Function: Transport motor | 41 | 1 | 41 |
-| | Pellet propulsion motors | | | | | |
-| | Remote controller receiver | RoboMaster Robot Remote Controller Receiver | | 35 | 1 | 35 |
-| Chassis | Servo Brackets | Standard Servo Brackets | Function: Holds the servo in place, and can be mounted to main chassis. [Link (merely for price indication)](https://www.robotshop.com/en/servo-brackets-standard.html) | 12 | | |
-| | Rolling Chassis | | Fabrication costs to be determined | | | |
-| | Head frame | | Fabrication costs to be determined | | | |
-| | Suspension | | Fabrication costs to be determined | | | |
-| Base | Mecanum Wheels | RoboMaster Mecanum Wheel (left) | Weight: 0.353kg | 79 | 2 | 158 |
-|      |                | RoboMaster Mecanum Wheel (right) | Weight: 0.353kg | 79 | 2 | 158 |
-| | DC Brushless motors | RoboMaster M3508 P19 Brushless DC Gear Motor | Weight: 0.365kg [Link](https://www.robomaster.com/en-US/products/components/general/M3508) | 79 | 4 | 316 |
-| | Motor cables and concentrator | RoboMaster M3508 Accessories Kit | | 54 | 1 | 54 |
-| | Electronic Speed Controllers | RoboMaster C620 Brushless DC Motor Speed Controller | Function: controls M3508 motor. Weight: 0.035kg | 63 | 4 | 252 |
-| | ESC Center Board | RoboMaster ESC Center Board | | 13 | 1 | 13 |
-| | Arduino | Arduino Mega 2560 | [Link](https://sea.banggood.com/Mega2560-R3-ATMEGA2560-16AU-CH340-Board-With-USB-For-Arduino-p-940935.html?rmmds=buy&cur_warehouse=CN) | 11.17 | 3 | 33.51 |
-| | Motor controller | TB6612FNG Dual DC Stepper Motor Driver | [Link](https://www.lazada.sg/products/best-selling-tb6612fng-dual-dc-stepper-motor-driver-module-controller-board-for-arduino-i292165237-s480025749.html?ef_id=EAIaIQobChMIzMW0uLrV5AIV2IRwCh35egGpEAQYASABEgKfbfD_BwE:G:s&s_kwcid=AL!4281!3!242381247295!!!u!762460417326!&exlaz=d_1:mm_150050845_51350205_2010350205::12:1025267241!54483208270!!!pla-762460417326!c!762460417326!480025749!129806539&gclid=EAIaIQobChMIzMW0uLrV5AIV2IRwCh35egGpEAQYASABEgKfbfD_BwE) | S$5.09 | 4 | S$20.36 |
-| Core | Microcontroller unit | RoboMaster Development Board Type A| [Link](https://store.dji.com/cn/product/rm-development-board-type-a) | 68 | 1 | 68 |
-| | Connection cables | RoboMaster Development Board Cables | | 40 | 1 | 40 |
-| | Microcomputer unit for computer vision and AI algorithms | Manifold 2 | Components include NVIDIA Jetson TX2 & Intel Core i7-8550U. Weight: 0.23kg. [Link](https://store.dji.com/cn/product/manifold-2?site=brandsite&from=manifold-2_buy_now_bottom&vid=80932) | S$1357 | 1 | S$1357 |
-| Power | Battery Rack | Self-designed and 3D printed | Function: Holds the battery. Material: PLA. Fabrication method: 3D Printing. Weight: 0.15kg - 0.3kg | Cost accounted for in raw materials | | |
-| | Battery (Lithium Polymer) | Turnigy 5000mAh 5S 30C Lipo | Battery is subject to change depending on the continuous/maximum current draw, capacity requirements etc. Weight: 0.62kg. [Link](https://hobbyking.com/en_us/turnigy-5000mah-5s-30c-lipo-pack-xt-90.html) | 49.31 | 2 | 98.62 |
-| RoboMaster Referee System | Speed Monitor Module (17 mm projectile) | | Total weight: 0.6kg | | | |
-| | Video Transmitter Module (VTM) | | | | | |
-| | Positioning Module             | | | | | |
-| | Referee System Main Controller | | | | | |
-| | Power Supply Management System | | | | | |
-| External Components | Remote Control | RoboMaster Remote Controller Set | Function: Manual control of the vehicle | 143 | 1 | 143 |
-| Raw Materials/Extra Parts | Polylactic Acid(PLA) 3D printer filament | eSun PLA Filament | PLA is easier to print compared to ABS and PETG, with comparable strength. However, most PLA filaments cannot tolerate temperatures above 60 degree Celsius [Link](https://www.lazada.sg/products/esun-pla-175mm-blue-3d-printer-filament-corn-grain-refining-material-1kg-spool-22lbs-dimensional-accuracy-005mm-consumables-i288043850-s465252461.html?spm=a2o42.searchlistbrand.list.3.2f636072pKHGSE&search=1) | S$28 | 5x1kg spools | 140 |
-| | Fasteners (Nuts, bolts and screws) | | | S$20 | | S$20 |
-| | Power transmission (gears, pulleys etc.) | | | S$25 | | S$25 | 
-
-### 9.1 Electronic Parts
-
-### 9.2 Robotic Structure
-
-### 9.3 Power Supply
-
-### 9.4 Remote Control
-
-### 9.5 RoboMaster Referee System
+The proposed budget is for one unit standard vehicle and does not include any costs that might arise from damaged components. The costs are also considered without discounts to robomaster participants, and are therefore at their full price.
 
 ## 10. Appendix
 [Back to Top](#contents)
