@@ -25,7 +25,9 @@ Per robot / per discipline (mecha/elec/devices)
 - Motion
 
 Very sturdy chassis (steel/aluminium) so that the robot can jump over ramps without sustaining significant damage.
+
 Lightweight higher parts (low gravity center, low inertia) for more stability
+
 Need for suspension - incase of gap and jumping over the ramp
 
 - Battle :
@@ -35,12 +37,16 @@ Protect all parts against enemy bullets (especially moving parts, gears, electro
 
 ### Electronics
 ROS on a combination of NVidia / NUC / Compute stick
+
 Uniform design across robots, except maybe drone for maintenance speed and convenience. 
+
 Power monitoring for the board and power-hungry peripherals.
+
 Power board for motors/ actuators.
 
 ### Programming
 Distribute power to shooting (vision+motor) > moving 
+
 As general as possible (common to all robots, can change platform), starting with newest versions to avoid updates
 
 ## Technologies
