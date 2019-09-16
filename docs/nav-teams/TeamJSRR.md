@@ -1,5 +1,4 @@
-# Team JSRR
-<p align = "left"> <img src="assets/TeamJSRR/TeamJSRRLogo.png" alt="TeamJSRR Logo"> </p>
+<p align = "left"> <img src="assets/TeamJSRR/TeamJSRRLogo.png" alt="TeamJSRR Logo" height=40% width=40%> </p>
 
 ## Contents
 1. **[Team Members](#1-team-members)**
@@ -18,13 +17,9 @@
 5. **[Prototyping](#5-prototyping)**
 6. **[Fabrication Materials and Methods](#6-fabrication-materials-and-methods)**
 	
-	6.1 [Materials](#61-materials)
+	6.1 [Fabrication Materials](#61-fabrication-materials)
 	
-	6.2 [Machining](#62-machining)
-	
-	6.3 [3D Printing](#63-3d-printing)
-	
-	6.4 [Laser Cutting](#64-laser-cutting)
+	6.2 [Fabrication Methods](#62-fabrication-machining)
 
 7. **[System Architecture](#7-system-architecture)**
 	
@@ -63,7 +58,7 @@
 ## 1. Team-Members
 [Back to Top](#contents)
 
-We would like to express our deepest appreciation to Mechanical Engineering Department, staff and our dearest sponsor for making this competition possible to us, thus allowing us to reach our fullest potential by exposing ourselves to challenges beyond our reach. We are a team of multi-talented individuals with background ranging from Computer Engineering to Mechanical Engineering, allowing for easy workload distributions due to our experiences and skill sets. 
+We would like to express our deepest appreciation to Mechanical Engineering Department, staff and our dearest sponsor for making this competition possible to us, thus allowing us to reach our fullest potential by exposing ourselves to challenges beyond our reach. We are a team of multi-talented individuals with background ranging from Computer Engineering to Mechanical Engineering, allowing for easy workload distributions due to our experiences and skill sets.
 
 ### Raghav Bhardwaj
 <p align = "left"> <img src="assets/TeamJSRR/Raghav.png" alt="Raghav"  height=300 width=300> </p>
@@ -148,17 +143,54 @@ According to the 2019 rules:
 ## 4. General Design
 [Back to Top](#contents)
 
-We propose a modular based design as seen in the diagram below, where the shooting mechanism, camera, motorized platform, can be taken out and replaced easily. This is necessary due to the need for constant re-iterations of the design as well as the parts being easily damaged in the competition.
+We propose a **modular based design** as seen in the diagram below, where the shooting mechanism, camera, motorized platform, can be taken out and replaced easily. This is necessary due to the need for constant re-iterations of the design as well as the parts being easily damaged in the competition.
 
 *Insert image here*
 
+We can split the vehicle into 5 modules that can be easily taken apart from the system:
+1. Head
+	a. Shooter Mechanism
+		i. Shooter Frame
+		ii. Motors
+	b. Projectile Speed Monitor
+	c. Camera
+	d. Ammo Box
+	e. Y and X Axis Gimbals
+	f. Servos
+		i. Camera
+		ii. Ammo Box Cover
+	g. Remote Controller Receiver
+2. Base
+	a. Motors x4
+	b. Mecanum Wheels x4
+	c. ESC x4
+	d. ESC Center Board
+	e. Suspension System
+3. Core
+	a. Microcontroller Unit
+	b. GPU
+	c. Referee System Main Controller
+4. Chassis
+	a. Rolling Chassis
+	b. Body Plates (To be mounted on the whole vehicle to protect its inner components)
+	c. Head Frame (Contains the Head module)
+	d. Referee System Armour Packs
+5. Power
+	a. Battery
+	b. Power Supply Management
+
+
 ### 4.1 Suspension Design
+Vibration control is an important aspect to consider during the design as well as the brainstorming because there is a need for a dynamic and interactive model between the manipulator and the platform to stabilise the robots when they move through rough terrain. There are two approaches: A **dependent suspension design (suspension)** or an **independent suspension design (U-joints)**. We are looking at an independent suspension system, allowing each wheel to displace vertically independent of the other wheels. In such a set-up, the whole vehicle would be more steady by  eliminating external interferences when travelling over obstacles and bumps, maintaining a higher overall accuracy.
 
 ### 4.2 Weight Distribution
+The overall idea is to **lower the center of gravity** and **increase dynamic stability**. To do so, we concentrate most of the component weight in the Base module and reduce the weight of the Head module (which contains the Shooter and Camera). This is done by housing the Core and accessories attachment close towards the ground, we will be able to lower the centre of gravity, thereby providing an **optimal static stability** for the vehicle after calculation using dynamics equations.  
 
 ### 4.3 Chassis Optimization
+By **making it more compact**, we are able to achieve a more stable structure for maneuvering and achieving mission success. Hence, there is a need to update the frame of the vehicle in order to be in-line with the different goals we have in mind.  
 
 ### 4.4 Power Consumption
+We must ensure that the peak current draw when climbing slopes do not exceed that of the max safety current draw from the battery, nor does it affect the other electrical components on the vehicle.
 
 ## 5. Prototyping
 [Back to Top](#contents)
@@ -170,34 +202,42 @@ An alternative method would be to use **lego structures to act as a quick yet co
 ## 6. Fabrication Materials and Methods
 [Back to Top](#contents)
 
-The fabrication methods listed below and not exhaustive and there are various advantages and disadvantages to each of them. Which is why we must utilise a whole range of methods/materials according to the purpose.
-
-### 6.1 Materials
+### 6.1 Fabrication Materials
+The fabrication methods listed below and not exhaustive and there are various advantages and disadvantages to each of them - which is why we must utilise a whole range of methods/materials according to the purpose.
 
 #### Aluminium
-One of the materials used in designing and fabricating the covers that protect the top of the robot is formed sheet aluminium. Aluminium is easy to machine, and with proper structural design, it can possess a high strength to weight ratio.
-#### Steel
-The skeletal structure of the rolling chassis will need to be extremely rigid and strong to significantly reduce any deformation that can occur from collisions as well as enemy pellets. We can use steel beams and brackets to assemble the main skeleton.
-#### Acrylic
-Acrylic’s transparency makes it a suitable material for the chassis during the prototype stage. It is inexpensive and easy to machine. It is used so we can visualize and check the internal mechanisms of the shooter/motors and effectively troubleshoot problems.
-#### Fasteners
-Nuts and bolts are the bread and butter of most mechanical assemblies. However, in order to save time from having to regularly take apart the modules in the prototyping phase, we also propose zip ties and velcro straps as an inexpensive and more efficient alternative to traditional fastening methods.
+One of the materials used in designing and fabricating the covers that protect the top of the robot is formed sheet aluminium. Aluminium is **easy to machine**, and with proper structural design, it can possess a **high strength to weight ratio.**
 
-### 6.2 Machining
+#### Steel
+The skeletal structure of the rolling chassis will **need to be extremely rigid and strong** to significantly reduce any deformation that can occur from collisions as well as enemy pellets. We can use steel beams and brackets to assemble the main skeleton.
+
+#### Acrylic
+Acrylic’s **transparency** makes it a suitable material for the chassis during the prototype stage. It is **inexpensive and easy to machine.** It is used so we can visualize and check the internal mechanisms of the shooter/motors and **effectively troubleshoot problems.**
+
+#### Fasteners
+Nuts and bolts are the bread and butter of most mechanical assemblies. However, in order to **save time when having to regularly take apart the modules in the prototyping phase**, we also propose **zip ties and velcro straps as an inexpensive and more efficient alternative** to traditional fastening methods.
+
+### 6.2 Fabrication Methods
+
+#### Machining
 We will have a 3D design converted into a planar drawing in autocad/solidworks (They have in-built CNC G-code output) and eventually CNC machine the metal sheets. For parts that do not require CNC machining, they can be manually machined.
 
-### 6.3 3D Printing
-There are certain parts of the vehicle that do not require a high strength, and these are the areas we can reduce the weight through 3D printing the parts in PLA/ABS. One of these components are the ammo box/cover, as well as the servo brackets.
+#### 3D Printing
+There are certain parts of the vehicle that do not require a high strength, and these are the areas we can **reduce the weight through 3D printing the parts in PLA/ABS.** One of these components are the ammo box/cover, as well as the servo brackets.
 
-### 6.4 Laser Cutting
-For thin materials (thin aluminium and acrylic sheets), laser cutting can be a quick, efficient and accurate fabrication method. Especially in the prototyping phase. 
+#### Laser Cutting
+For thin materials (thin aluminium and acrylic sheets), **laser cutting can be a quick, efficient and accurate fabrication method.** Especially in the prototyping phase. 
 
 ## 7. System Architecture
 [Back to Top](#contents)
 
+We are planning to use a **modular system** for the ease of prototyping and debugging. We plan to have **three main modules**, the Movement module, Communication module and the Threat detection module.
+
 ### 7.1 Movement Architecture
+For the movement of the robot, we plan to use an Arduino Mega to get the signals from the main controller (Voodo Board), through serial connection and controls a motor controller (that controls the direction of the wheel and the speed using the PID logic from the Arduino Mega to ensure that the robot can turn and move straight accurately. The odometry data such as the number of revolutions (obtained from the wheel encoder) of the wheel will be fed into the PID to adjust the robot so that it can move straight.
 
 ### 7.2 Communication Architecture
+We plan to use Robotic Operating System (ROS) to communicate the operator’s PC with the main controller on the robot over TCP-IP communication. We plan to build a controller script, that can be controlled using WASD and X to shoot the weapon. This will give the operator a more natural gaming feel to operating the robot. We will also have a GUI that will give them alert’s on the presence of enemy robots nearby so that the operator can take the shot. 
 
 ## 8. Artificial Intelligence and Algorithms
 [Back to Top](#contents)
