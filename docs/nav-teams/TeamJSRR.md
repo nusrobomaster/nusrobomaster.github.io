@@ -1,4 +1,4 @@
-# Team RSJJ
+# Team JSRR
 
 ## Contents
 1. [Team Members](#team-members)
