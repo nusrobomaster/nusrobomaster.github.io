@@ -1,19 +1,27 @@
-NUS Titan
-General plan
+# NUS Titan
+## General plan
 First edition
 
 
 
-Table of content
+## Table of content
 
 Table of content    1
+
 Team    1
+
 Budget    1
+
 Design choices    2
+
 Mechanics    2
+
 Electronics    2
+
 Programming    3
+
 Technologies    3
+
 Ideas    3
 
 
