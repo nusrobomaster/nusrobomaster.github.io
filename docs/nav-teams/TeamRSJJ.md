@@ -1,54 +1,73 @@
 # Team RSJJ
 
 ## Contents
-*Insert contents with links to individual sections here*
+1. [Team Members](#team-members)
+2. []
 
-## Team Members
+## 1. Team-Members
 We would like to express our deepest appreciation to Mechanical Engineering Department, staff and our dearest sponsor for making this competition possible to us, thus allowing us to reach our fullest potential by exposing ourselves to challenges beyond our reach. We are a team of multi-talented individuals with background ranging from Computer Engineering to Mechanical Engineering, allowing for easy workload distributions due to our experiences and skill sets. 
 
 ### 1. Raghav Bhardwaj
+<p align = "left"> <img src="readme_src/poke_ai_main_demo.gif" alt="poke.AI demo"> </p>
+
 **Matric No:** A0184445Y          
 **Course:** Computer Engineering  
 
-**About Me:**                                                                                                                                      
-Year 2 Computer Engineer with experience with **Computer Vision**, **Artificial Intelligence**, and **Game Development + 3D Animation.** Knowledge of programming languages including **Python**, **C**, **C++**, **C#**, and **Java**, and frameworks like **Tensorflow**, **Keras**, **OpenCV**, **Robot Operating System**, and **Unity3D.** Miscellaneous skills include **CAD modelling and 3D printing, Photoshop, and Video Editing.**                                                  
-**Roles:**                                                                                                                                            
+**About Me:**                                         
+
+Year 2 Computer Engineer with experience with **Computer Vision**, **Artificial Intelligence**, and **Game Development + 3D Animation.** Knowledge of programming languages including **Python**, **C**, **C++**, **C#**, and **Java**, and frameworks like **Tensorflow**, **Keras**, **OpenCV**, **Robot Operating System**, and **Unity3D.** Miscellaneous skills include **CAD modelling and 3D printing, Photoshop, and Video Editing.**  
+
+**Roles:**
 * Creation of Website
 * Computer Vision and Algorithms
 
 ### 2. Rishi Mahadevan
+<p align = "left"> <img src="readme_src/poke_ai_main_demo.gif" alt="poke.AI demo"> </p>
+
 **Matric No:** A0184381B        
 **Course:** Computer Engineering
 
+**About Me:**
+
 *Insert details here.*
-#### Roles
+
+**Roles:**
+
 * Electrical System
 * Robotics System Architect
 
 ### 3. Tan Guan Zhong
+<p align = "left"> <img src="readme_src/poke_ai_main_demo.gif" alt="poke.AI demo"> </p>
+
 **Matric No:** A0154912H           
 **Course:** Mechanical Engineering
 
+**About Me:***
+
 *Insert details here.*
-#### Roles
+
+**Roles:**
+
 * Mechanical System Design
 * *Can add some more here hehe*
 
 ### 4. Yu Shibin
-> **Matric No:** A0169999R                
-> **Course:** Mechanical Engineering
+<p align = "left"> <img src="readme_src/poke_ai_main_demo.gif" alt="poke.AI demo"> </p>
+
+**Matric No:** A0169999R                
+**Course:** Mechanical Engineering
+
+**About Me:**
 
 *Insert details here.*
-#### Roles
+
+**Roles:**
+
 * Fabrication & Rapid Prototyping
 * Material Sourcing
 
----
-
 ## Timeline and Milestones
 *Placeholder text*
-
----
 
 ## Key Aspects
 Design Considerations for Unmanned Ground Vehicle (UGV):
@@ -67,8 +86,6 @@ According to the 2019 rules:
 | Maximum Expansion Size (mm) | 700 x 700 x 600 | |
 | Maximum Weight (kg) | 20 | Includes battery |
 
----
-
 ## General Design
 We propose a modular based design as seen in the diagram below, where the shooting mechanism, camera, motorized platform, can be taken out and replaced easily. This is necessary due to the need for constant re-iterations of the design as well as the parts being easily damaged in the competition.
 
@@ -76,14 +93,10 @@ We propose a modular based design as seen in the diagram below, where the shooti
 
 *Insert more details here*
 
----
-
 ## Protoyping
 To reduce costs of prototyping, we propose **3D printing** of the different mechanisms and parts using **PolyLactic Acid (PLA) and Acrylonitrile Butadiene Styrene (ABS)**. With 3D printing, we can efficiently determine if mechanisms operate as intended and perform re-iterations of the design, without wasting resources for the final competition vehicle. We have chosen these materials due to different considerations such as their relatively comparable **structural strength**, **cost for rapid prototyping** as well as **easy access to equipment** for producing a prototype.
 
 An alternative method would be to use **lego structures to act as a quick yet cost-friendly** method to prototype and test the more crucial parts of the robot (eg. Shooting mechanism, movement and computer vision algorithms).
-
----
 
 ## Fabrication Materials and Methods
 The fabrication methods listed below and not exhaustive and there are various advantages and disadvantages to each of them. Which is why we must utilise a whole range of methods/materials according to the purpose.
@@ -106,8 +119,6 @@ There are certain parts of the vehicle that do not require a high strength, and 
 
 ### Laser Cutting
 For thin materials (thin aluminium and acrylic sheets), laser cutting can be a quick, efficient and accurate fabrication method. Especially in the prototyping phase. 
-
----
 
 ## Proposed Budget
 The proposed budget is for one unit standard vehicle and does not include any costs that might arise from damaged components. The costs are also considered without discounts to robomaster participants, and at it’s full price.
