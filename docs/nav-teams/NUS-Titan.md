@@ -12,11 +12,11 @@ First edition
   - a function/speciality (shooting/vision, chassis, programming, strategy).
 
 ## Timeline
-![Timeline](./assets/TitanTimeline.JPG)
+![Timeline](./assets/TitanTimeline.jpeg)
 
 ## Budget
 Per robot / per discipline (mecha/elec/devices)
-![Budget](./assets/TitanBudget.JPG)
+![Budget](./assets/TitanBudget.jpeg)
 
 ## Design choices
 ### Mechanics
@@ -46,7 +46,7 @@ As general as possible (common to all robots, can change platform), starting wit
 ## Technologies
 
 ### Ideas
-![Design](./assets/TitanDesign.JPG)
+![Design](./assets/TitanDesign.jpeg)
 
 - Multi robot target tracking (use information from multiple robots to find target)
 - Laser fixed on drone pointing at enemies 
