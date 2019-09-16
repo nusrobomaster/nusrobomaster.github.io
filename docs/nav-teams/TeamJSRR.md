@@ -148,43 +148,71 @@ We propose a **modular based design** as seen in the diagram below, where the sh
 <p align = "center"> <img src="assets/TeamJSRR/general_design.png" alt="General Design Schematic"> </p>
 
 We can split the vehicle into 5 modules that can be easily taken apart from the system:
-1. Head
+**1. Head**
+	
 	a. Shooter Mechanism
+	
 		i. Shooter Frame
+		
 		ii. Motors
+	
 	b. Projectile Speed Monitor
+	
 	c. Camera
+	
 	d. Ammo Box
+	
 	e. Y and X Axis Gimbals
+	
 	f. Servos
+	
 		i. Camera
+		
 		ii. Ammo Box Cover
+	
 	g. Remote Controller Receiver
-2. Base
-	a. Motors x4
-	b. Mecanum Wheels x4
-	c. ESC x4
-	d. ESC Center Board
-	e. Suspension System
-3. Core
-	a. Microcontroller Unit
-	b. GPU
-	c. Referee System Main Controller
-4. Chassis
-	a. Rolling Chassis
-	b. Body Plates (To be mounted on the whole vehicle to protect its inner components)
-	c. Head Frame (Contains the Head module)
-	d. Referee System Armour Packs
-5. Power
-	a. Battery
-	b. Power Supply Management
 
+**2. Base**
+	
+	a. Motors x4
+	
+	b. Mecanum Wheels x4
+	
+	c. ESC x4
+	
+	d. ESC Center Board
+	
+	e. Suspension System
+
+**3. Core**
+	
+	a. Microcontroller Unit
+	
+	b. GPU
+	
+	c. Referee System Main Controller
+
+**4. Chassis**
+
+	a. Rolling Chassis
+	
+	b. Body Plates (To be mounted on the whole vehicle to protect its inner components)
+	
+	c. Head Frame (Contains the Head module)
+	
+	d. Referee System Armour Packs
+
+**5. Power**
+	
+	a. Battery
+	
+	b. Power Supply Management
 
 ### 4.1 Suspension Design
 Vibration control is an important aspect to consider during the design as well as the brainstorming because there is a need for a dynamic and interactive model between the manipulator and the platform to stabilise the robots when they move through rough terrain. There are two approaches: A **dependent suspension design (suspension)** or an **independent suspension design (U-joints)**. We are looking at an independent suspension system, allowing each wheel to displace vertically independent of the other wheels. In such a set-up, the whole vehicle would be more steady by  eliminating external interferences when travelling over obstacles and bumps, maintaining a higher overall accuracy.
 
 ### 4.2 Weight Distribution
-The overall idea is to **lower the center of gravity** and **increase dynamic stability**. To do so, we concentrate most of the component weight in the Base module and reduce the weight of the Head module (which contains the Shooter and Camera). This is done by housing the Core and accessories attachment close towards the ground, we will be able to lower the centre of gravity, thereby providing an **optimal static stability** for the vehicle after calculation using dynamics equations.  
+The overall idea is to **lower the center of gravity** and **increase dynamic stability**. To do so, we concentrate most of the component weight in the Base module and reduce the weight of the Head module (which contains the Shooter and Camera). This is done by housing the Core and accessories attachment close towards the ground, we will be able to lower the centre of gravity, thereby providing an **optimal static stability** for the vehicle after calculation using dynamics equations. By doing so, we are able to reduce the current height from 481mm as seen in appendix 10.2 to roughly 400mm taken from calculations. 
 
 ### 4.3 Chassis Optimization
 By **making it more compact**, we are able to achieve a more stable structure for maneuvering and achieving mission success. Hence, there is a need to update the frame of the vehicle in order to be in-line with the different goals we have in mind.  
@@ -253,12 +281,12 @@ We plan to use Robotic Operating System (ROS) to communicate the operator’s PC
 
 The proposed budget is for one unit standard vehicle and does not include any costs that might arise from damaged components. The costs are also considered without discounts to robomaster participants, and at it’s full price.
 
-| Category | Item | Model | Details | Cost (USD) | Qty | Total Cost (USD) |
+| Category | Item | Model | Details | Cost (USD - unless specified) | Qty | Total Cost (USD - unless specified) |
 | ---      | ---  | ---   | ---     | ---        | --- | ---              |
 | Head | Z-axis Gimbal | Turnigy HD 3508 Brushless Gimbal Motor | Function: Rotate head about z axis (Yaw) [Link](https://hobbyking.com/en_us/turnigy-hd-3508-brushless-gimbal-motor-bldc.html) | 28.54 | 1 | 28.54 |
 | | Y-axis Gimbal | Turnigy HD 3508 | | 28.54 | 1 | 28.54 |
 | | Gimbal Motor Controller | Tarot ZYZ22 GOPRO Brushless Camera Gimbal Controller | [Link](https://hobbyking.com/en_us/tarot-zyz22-gopro-brushless-camera-gimbal-controller.html) | 22.2 | 1 | 22.2 |
-| | First Person View Camera | RunCam 5 | Weight: 0.056kg [Link](https://sea.banggood.com/RunCam-5-12MP-56g-Smallest-4K-Cam-HD-Recording-145-Degree-NTSCPAL-16943-Switchable-FPV-Action-Camera-Bulit-in-Battery-for-RC-Racing-Drone-p-1494081.html?p=SP07155769873201608T&custlinkid=440530&cur_warehouse=CN) | S$138.40 | 1 | S$138.40 |
+| | First Person View Camera | RunCam 5 | Weight: 0.056kg [Link](https://sea.banggood.com/RunCam-5-12MP-56g-Smallest-4K-Cam-HD-Recording-145-Degree-NTSCPAL-16943-Switchable-FPV-Action-Camera-Bulit-in-Battery-for-RC-Racing-Drone-p-1494081.html?p=SP07155769873201608T&custlinkid=440530&cur_warehouse=CN) | S$139.79 | 1 | S$139.79 |
 | | Ammo Box & Cover | Material: PLA, Fabrication Method: 3D Printing | Accounted in raw materials | | |
 | | Servo (Controls pitch of Camera) | HS-5625MG (High speed digital servo) | Function: An additional degree of freedom (independent of shooter) for the camera. Requires a servo with high stall torque to reduce camera shake. [Link](https://hitecrcd.com/products/servos/sport-servos/digital-sport-servos/hs-5625mg/product) | 49 | 1 | 49 |
 | | Servo (Controls Ammo box cover) | HS-311 Standard Economy Servo (Analogue) | Function: Open and close ammo box to receive ammo pellets. [Link](https://hitecrcd.com/products/servos/sport-servos/analog-sport-servos/hs-311/product) | 15 | 1 | 15 |
@@ -278,7 +306,24 @@ The proposed budget is for one unit standard vehicle and does not include any co
 | | ESC Center Board | RoboMaster ESC Center Board | | 13 | 1 | 13 |
 | | Arduino | Arduino Mega 2560 | [Link](https://sea.banggood.com/Mega2560-R3-ATMEGA2560-16AU-CH340-Board-With-USB-For-Arduino-p-940935.html?rmmds=buy&cur_warehouse=CN) | 11.17 | 3 | 33.51 |
 | | Motor controller | TB6612FNG Dual DC Stepper Motor Driver | [Link](https://www.lazada.sg/products/best-selling-tb6612fng-dual-dc-stepper-motor-driver-module-controller-board-for-arduino-i292165237-s480025749.html?ef_id=EAIaIQobChMIzMW0uLrV5AIV2IRwCh35egGpEAQYASABEgKfbfD_BwE:G:s&s_kwcid=AL!4281!3!242381247295!!!u!762460417326!&exlaz=d_1:mm_150050845_51350205_2010350205::12:1025267241!54483208270!!!pla-762460417326!c!762460417326!480025749!129806539&gclid=EAIaIQobChMIzMW0uLrV5AIV2IRwCh35egGpEAQYASABEgKfbfD_BwE) | S$5.09 | 4 | S$20.36 |
+| Core | Microcontroller unit | RoboMaster Development Board Type A| [Link](https://store.dji.com/cn/product/rm-development-board-type-a) | 68 | 1 | 68 |
+| | Connection cables | RoboMaster Development Board Cables | | 40 | 1 | 40 |
+| | Microcomputer unit for computer vision and AI algorithms | Manifold 2 | Components include NVIDIA Jetson TX2 & Intel Core i7-8550U. Weight: 0.23kg. [Link](https://store.dji.com/cn/product/manifold-2?site=brandsite&from=manifold-2_buy_now_bottom&vid=80932) | S$1357 | 1 | S$1357 |
+| Power | Battery Rack | Self-designed and 3D printed | Function: Holds the battery. Material: PLA. Fabrication method: 3D Printing. Weight: 0.15kg - 0.3kg | Cost accounted for in raw materials | | |
+| | Battery (Lithium Polymer) | Turnigy 5000mAh 5S 30C Lipo | Battery is subject to change depending on the continuous/maximum current draw, capacity requirements etc. Weight: 0.62kg. [Link](https://hobbyking.com/en_us/turnigy-5000mah-5s-30c-lipo-pack-xt-90.html) | 49.31 | 2 | 98.62 |
+| RoboMaster Referee System | Speed Monitor Module (17 mm projectile) | | Total weight: 0.6kg | | | |
+| | Video Transmitter Module (VTM) | | | | | |
+| | Positioning Module             | | | | | |
+| | Referee System Main Controller | | | | | |
+| | Power Supply Management System | | | | | |
+| External Components | Remote Control | RoboMaster Remote Controller Set | Function: Manual control of the vehicle | 143 | 1 | 143 |
+| Raw Materials/Extra Parts | Polylactic Acid(PLA) 3D printer filament | eSun PLA Filament | PLA is easier to print compared to ABS and PETG, with comparable strength. However, most PLA filaments cannot tolerate temperatures above 60 degree Celsius [Link](https://www.lazada.sg/products/esun-pla-175mm-blue-3d-printer-filament-corn-grain-refining-material-1kg-spool-22lbs-dimensional-accuracy-005mm-consumables-i288043850-s465252461.html?spm=a2o42.searchlistbrand.list.3.2f636072pKHGSE&search=1) | S$28 | 5x1kg spools | 140 |
+| | Fasteners (Nuts, bolts and screws) | | | S$20 | | S$20 |
+| | Power transmission (gears, pulleys etc.) | | | S$25 | | S$25 | 
 
+
+
+Link: https://store.dji.com/cn/product/manifold-2?site=brandsite&from=manifold-2_buy_now_bottom&vid=80932 
 ### 9.1 Electronic Parts
 
 ### 9.2 Robotic Structure
