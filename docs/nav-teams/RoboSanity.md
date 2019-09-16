@@ -30,8 +30,8 @@ No| Role          |  Description                        | Assigned to       |
  9|  Pilot        | TX & RX system; Game-play strategy  | Nicholas |
 
 ## Timeline
-![](gantt1.png)
-![](gantt2.png)
+![](./assets/gantt1.png)
+![](./assets/gantt2.png)
 ## Key Design Aspects for Standard Robot
 ### Movement
 To ensure that the robot has smooth and fast movement throughout the match. It will be great if our robot can move/react faster compared to other robots, since timing is also important when attacking. 
@@ -56,7 +56,7 @@ If the communication is lost, the robot is automatically disqualified/counted as
 
 We can use a casing which covers the whole body, but also lightweight to protect the body from collision and scratch. One suggestion that we propose is to make it into net-like structure composed of hexagonal shapes (see picture below). This is to make it harder for the opponent to shoot through our pressure pad.
 
-![](hexagonal.jpg)
+![](./assets/hexagonal.jpg)
 
 ## General Design
 
@@ -79,14 +79,14 @@ For metallic materials, we can use CNC Milling, which is controlled by computer,
 
 ### Structural Composition
 The whole platform is modular-designed with quick disassembly and each part can be separately programmed and tested.
-![](design1.png)
+![](./assets/design1.png)
 
 The platform is mainly composed of three parts.
 1. chassis module
 - Use Mecanum wheels for omnidirectional movement
 - Powered by the RoboMaster M3508 P19 Brushless DC Gear Motor and RoboMaster C620 ESC)
 - Use RoboMaster Development Board Type A (STM32F427) as MCU
-![](design2.png)
+![](./assets/design2.png)
 
 2. Gimbal module
 - Use 2-axis gimbal for two-DOF rotation movement
@@ -95,14 +95,14 @@ The platform is mainly composed of three parts.
 - Powered by RoboMaster M2006 P36 Brushless DC Gear Motor for projectile supply
 - Powered by DJI Snail 2305 Racing Motor for projectile launching
 - Use RoboMaster Development Board Type A (STM32F427) as MCU
-![](design3.png)
+![](./assets/design3.png)
 
 3. Referee System Module
 - An electronic penalty system that integrates computation, communication, and control features into different submodules and is used for robotic competitions only. Developers can acquire the information from specific software interface about the progress of the competition and the status of robots
 - The Referee System includes the onboard terminal installed on the robot, as well as the server and client software installed on the PC
 - Submodules installed on the robot consists of Armor Module，Main Control Module，Speed Monitor Module,    RFID Interaction Module and Power Management Module
 <br/>
-![](design4.png)
+![](./assets/design4.png)
 
 In addition, DT7 Remote Controller and smart Lipo 6s battery (Matrice 100 TB47D Battery or TB48D) with related charger are included in the accessories of the robot platform. 
 The platform accommodates an extensive variety of sensors and computing devices, customized to meet research needs easy for extended development. It provides sensor Installation holder compatible with different types of sensors including industrial mono-camera, Lidar, UWB locating kit, depth camera and so on. And the platform officially supported DJI Manifold 2 as the onboard computing device, but it is compatible with intel NUC, Nvidia Jetson TX1, TX2 or Xavier with certain type of carrier board.
@@ -181,7 +181,7 @@ The hull if the quadcopter will be attached with the bullet storage box and gimb
 
 Due to the size limitation, we proposed the box to be evenly spread across the drone to reduce tensile stress on the middle. In addition, this will allow for better movement speed more aerodynamic design for the weapon placement.
 <br/>
-![](air1.png)
+![](./assets/air1.png)
 
 To further reduce weight for the frame, we propose the hand to be tapered and using honeycomb structure to increase the integrity of the frame.
 
