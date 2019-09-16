@@ -46,8 +46,8 @@ No| Role          |  Description                        | Assigned to       |
 
 ## Timeline & Milestones
 
-![Timeline1](./assets/rekt_t1.png)
-![Timeline2](./assets/rekt_t2.png)
+![Timeline1](./assets/rekt_t1.jpg)
+![Timeline2](./assets/rekt_t2.jpg)
 
 ## robotiKs Design Considerations
 
