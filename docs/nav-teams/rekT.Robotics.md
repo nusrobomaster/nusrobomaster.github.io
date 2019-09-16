@@ -1,34 +1,34 @@
 # reKt.robotiKs
 
-# Introduction
+## Introduction
 
-# robotiKs specialisKs
+## robotiKs specialisKs
 
-## Mong Juin Hwaye (Hwaye)
+### Mong Juin Hwaye (Hwaye)
 
 ![Hwaye](./assets/rekt_hwaye.jpg)
 
 A dare-to-dream Mechanical Engineering freshman from NUS. With a strong passion, I have been active in the field of robotics and automation for about a decade. Prior to joining NUS, I was part of the NUS-MOE Science Research Program, specializing in the mapping and simulation of self-driving vehicles in the SMART-FUM Lab. This 1.5 year attachment was where I delved into learning about the Robot Operating System (ROS) and Gazebo simulation platforms. I was an active representative of the school team, where I represented the country to several robotic competitions including the First Lego League 2016 World Festival in the USA - Mechanical Design Award. These experiences reassured me that I would always enjoy working with mechanical structures and software controls. What motivates even further is that the DJI Robomasters requires a large collective effort, including so many more fields that I’m also interested in! Can’t wait to compete in the finals, and finally visit the Silicon Valley of the East as a robotics specialist!
 
-## Tan Je Sean (Je Sean)
+### Tan Je Sean (Je Sean)
 
 ![Je Sean](./assets/rekt_jesean.jpg)
 
 I am currently a Year 1 Mechanical Engineering student and have quite a large interest in the field of robotics. I was part of the robotics team back in Secondary and High School. Having also had the opportunity to participate in WRO, it showed me how designs and concepts can vary widely between others and my own and this really sparked a fire within me to further dive into the field of robotics. I loved seeing when my robot is able to run as designed, it is almost as if watching your child grow up. From the stages of conception or the final stage of completion, every step of the way is a learning journey. Whenever I stumble across an obstacle I will take it as a challenge and not rest until it has been solved.
 
-## Teo Ru Min (Ru Min)
+### Teo Ru Min (Ru Min)
 
 ![Ru Min](./assets/rekt_rumin.jpeg)
 
 As a current Mechanical Engineering student, I had been into the robotics team in secondary school and had developed a passion in this area. I would really like to join this competition, and it is mainly to deepen my knowledge and understanding in this specific sector. Out of the 7 robots, I am particularly interested in the Engineer robot since this robot have more freedom in terms of the designing of mechanism. Since I plan to venture into this sector, I would like to take this opportunity to learn more about it. 
 
-## Kelly Ha (Kelly)
+### Kelly Ha (Kelly)
 
 ![Kelly](./assets/rekt_kelly.jpeg)
 
 Being a biomedical engineering undergraduate, I always wonder how the robot mechanism can help humans. Taking this opportunity, I can adapt the future technologies with the properties and characteristics of homo sapiens in order to have a real high intelligence robot. Things including how the movement of the body or fluid mechanism of the human body can be adapted to the machine. I have never been into any robotics event unlike the rest of my team, however, I'm willing to learn and support them with my passion. I take this as one of my obstacles, and like always, I will find a way to go across it. By the meantime, I will like to take this opportunity to reach my hand to those talented in electrical components to join our team!
 
-## Proposed Manpower Arrangement
+### Proposed Manpower Arrangement
 No| Role          |  Description                        | Assigned to       | 
 --|---------------|---                                  |---                |
  1|  Mechanical   | Chassis; Suspension                 |  Hwaye            |
@@ -44,18 +44,18 @@ No| Role          |  Description                        | Assigned to       |
  For interested people to join our team, please contact Telegram @felixmong
 
 
-# Timeline & Milestones
+## Timeline & Milestones
 
 
  >   You should study the past year's competition deadlines, and align your team's progress to those deadlines
 
 ![Timeline](./assets/team-awesome-timeline.png)
 
-# robotiKs Design Considerations
+## robotiKs Design Considerations
 
 ![Overview Photo](./assets/rekt_overview.jpg)
 
-## BASE
+### BASE
 
 1. Mecanum wheels are to be utilised as the main driving wheel. The base of the robot in contact with the ground would form a square/rectangle, such that the centre of rotation of the base is equidistant to all four wheels.
 
@@ -67,7 +67,7 @@ No| Role          |  Description                        | Assigned to       |
 
 ![Wheel Photo](./assets/rekt_wheel.jpg)
 
-## GIMBAL/TURRET
+### GIMBAL/TURRET
 
 ![Feeder Photo](./assets/rekt_feeder.jpg)
 
@@ -85,7 +85,7 @@ No| Role          |  Description                        | Assigned to       |
 
 ![Gun Photo](./assets/rekt_gun.jpg)
 
-# General Design and Fabrication Methods
+## General Design and Fabrication Methods
 
 We plan to use Aluminium Extrusions as the basic building block of the robot base while PVC pipes for the feeder mechanism due to their low cost and high availability of material. The feeding mechanism will utilise PVC pipes with slight bigger diameter  than projectile to ensure projectiles move in a single file without being stuck and the corner pieces to utilise bends with large bend radius to allow smooth movement. It can be easily cut and connected to form different shapes and sizes according to our needs and dimensions. 
 
@@ -94,7 +94,7 @@ Certain parts that cannot be sourced or require more strength than 3D printed st
 Both the base and gimbal module will be developed separately but in close communication to allow modularity and ease of maintenance in the case of a need to swap. Easy to remove mounts as well as standardised mounting frames will be incorporated as modularity will remain a large part in our design process.
 
 
-# Proposed Budget
+## Proposed Budget
 
 No| Component     |  Unit Price (USD)                   | Quantity       | Total |
 --|---------------|---                                  |---                |---  |
@@ -137,5 +137,5 @@ No| Component     |  Unit Price (USD)                   | Quantity       | Total
 37| MISCELLANEOUS ITEMS |200| |200|
 | | | TOTAL | 3599 |
 
-   | Chassis; Suspension                 |  Hwaye            |
+   
  
