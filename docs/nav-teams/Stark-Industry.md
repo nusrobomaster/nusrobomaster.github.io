@@ -18,8 +18,7 @@ Zifei: Final year mechanical engineering student. Skills: C, Java, CAD, MatLab (
 No| Role          |  Description                        | Assigned to       |
 --|---------------|---                                  |---                |
  1|  Mechanical   |  Sensors & Actuators Installation   |  Rachiket, Zifei  |
- 2|  Mechanical   |  Gun; Gimbals system                |Zifei, Rachiket，
-Sambhavi|
+ 2|  Mechanical   |  Gun; Gimbals system          |Zifei, Rachiket, Sambhavi|
  3|  Electrical   |  Power management; Electric Drive; Fail-safe   |  Sambhavi, Haotian |
  4|  Electronics  |MCU, Sensor interface; Close-loop Control | Haotian, Sambhavi       |
  5|  Software     | Linux OS; drivers, ROS Integration  | Shuo, Sambhavi     |
