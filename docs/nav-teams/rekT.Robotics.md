@@ -36,8 +36,8 @@ No| Role          |  Description                        | Assigned to       |
  3|  Electrical   | Power management; Electric Drive; Fail-safe   | Ru Min |
  4|  Electronics  | Sensor interface; Close-loop Control  |  Open position      | 
  5|  Software     | Linux OS; Sensor drivers            | Hwaye             | 
- 6|  Software     | Computer vision; Motion planning    | Je Sean           | 
- 7|  Operation    | Sponsorships; Chinese-English Translation |Hwaye, Kelly |   
+ 6|  Software     | Computer vision; Motion planning    | Open position           | 
+ 7|  Operation    | Sponsorships; Chinese-English Translation | Kelly, Hwaye |   
  8|  Operation    | Accounting; Publicity Materials     | Kelly             |  
  9|  Pilot        | TX & RX system; Game-play strategy  | Ru Min, Kelly     |
 
@@ -46,10 +46,8 @@ No| Role          |  Description                        | Assigned to       |
 
 ## Timeline & Milestones
 
-
- >   You should study the past year's competition deadlines, and align your team's progress to those deadlines
-
-![Timeline](./assets/team-awesome-timeline.png)
+![Timeline1](./assets/rekt_t1.png)
+![Timeline2](./assets/rekt_t2.png)
 
 ## robotiKs Design Considerations
 
@@ -135,7 +133,7 @@ No| Component     |  Unit Price (USD)                   | Quantity       | Total
 35| ALUMINUM FLAT PLATE HA0523 (20CM X 30CM) |4|6|24|
 36| HOSIM RC SHOCK ABSORBER |13|4|52|
 37| MISCELLANEOUS ITEMS |200| |200|
-| | | TOTAL | 3599 |
+| | | | TOTAL | 3599 |
 
    
  
