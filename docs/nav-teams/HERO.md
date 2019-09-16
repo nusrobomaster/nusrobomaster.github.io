@@ -80,15 +80,15 @@ Components:
         </ul>
     </ul>
     <ul>
-    <a href="https://www.alibaba.com/product-detail/11V-ICR18650-lithium-ion-Rechargeable-2600mah_62069335985.html?spm=a2700.7724857.normalList.1.61ff5aa9d0KiuJ&s=p">11V ICR18650 lithium ion Rechargeable 2600mah li-ion battery pack</a> 
-        <ul>
+    <li><a href="https://www.alibaba.com/product-detail/11V-ICR18650-lithium-ion-Rechargeable-2600mah_62069335985.html?spm=a2700.7724857.normalList.1.61ff5aa9d0KiuJ&s=p">11V ICR18650 lithium ion Rechargeable 2600mah li-ion battery pack</a> </li>
+                    <ul>
                     <li>Nominal Voltage: 11V(10120 rpm no load )</li>
                     <li>Capacity: 2600mAh(11.14 mins at max current )</li>
                     <li>Cycle life: >500 Times</li>
         </ul>
     </ul>
     <ul>
-    Friction wheels for firing mechanism
+    <li>Friction wheels for firing mechanism</li>
         <ul>
             Abrasion-Resistant Keyed Drive Rollers
             <ul>
@@ -99,12 +99,12 @@ Components:
         </ul>
     </ul>
     <ul>
-    Barrel 
+    <li>Barrel</li> 
         <ul>
         Aluminium profile for sturdiness and with gaps to minimise air resistance in barre
         </ul>
     </ul>
-    <ul>Gimbal
+    <ul><li>Gimbal</li>
          <ul>
             <li>Commercial-bought 2-axis stabilizing gimbal (~40-50USD, but usually made only for smartphones) (3-axis variants are more industrial-grade, but in range of few hundreds) with PID modulation on step servos and integrated controller board that can interface using GPIO with computational device of choice</li>
             <li><a href="https://tinyurl.com/y5fad6os">Tarot 3-axis (GPIO-compatible,, 149$)</a> </li>
@@ -121,13 +121,13 @@ Components:
     </ul>
     <ul>Things to test out:
         <ul>
-        Motor
-        <ul>Velocity of projectile</ul>
+        <li>Motor</li>
+        <ul><li>Velocity of projectile</li></ul>
         </ul> 
         <ul>
-        Friction wheels for firing mechanism
-        <ul>Stiffness of roller</ul>
-        <ul>Roller distance from one another</ul>
+        <li>Friction wheels for firing mechanism</li>
+        <ul><li>Stiffness of roller</li></ul>
+        <ul><li>Roller distance from one another</li></ul>
         </ul>       
     </ul>
     
@@ -136,61 +136,65 @@ Components:
 #### Sighting
 
 <ul>
-Optical Laser Rangefinders
-<ul><a href="https://www.robotshop.com/community/blog/show/lidar-light-amp-laser-based-distance-sensors">Lidar 1</a></ul>
-<ul><a href="https://www.digikey.com/products/en/sensors-transducers/optical-sensors-distance-measuring/542?FV=1f140000%2Cffe0021e&quantity=0&ColumnSort=-42&page=1&pageSize=25">Lidar 2</a></ul>
-<ul><a href="https://www.jenoptik.com/products/metrology/laser-distance-sensors">Lidar 3</a></ul>
+<li>Optical Laser Rangefinders</li>
+<ul><li><a href="https://www.robotshop.com/community/blog/show/lidar-light-amp-laser-based-distance-sensors">Lidar 1</a></li></ul>
+<ul><li><a href="https://www.digikey.com/products/en/sensors-transducers/optical-sensors-distance-measuring/542?FV=1f140000%2Cffe0021e&quantity=0&ColumnSort=-42&page=1&pageSize=25">Lidar 2</a></li></ul>
+<ul><li><a href="https://www.jenoptik.com/products/metrology/laser-distance-sensors">Lidar 3</a></li></ul>
 </ul>
 
 #### Ground mobility
 
 <ul>
-Wheels
-<ul><a href="https://www.robomaster.com/zh-CN/products/components/detail/135">Mecanum wheels </a>
-    <ul>Wheel diameter: 152.5mm </ul>
-    <ul>Wheel width: 45mm </ul>
-    <ul>Weight: 590g </ul>
-    <ul>6 mounting holes with a diameter of 5.2mm </ul>
-    <ul>Cost: 499RMB</ul>
+<li>Wheels</li>
+<ul><li><a href="https://www.robomaster.com/zh-CN/products/components/detail/135">Mecanum wheels</li></a>
+    <ul><li>Wheel diameter: 152.5mm</li> </ul>
+    <ul><li>Wheel width: 45mm </li></ul>
+    <ul><li>Weight: 590g</li> </ul>
+    <ul><li>6 mounting holes with a diameter of 5.2mm </li></ul>
+    <ul><li>Cost: 499RMB</li></ul>
 </ul>
-<ul>Suspension</ul>
-    <ul><a href="https://www.monotaro.sg/g/00141241/">Compression coil spring</a>
-        <ul>Spring constant: 3.089N/mm</ul>
-        <ul>Allowable load: 104.93N</ul>
-        <ul>Wire diameter 2.3</ul>
-        <ul>Loaded length: 44mm</ul>
-        <ul>Free length: 78mm</ul>
-        <ul>Weight: 70g</ul>
+<ul><li>Suspension</li></ul>
+    <ul><li><a href="https://www.monotaro.sg/g/00141241/">Compression coil spring</a></li>
+        <ul><li>Spring constant: 3.089N/mm</li></ul>
+        <ul><li>Allowable load: 104.93N</li></ul>
+        <ul><li>Wire diameter 2.3</li></ul>
+        <ul><li>Loaded length: 44mm</li></ul>
+        <ul><li>Free length: 78mm</li></ul>
+        <ul><li>Weight: 70g</li></ul>
     </ul>
 </ul>
 
 #### Chassis built
 <ul>
-Aluminium profile (Rectangular frame for stability)
-<ul>500mm x 500mm (Maximise base with allowance for wheel protrusion)</ul>
+    <li>
+    Aluminium profile (Rectangular frame for stability)
+    </li>
+<ul><li>500mm x 500mm (Maximise base with allowance for wheel protrusion)</li></ul>
 </ul>
 
 #### Motors and Powering System
 
 Another key consideration of the standard robot is high speed, light weight and flexibility. Therefore a constant and reliable power supply as well as a powerful motor are crucial in increasing and ensuring the performance of the fighter. 
 
-<ul>System Battery:
-<ul>Model: DJI TB48D</ul>
-<ul>Type: Lipo 6s</ul>
-<ul>Voltage: 22.8V</ul>
-<ul>Battery Capacity: 5700 mAh (high capacity)</ul>
+<ul><li>System Battery:</li>
+<ul><li>Model: DJI TB48D</li></ul>
+<ul><li>Type: Lipo 6s</li></ul>
+<ul><li>Voltage: 22.8V</li></ul>
+<ul><li>Battery Capacity: 5700 mAh (high capacity)</li></ul>
 </ul>
 <p>The battery has long run times with 6 cells and high power. This intelligent battery keeps informing about its performance, including real-time information about remaining battery power. Additionally, the battery automatically provides information about the voltage of each cell, the total lifetime charges and discharges, and its overall health and status, which make things easy to supervise.</p>
 
 <ul>
-Model: Robomaster M3508 Brushless DC Gear Motor with C620 Brushless DC Motor Speed Controller (ESC)
-    <ul>Total power: 220W</ul>
-    <ul>Rated Voltage: 24V</ul>
-    <ul>Stall torque: 5 N.m</ul>
-    <ul>Max rotational speed with a continuous torque of 3N·m：469rpm (2.5 m/s with 10cm-diameter wheel)
+    <li>
+    Model: Robomaster M3508 Brushless DC Gear Motor with C620 Brushless DC Motor Speed Controller (ESC)
+    </li>
+    <ul><li>Total power: 220W</li></ul>
+    <ul><li>Rated Voltage: 24V</li></ul>
+    <ul><li>Stall torque: 5 N.m</li></ul>
+    <ul><li>Max rotational speed with a continuous torque of 3N·m：469rpm (2.5 m/s with 10cm-diameter wheel)
         Wide Operating Temperature Range：32°~122° F (0~50° C)
-</ul>
-    <ul>Price: M3508: $79; C620: $63</ul>
+        </li></ul>
+    <ul><li>Price: M3508: $79; C620: $63</li></ul>
     
     pic to be uploaded
 </ul>
@@ -200,9 +204,10 @@ M3508 is chosen as the main motor because its compactness (98.4mmx42mm), powerfu
 
 #### Proposed Optical and Stability Mechanisms
 One especially important robot specification lies in the stability of its barrel and the corresponding vision field that enables the human controller to take aim. From the observations of successful teams in past DJI competitions, standard robots made use of the following techniques for effective deployment of its robot in both offensive and defensive aspects:
-<ul>When stationary, constantly spinning the robot chassis while keeping barrel and camera fixed to prevent enemy robots from targeting its armour modules easily</ul>
-<ul>Programmatic auto-correction/aiming onto important on-screen targets like enemy armour modules/power boosts/towers (can be toggled on/off quickly for outlier cases)</ul>
-<ul>Keeping camera and barrel fixed when robot is going down slopes/bumps (able to be turned off/on easily)</ul>
+
+<ul><li>When stationary, constantly spinning the robot chassis while keeping barrel and camera fixed to prevent enemy robots from targeting its armour modules easily</li></ul>
+<ul><li>Programmatic auto-correction/aiming onto important on-screen targets like enemy armour modules/power boosts/towers (can be toggled on/off quickly for outlier cases)</li></ul>
+<ul><li>Keeping camera and barrel fixed when robot is going down slopes/bumps (able to be turned off/on easily)</li></ul>
 
 <p>Most of these points imply the need to maintain two separate coordinate systems: one for the barrel/camera (the barrel assembly coordinate system) and the other for the chassis & wheels (chassis coordinate system) within the standard robot. The key goal is to keep the orientation of the barrel assembly coordinate system (relative to the global coordinate system) invariant to any change in orientation of the chassis coordinate system (relative to the global coordinate system). Note that the robot intentionally does not correct for translational change - it is more natural (game-like) for the human controller. Furthermore, the above proposed auto-targeting system can also take care of translational changes within the robot if needed.</p>
 
@@ -211,19 +216,21 @@ One especially important robot specification lies in the stability of its barrel
 <ul>
 Gimbal Stabilization
     <ul>
-    The isolation of the barrel assembly coordinate system from the chassis can be done in one of two ways, both of which require the gimbal to be motorized:
-    <ul>Open-loop correction of the barrel assembly system for every detected orientation change in the chassis coordinate system. This would remove the need for sensors on the limited space available on the gimbal structure, but is not recommended due to long-term error shift and “jerkiness” in error correction.</ul>
-    <ul>Closed-loop gimbal correction using linear hall-effect sensors and PID microcontroller board (most likely software-based PID instead of hardware-based). This would be the preferred way as the hall-effect sensors can take direct measurement of the barrel assembly eulerian orientation relative to the global coordinate system, with smooth error correction.</ul>
+    <li>The isolation of the barrel assembly coordinate system from the chassis can be done in one of two ways, both of which require the gimbal to be motorized:</li>
+    <ul><li>Open-loop correction of the barrel assembly system for every detected orientation change in the chassis coordinate system. This would remove the need for sensors on the limited space available on the gimbal structure, but is not recommended due to long-term error shift and “jerkiness” in error correction.</li></ul>
+    <ul><li>Closed-loop gimbal correction using linear hall-effect sensors and PID microcontroller board (most likely software-based PID instead of hardware-based). This would be the preferred way as the hall-effect sensors can take direct measurement of the barrel assembly eulerian orientation relative to the global coordinate system, with smooth error correction.</li></ul>
     </ul>
     <p>Since real-time stabilization is extremely crucial for effective human control, the latter method would be used. To aim the barrel and camera in an FPS-style manner with stabilization, the human controller would essentially control the set-point of the gimbal PID relative to the global coordinate system. The movement of the mouse would be internally translated into changes in the PID setpoints.</p>
     <p>Proposed motorized gimbal mounts/costs can be found in earlier sections of this proposal. The parts needed for a custom DIY implementation of a gimbal substructure can also be found within the same section.</p>
 </ul>
 
 <ul>
-Camera
+<li>Camera</li>
     <ul>
+    <li>
     There are three possible choices for camera types depending on the budget constraints and computational setup (next section): 
-    <ul><p>Basic mono-camera vision: Any hobbyist/drone FPV compact camera with sufficient resolution (>1080p) for a computer monitor. While basic computer vision techniques (thresholding, filter etc) can be performed to determine the onscreen position of targets, the camera would need to be combined with a laser-range finder (specs and possible laser-range finder models listed in earlier sections) to accurately determine target distance.</p>
+    </li>
+    <ul><li><p>Basic mono-camera vision: Any hobbyist/drone FPV compact camera with sufficient resolution (>1080p) for a computer monitor. While basic computer vision techniques (thresholding, filter etc) can be performed to determine the onscreen position of targets, the camera would need to be combined with a laser-range finder (specs and possible laser-range finder models listed in earlier sections) to accurately determine target distance.</p>
         <p>Possible models: <a href="https://tinyurl.com/y4ttctxu">Caddx</a> , <a href="https://tinyurl.com/y597ze4c">Runcam </a></p>
         <p>
         Advantages: requires the low computational power (Sensor fusion for distance estimation likely to be achievable in real-time on PI3)
@@ -231,11 +238,14 @@ Camera
         <p>
         Disadvantages: requires sensor fusion with range-finders for target distance estimation, which needs accurate mounting and prior calibration.</ul>
         </p>
+        </li>
     </ul>
      <ul>
+     <li>
         <p>Stereo-camera vision: Mount two cameras side by side. Target distance can be triangulated using gray-scale feature mapping in OpenCV or open-source stereo libraries and estimated without the need for a range-finder. </p>
         <p>Advantages:  No need for range-finders, able to perform distance estimation</p>
         <p>Disadvantages: Significant computational overhead (may not run real-time on Pi3 CPU Model), Requires two cameras to be bought, accurately mounted, and properly calibrated (taking up precious gimbal mounting space), and not fully accurate in estimating distance of outlier features.</p>
+    </li>    
     </ul>
     <ul>
         <p>Native depth-sensing cameras: a camera with inbuilt RGB colour vision and depth-sensing/point-cloud capabilities. It essentially fuses both range-finder and camera capabilities, and can be extended into fast 3D mapping (most likely not needed for Standard robots, but may be needed for Sentry) using its generated point-clouds.
