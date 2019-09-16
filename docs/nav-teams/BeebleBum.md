@@ -135,7 +135,7 @@ The Main Battle Robot in the field, performs tactical attack, defense, cooperati
 - Chassis rigidity and the displacement wheels position:
   - Many teams reported problems on the displacement of the wheels in the direction of the spindle. We attribute this pitfall to the lack of rigidity in the chassis design, especially around the mounting place of the wheels. We may overcome it by refine the design and make full use of open-source materials. 
 - Anti-clash protection of the wheels:
-  - Clashing is unavoidable in real-life competitions, as we discovered through analyzing the videos. By moving the wheels inwards and protect them by the outer frame of the chassis, it prevents the possible damage to the wheels owing to clashes.
+  - Clashing is unavoidable in real-life competitions, as we discovered through analyzing the videos. By moving the wheels inwards and protect them by the outer frame of the chassis, it prevents the possible damage to the wheels owing to clashes. <img id="gears" src="./assets/team-beeblebum/standard/1.jpg">
 - Light and efficient suspension system:
   - While some complicated suspension systems provide outstanding stability, we strive to develop a light and efficient system that consists of less movable components and provides better stability.
 - Reliable feeding and accurate firing system:
