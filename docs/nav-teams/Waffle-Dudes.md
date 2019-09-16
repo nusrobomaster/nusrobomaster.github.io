@@ -76,8 +76,7 @@ Having analysed the past year competitions and rule book we have come up with so
 
     - Simple design, minimise moving parts
     
-    ![Bumpers](./assets/Bumper_WD.jpeg)
-
+    
 2. Some slopes up to about 20 degress including a gap on two of the roads where robot has to "jump" across (ability to climb 20 degrees also a competition requirement)
 
     - Low centre of gravity while keeping within size constrains to prevent overturns
@@ -178,6 +177,9 @@ Having analysed the past year competitions and rule book we have come up with so
    - Rubber / Spring cushions around the referee plates, thus when the robot is hit, the referee plates not be in the same position for the second shot. Therefore, it lowers the damage taken as the opponent might have to recalibrate their aim
    
    - The guards (bumper system) will be designed such that it is angled and have a smooth finish to be able to deflect and incoming collision and prevent our robot from getting tangled with others
+   
+   ![Bumpers](./assets/Bumper_WD.jpeg)
+
 
 ### Fabrication Method
 
