@@ -123,8 +123,8 @@ $4080
 Very sturdy chassis (steel/aluminium) so that the robot can jump over ramps without sustaining significant damage.
 Lightweight higher parts (low gravity center, low inertia) for more stability
 Need for suspension - incase of gap and jumping over the ramp
-- Battle
 
+- Battle
 Protect all parts against enemy bullets (especially moving parts, gears, electronics)
   - Maybe design a “shell”, put on top to protect as much as possible
   - Heavy parts at the bottom (battery, chassis)
