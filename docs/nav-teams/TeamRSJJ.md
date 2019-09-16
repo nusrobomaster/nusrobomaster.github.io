@@ -1,5 +1,8 @@
 # Team RSJJ
 
+## Contents
+*Insert contents with links to individual sections here*
+
 ## Team Members
 We would like to express our deepest appreciation to Mechanical Engineering Department, staff and our dearest sponsor for making this competition possible to us, thus allowing us to reach our fullest potential by exposing ourselves to challenges beyond our reach. We are a team of multi-talented individuals with background ranging from Computer Engineering to Mechanical Engineering, allowing for easy workload distributions due to our experiences and skill sets. 
 
@@ -7,7 +10,11 @@ We would like to express our deepest appreciation to Mechanical Engineering Depa
 > **Matric No:** A0184445Y          
 > **Course:** Computer Engineering  
 
-Year 2 Computer Engineer with experience with **Computer Vision**, **Artificial Intelligence**, and **Game Development + 3D Animation.** Knowledge of programming languages including **Python**, **C**, **C++**, **C#**, and **Java**, and frameworks like **Tensorflow**, **Keras**, **OpenCV**, **Robot Operating System**, and **Unity3D.** Miscellaneous skills include **CAD modelling and 3D printing, Photoshop, and Video Editing.**
+Year 2 Computer Engineer with experience with **Computer Vision**, **Artificial Intelligence**, and **Game Development + 3D Animation.** 
+
+Knowledge of programming languages including **Python**, **C**, **C++**, **C#**, and **Java**, and frameworks like **Tensorflow**, **Keras**, **OpenCV**, **Robot Operating System**, and **Unity3D.** 
+
+Miscellaneous skills include **CAD modelling and 3D printing, Photoshop, and Video Editing.**
 #### Roles
 * Creation of Website
 * Computer Vision and Algorithms
@@ -39,24 +46,49 @@ Year 2 Computer Engineer with experience with **Computer Vision**, **Artificial 
 * Fabrication & Rapid Prototyping
 * Material Sourcing
 
+## Timeline and Milestones
+*Placeholder text*
 
+## Key Aspects
+Design Considerations for Unmanned Ground Vehicle (UGV):
+* Agile and compact
+* Minimum height
+* Suspension vs U-joints
 
-### Proposed Manpower Arrangement
-No| Role          |  Description                        | Assigned to       | 
---|---------------|---                                  |---                |
- 1|  Mechanical   |  Chassis; Suspension                |  Brian (Leader)   |
- 2|  Mechanical   |  Gun; Gimbals system                | Open Position|
- 3|  Electrical   |  Power management; Electric Drive; Fail-safe   |  Sangit |
- 4|  Electronics  |  Sensor interface; Close-loop Control | Huimin          | 
- 5|  Software     | Linux OS; Sensor drivers            | Open Position     | 
- 6|  Software     | Computer vision; Motion planning    | Open Position     | 
- 7|  Operation    | Sponsorships; Chinese-English Translation | Suzanne     |   
- 8|  Operation    | Accounting; Publicity Materials     | Open Position     |  
- 9|  Pilot        | TX & RX system; Game-play strategy  |  Hoong            |
+According to the 2019 rules:
+| Parameters | Dimensions | Additional Notes |
+| --- | --- | --- |
+| Initial Blood | 200 | |
+| Total Power Supply Capacity (Wh) | 200 | |
+| Launching Mechanism Type | 17mm projectiles | |
+| Maximum Initial Size (mm) | 600 x 600 x 500 | |
+| Maximum Expansion Size (mm) | 700 x 700 x 600 | |
+| Maximum Weight (kg) | 20 | Includes battery |
+
+## General Design
+We propose a modular based design as seen in the diagram below, where the shooting mechanism, camera, motorized platform, can be taken out and replaced easily. This is necessary due to the need for constant re-iterations of the design as well as the parts being easily damaged in the competition.
+
+*Insert image here*
+
+*Insert more details here*
+
+## Protoyping
+To reduce costs of prototyping, we propose **3D printing** of the different mechanisms and parts using **PolyLactic Acid (PLA) and Acrylonitrile Butadiene Styrene (ABS)**. With 3D printing, we can efficiently determine if mechanisms operate as intended and perform re-iterations of the design, without wasting resources for the final competition vehicle. We have chosen these materials due to different considerations such as their relatively comparable **structural strength**, **cost for rapid prototyping** as well as **easy access to equipment** for producing a prototype.
+
+An alternative method would be to use **lego structures to act as a quick yet cost-friendly** method to prototype and test the more crucial parts of the robot (eg. Shooting mechanism, movement and computer vision algorithms).
+
+## Fabrication Materials and Methods
+The fabrication methods listed below and not exhaustive and there are various advantages and disadvantages to each of them. Which is why we must utilise a whole range of methods/materials according to the purpose.
+
+### 1. Aluminium
+
+### 2. Steel
+
+### 3. Acrylic
+
+### 4. Fasteners
 
  For interested people to join our team, please contact Telegram @xxxx 
-
-## Timeline & Milestones
 
 
  >   You should study the past year's competition deadlines, and align your team's progress to those deadlines
