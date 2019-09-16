@@ -49,7 +49,7 @@ No| Role          |  Description                        | Assigned to       |
 ## Robot Design Considerations
 
 After reviewing relevant resources, these are some ideas we have for our first robot design.
-![robot-componenets](./assets/overview-compo.png)
+![robot-componenets](./assets/gz_overview-compo.png)
 
 ### Control Kit (Pairing and Receiver)
 
@@ -83,10 +83,10 @@ The model for bullet while flying is important for standard robot. A good model 
 
 + Ideal Projectile model
 If only consider about the gravity, the projectile motion of the pilot is shown: 
-![projectile1](./assets/pro1.png)
+![projectile1](./assets/gz_pro1.png)
 
 The detecter can give the location (x,y), robot needs an algorithm to solve the shooting angle.
-![projectile1](./assets/pro2.png)
+![projectile1](./assets/gz_pro2.png)
 
 Using the dropping height, to create an interaction : 
 
