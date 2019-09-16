@@ -1,12 +1,6 @@
-# Team Awesome (Example)
+# Team HERO 
 
 ## Introduction
-
-
- >   Introduce each of yourselves in a separate paragraph, you could include:
- >   - your academic background, past projects
- >   - interests and skills
- >   - future plans
 
 
 ### Proposed Manpower Arrangement
