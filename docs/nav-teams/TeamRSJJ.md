@@ -3,15 +3,13 @@
 ## Contents
 *Insert contents with links to individual sections here*
 
----
-
 ## Team Members
 We would like to express our deepest appreciation to Mechanical Engineering Department, staff and our dearest sponsor for making this competition possible to us, thus allowing us to reach our fullest potential by exposing ourselves to challenges beyond our reach. We are a team of multi-talented individuals with background ranging from Computer Engineering to Mechanical Engineering, allowing for easy workload distributions due to our experiences and skill sets. 
 
 ### 1. Raghav Bhardwaj
-> **Matric No:** A0184445Y          
-> **Course:** Computer Engineering  
-
+**Matric No:** A0184445Y          
+**Course:** Computer Engineering  
+#### About Me
 Year 2 Computer Engineer with experience with **Computer Vision**, **Artificial Intelligence**, and **Game Development + 3D Animation.** 
 
 Knowledge of programming languages including **Python**, **C**, **C++**, **C#**, and **Java**, and frameworks like **Tensorflow**, **Keras**, **OpenCV**, **Robot Operating System**, and **Unity3D.** 
