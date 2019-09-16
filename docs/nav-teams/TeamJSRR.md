@@ -61,7 +61,7 @@
 We would like to express our deepest appreciation to Mechanical Engineering Department, staff and our dearest sponsor for making this competition possible to us, thus allowing us to reach our fullest potential by exposing ourselves to challenges beyond our reach. We are a team of multi-talented individuals with background ranging from Computer Engineering to Mechanical Engineering, allowing for easy workload distributions due to our experiences and skill sets.
 
 ### Raghav Bhardwaj
-<p align = "left"> <img src="assets/TeamJSRR/Raghav.png" alt="Raghav"  height=300 width=300> </p>
+<p align = "left"> <img src="assets/TeamJSRR/Raghav.png" alt="Raghav"  height=200 width=200> </p>
 
 **Matric No:** A0184445Y          
 **Course:** Computer Engineering  
@@ -75,35 +75,35 @@ We would like to express our deepest appreciation to Mechanical Engineering Depa
 > * Creation of Website
 
 ### Rishi Mahadevan
-<p align = "left"> <img src="assets/TeamJSRR/Rishi.png" alt="Rishi" height=300 width=300> </p>
+<p align = "left"> <img src="assets/TeamJSRR/Rishi.png" alt="Rishi" height=200 width=200> </p>
 
 **Matric No:** A0184381B        
 **Course:** Computer Engineering
 
 **About Me:**
 
-> *Insert details here.*
+> Rishi loves to push the limit of his knowledge and as such has worked in the **Hornet Project as part of NUS Bumbblebee.** He has also worked on creating a **webserver**, **database management** and on **NLP projects, such as detecting symptoms from patient's speech.**
 
 **Roles:**
 > * Electrical System
 > * Robotics System Architect
 
 ### Tan Guan Zhong, John
-<p align = "left"> <img src="assets/TeamJSRR/John.png" alt="John" height=300 width=300> </p>
+<p align = "left"> <img src="assets/TeamJSRR/John.png" alt="John" height=200 width=200> </p>
 
 **Matric No:** A0154912H           
 **Course:** Mechanical Engineering
 
-**About Me:***
+**About Me:**
 
-> *Insert details here.*
+> John is passionate about making cool engineering ideas come to life. Having worked on **mechanisms and engineering simulations** for **drones**, **acoustic system**s and **parallel manipulators**, he would love to expand his knowledge and skills in other displicines.
 
 **Roles:**
 > * Mechanical System Design
 > * *Can add some more here hehe*
 
 ### Yu Shibin
-<p align = "left"> <img src="assets/TeamJSRR/Shibin.png" alt="Shibin" height=300 width=300> </p>
+<p align = "left"> <img src="assets/TeamJSRR/Shibin.png" alt="Shibin" height=200 width=200> </p>
 
 **Matric No:** A0169999R                
 **Course:** Mechanical Engineering
@@ -148,6 +148,7 @@ We propose a **modular based design** as seen in the diagram below, where the sh
 <p align = "center"> <img src="assets/TeamJSRR/general_design.png" alt="General Design Schematic"> </p>
 
 We can split the vehicle into 5 modules that can be easily taken apart from the system:
+
 **1. Head**
 	
 	a. Shooter Mechanism
@@ -273,8 +274,26 @@ We plan to use Robotic Operating System (ROS) to communicate the operator’s PC
 [Back to Top](#contents)
 
 ### 8.1 Computer Vision
+We have experience with Computer Vision in the Hornet Project under NUS Bumbblebee. We have worked with **detecting objects under different lighting conditions.** We managed to detect a bucket underwater from 15 meters under varying lighting conditions without the use of any Machine learning algorithm with the computing power of an Odroid. We plan to use the same strategy that we used, dynamic whitening and contrasting using the alpha functions in the OpenCV library. This allows us to control for random increase in the lighting condition. We were successfully able to detect objects with the presence of glare by normalizing the image, then applying the dynamic whitening algorithm. After the preprocessing it will be sent to the threat detector module, which will check for the presence of any enemy bots.
+
+<p align = "center"> <img src="assets/TeamJSRR/computer_vision_architecture.png" alt="CV Architecture"> </p>
 
 ### 8.2 Automatic Threat Detection
+There are two main methods to detect objects inside an preprocessed image. Note that usage of both methods require a speed/accuracy tradeoff.
+
+#### Image Thresholding using OpenCV
+<p align = "center"> <img src="assets/TeamJSRR/threshold_example.png" alt="OpenCV Thresholding Example"> </p>
+
+This is the less computationally expensive method and just requires a simple CPU. Using OpenCV's inRange() we can threshold an image between a lower and upper bound based on the selected colour method together with predefined or dynamic low and high thresholds in various colour spaces like HSV, LAB or RGB. This will return a thresholded image with contours for our chosen object. These contours can be further filtered through based on their dimensions such as ratio, area, etc. This method could potentially be used to find the location (in our robot's view) of the red or blue health bars for enemy bots.
+
+However this method is very inaccurate compared to the next one.
+
+#### Object Detection using Convolutional Neural Networks
+<p align = "center"> <img src="assets/TeamJSRR/object_detection.jpg" alt="OpenCV Thresholding Example"> </p>
+
+This method requires a standalone GPU and therefore is much more computationally expensive. However it is very accurate and has extreme generalizability provided we use a large enough dataset. In the image above, a Convolutional Neural Network (RetinaNet in particular) was trained on a custom dataset to detect cars on a highway. RetinaNet can be used for our robot as well as it is a very accurate Single Shot Detector that can provide realtime object detection on any half decent GPU.
+
+The only caveat is that we would have to train the model on hundreds of manually labelled images of enemy robots or enemy pressure plates.
 
 ## 9. Proposed Budget
 [Back to Top](#contents)
@@ -321,9 +340,6 @@ The proposed budget is for one unit standard vehicle and does not include any co
 | | Fasteners (Nuts, bolts and screws) | | | S$20 | | S$20 |
 | | Power transmission (gears, pulleys etc.) | | | S$25 | | S$25 | 
 
-
-
-Link: https://store.dji.com/cn/product/manifold-2?site=brandsite&from=manifold-2_buy_now_bottom&vid=80932 
 ### 9.1 Electronic Parts
 
 ### 9.2 Robotic Structure
