@@ -37,7 +37,7 @@
 
 10. **[Appendix](#10-appendix)**
 	
-	10.1 [Detailed Responsibility](#101-non-technical-roles)
+	10.1 [Non-Technical Roles](#101-non-technical-roles)
 	
 	10.2 [3D Drawings](#102-3d-drawings)
 	
@@ -140,10 +140,8 @@ We can split the vehicle into 5 modules that can be easily taken apart from the 
 **1. Head**
 	
 * Shooter Mechanism
-	
-	i. Shooter Frame
-		
-	ii. Motors
+	> * Shooter Frame	
+	> * Motors
 	
 * Projectile Speed Monitor
 	
@@ -154,10 +152,8 @@ We can split the vehicle into 5 modules that can be easily taken apart from the 
 * Y and X Axis Gimbals
 	
 * Servos
-	
-	i. Camera
-		
-	ii. Ammo Box Cover
+	> * Camera
+	> * Ammo Box Cover
 	
 * Remote Controller Receiver
 
@@ -251,7 +247,7 @@ For thin materials (thin aluminium and acrylic sheets), **laser cutting can be a
 We are planning to use a **modular system** for the ease of prototyping and debugging. We plan to have **three main modules**, the Movement module, Communication module and the Threat detection module.
 
 ### 7.1 Movement Architecture
-For the movement of the robot, we plan to use an Arduino Mega to get the signals from the main controller (Voodo Board), through serial connection and controls a motor controller (that controls the direction of the wheel and the speed using the PID logic from the Arduino Mega to ensure that the robot can turn and move straight accurately. The odometry data such as the number of revolutions (obtained from the wheel encoder) of the wheel will be fed into the PID to adjust the robot so that it can move straight.
+For the movement of the robot, we plan to use an Arduino Mega to get the signals from the main controller (UDOO Board), through serial connection and controls a motor controller (that controls the direction of the wheel and the speed using the PID logic from the Arduino Mega to ensure that the robot can turn and move straight accurately. The odometry data such as the number of revolutions (obtained from the wheel encoder) of the wheel will be fed into the PID to adjust the robot so that it can move straight.
 
 <p align = "center"> <img src="./assets/TeamJSRR/movement_architecture.png" alt="Movement Architecture"> </p>
 
@@ -286,7 +282,7 @@ The only caveat is that we would have to train the model on hundreds of manually
 ## 9. Proposed Budget
 [Back to Top](#contents)
 
-The total cost of our vehicle amounts to **SGD 3487.11.** For a full breakdown of our budget, [please refer to the excel sheet here.](https://docs.google.com/spreadsheets/d/1hSyFkgnE2zaKy-0w9z6346uSNQ8cyk4fTempVa0A32Q/edit#gid=0)
+The total cost of our vehicle amounts to **SGD 3854.36.** For a full breakdown of our budget, [please refer to the excel sheet here.](https://docs.google.com/spreadsheets/d/1hSyFkgnE2zaKy-0w9z6346uSNQ8cyk4fTempVa0A32Q/edit#gid=0)
 
 The proposed budget is for one unit standard vehicle and does not include any costs that might arise from damaged components. The costs are also considered without discounts to robomaster participants, and are therefore at their full price.
 
