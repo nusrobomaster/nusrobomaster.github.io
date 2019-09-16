@@ -66,7 +66,7 @@ Components:
 <ul>
 <li>Motor for the firing wheel mechanism</li>
     <ul>
-       <a href="http://www.readytosky.com/e_productshow/?273-RS2312-920KV-CWCCW-Brushless-Motor-273.html">RS2312 920KV CW/CCW Brushless</a>
+       <li><a href="http://www.readytosky.com/e_productshow/?273-RS2312-920KV-CWCCW-Brushless-Motor-273.html">RS2312 920KV CW/CCW Brushless</a></li>
         <ul>
                 <li>KV: 920kv</li>
                 <li>No-Load Current (Io/10V) 0.45 Amps</li>
