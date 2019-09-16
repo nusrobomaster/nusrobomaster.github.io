@@ -8,7 +8,7 @@
 We would like to express our deepest appreciation to Mechanical Engineering Department, staff and our dearest sponsor for making this competition possible to us, thus allowing us to reach our fullest potential by exposing ourselves to challenges beyond our reach. We are a team of multi-talented individuals with background ranging from Computer Engineering to Mechanical Engineering, allowing for easy workload distributions due to our experiences and skill sets. 
 
 ### 1. Raghav Bhardwaj
-<p align = "left"> <img src="readme_src/poke_ai_main_demo.gif" alt="poke.AI demo"> </p>
+<p align = "left"> <img src="assets/TeamJSRR/Raghav.png" alt="Raghav"  height=300 width=300> </p>
 
 **Matric No:** A0184445Y          
 **Course:** Computer Engineering  
@@ -22,7 +22,7 @@ Year 2 Computer Engineer with experience with **Computer Vision**, **Artificial 
 * Computer Vision and Algorithms
 
 ### 2. Rishi Mahadevan
-<p align = "left"> <img src="readme_src/poke_ai_main_demo.gif" alt="poke.AI demo"> </p>
+<p align = "left"> <img src="assets/TeamJSRR/Rishi.png" alt="Rishi" height=300 width=300> </p>
 
 **Matric No:** A0184381B        
 **Course:** Computer Engineering
@@ -36,8 +36,8 @@ Year 2 Computer Engineer with experience with **Computer Vision**, **Artificial 
 * Electrical System
 * Robotics System Architect
 
-### 3. Tan Guan Zhong
-<p align = "left"> <img src="readme_src/poke_ai_main_demo.gif" alt="poke.AI demo"> </p>
+### 3. Tan Guan Zhong, John
+<p align = "left"> <img src="assets/TeamJSRR/John.png" alt="John" height=300 width=300> </p>
 
 **Matric No:** A0154912H           
 **Course:** Mechanical Engineering
@@ -52,14 +52,14 @@ Year 2 Computer Engineer with experience with **Computer Vision**, **Artificial 
 * *Can add some more here hehe*
 
 ### 4. Yu Shibin
-<p align = "left"> <img src="readme_src/poke_ai_main_demo.gif" alt="poke.AI demo"> </p>
+<p align = "left"> <img src="assets/TeamJSRR/Shibin.png" alt="Shibin" height=300 width=300> </p>
 
 **Matric No:** A0169999R                
 **Course:** Mechanical Engineering
 
 **About Me:**
 
-*Insert details here.*
+Year 4 Mechanical Engineer with experience in mechanical engineering drawings softwares such as **SolidWorks**, **AutoCAD**, **Inventor**, **ProE**, **Fusion360** and **OpenVSP** developed by NASA for aircraft modelling. Knowledgeable in the usage of different fabrication tools for rapid prototyping and proof of concepts using **CNC machining tools**, **composites materials**, **3D printing techniques (FDM, SLA)**. Miscellaneous skills include **Matlab**, **programming in Python**, **Java** and **C**, front end development for UI/UX using **HTML**, **CSS** and **bootstrap** as well as **marketing**, **sponsorship** and **business development**.
 
 **Roles:**
 
