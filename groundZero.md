@@ -31,7 +31,6 @@ My name is Lin Geyu, I am an international student from China. I am studying Com
 I am a year 2 industrial and system engineering student in NUS. I am passionate about creating things which bring a positive value to people around me with the advance of technology. Joining Robomaster is my first and major project which serves to challenge myself in the field of robotics as well as to sharpen both my soft and hard skills. I wish to contribute to the team to the best of my ability in any sorts. During my free time, I enjoy travelling and drink lots of coffee. :tada:
 
 
-
 ### Proposed Manpower Arrangement
 No| Role          |  Description                        | Assigned to       | 
 --|---------------|---                                  |---                |
@@ -136,10 +135,4 @@ In the competition, the resistance mainly from the x direction
 | Enclosure                            | RoboMaster TB47 Battery 100W Charger AC Cable             | 1           | 4 | 4
 |                                            |RoboMaster TB47 Battery Charger 100W (without AC cable) | 1          |19 | 19
 | Total Budget                       |                                                                                                 |             |      | 1841
-
-
-
-
-
- 
 
