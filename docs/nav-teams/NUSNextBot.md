@@ -79,7 +79,7 @@ No| Role          |  Description                        | Assigned to       |
 ![Mech-Chassis](./assets/NUSNextBot-Chassis.jpeg)
 *Graph3. Chassis*
 
-![Mech-Suspension-System](./assets/NUSNextBot-Suspension_System.jpeg)
+![Mech-Suspension-System](./assets/NUSNextBot-Suspension.jpeg)
 *Graph4. Suspension System*
 
 &nbsp;&nbsp;&nbsp;&nbsp;The suspension system in graph 4 is one kind of non-independent suspension system, which has the advantages of high loads, low cost and simple structure.
