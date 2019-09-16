@@ -230,7 +230,7 @@ Gimbal Stabilization
     <li>
     There are three possible choices for camera types depending on the budget constraints and computational setup (next section): 
     </li>
-    <ul><li><p>Basic mono-camera vision: Any hobbyist/drone FPV compact camera with sufficient resolution (>1080p) for a computer monitor. While basic computer vision techniques (thresholding, filter etc) can be performed to determine the onscreen position of targets, the camera would need to be combined with a laser-range finder (specs and possible laser-range finder models listed in earlier sections) to accurately determine target distance.</p>
+    <ul><p>Basic mono-camera vision: Any hobbyist/drone FPV compact camera with sufficient resolution (>1080p) for a computer monitor. While basic computer vision techniques (thresholding, filter etc) can be performed to determine the onscreen position of targets, the camera would need to be combined with a laser-range finder (specs and possible laser-range finder models listed in earlier sections) to accurately determine target distance.</p>
         <p>Possible models: <a href="https://tinyurl.com/y4ttctxu">Caddx</a> , <a href="https://tinyurl.com/y597ze4c">Runcam </a></p>
         <p>
         Advantages: requires the low computational power (Sensor fusion for distance estimation likely to be achievable in real-time on PI3)
@@ -238,7 +238,6 @@ Gimbal Stabilization
         <p>
         Disadvantages: requires sensor fusion with range-finders for target distance estimation, which needs accurate mounting and prior calibration.</ul>
         </p>
-        </li>
     </ul>
      <ul>
      <li>
