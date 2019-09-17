@@ -16,18 +16,18 @@
 
 
 ### Proposed Manpower Arrangement
-No| Role          |  Description                        | Assigned to       | 
---|---------------|---                                  |---                |
- 1|  Mechanical     |  Chassis; Suspension   |  Open Position|
- 2|  Mechanical     |  Gun, Gimbals System  | Open Position      |
- 3|  Electrical  |  Power Management; Electric Drive; Failsafe|  Open Position       |
- 4|  Electronics     |  Sensor Interface; Close-loop Control |  Open Position     | 
- 5|  Software     |Linux OS, Sensor Drivers                  | Open Position  | 
- 6|  Software   | Computer Vision; Motion Planning       | Open Position     | 
- 7|  Operation    | Sponsorships; Chinese-English Translation | Open Position     |   
- 8|  Operation    | Accounting; Publicity Materials     | Open Position     |  
- 9|  Pilot        | TX & RX system; Game-play strategy  |  Open Position    |
-
+No| Role          |  Description                                | Assigned to       | 
+--|-----------------|---                                        |---                |
+ 1|  Mechanical     | Chassis; Suspension                       |  Andrew           |
+ 2|  Mechanical     | Gun, Gimbals System                       | Open Position     |
+ 3|  Electrical     | Power Management; Electric Drive; Failsafe|  Andrew           |
+ 4|  Electronics    | Sensor Interface; Close-loop Control      |  Zhi Da           | 
+ 5|  Software       | Linux OS, Sensor Drivers                  |  Zhi Da           | 
+ 6|  Software       | Computer Vision; Motion Planning          | Jiamin, Andrew    | 
+ 7|  Operation      | Sponsorships; Chinese-English Translation | Open Position     |   
+ 8|  Operation      | Accounting; Publicity Materials           | Open Position     |  
+ 9|  Pilot          | TX & RX system; Game-play strategy        | Open Position     |
+ 
  For interested people to join our team, please contact Telegram @liewjiamin
 
 ## Timeline & Milestones
