@@ -36,20 +36,17 @@ No| Role          |  Description                        | Assigned to       |
  15|  Mechanical        | Blaster System  |  Samantha            |
  16|  Operations        | Media: Camera, video  |  Damien, Kevyn            |  
 
-## Proposed timeline and milestones
-
-...
-
 ## Key aspects of the robot to consider
 
 ### Mecanum wheels
 
+* Lower part: spin stabilisation, Upper part: stationary
 * Consists of wheel rollers and damping rings.
 * Expandable wheels -> May reduce hits while in motion and technically not illegal until they patch this next year. There is a maximum of 10cm allowed for in-game expansion, so the max legal increase in radius of each wheel is 5cm.
 
 ### Chassis
 
-* Front, Rear, Left, Right Armor
+* Front, Rear, Left, Right Armor. If possible, shock absorbers incorporated to reduce damage to robot parts.
 * Impact detector: Transmit health of robot efficiently to controls system, direction of impact to the pilot UI.
 * Intelligent sensing armour -> Infrared sensors near armour to detect when aiming beam lands on robot. Or gel pads to detect which part of the robot is being hit to move away accordingly
 * Suspension system: to increase the stability of the robot especially during climbing, fly landing. Maneuvering robot should be as agile as possible.
@@ -57,8 +54,6 @@ No| Role          |  Description                        | Assigned to       |
 ### Gimbal
 
 * Upper body of the robot will be mounted on the gimbal, such as the camera, blaster mechanism, high stability needed. If possible, 3-axis industrial grade gimbal will be used.
-
-### Motors, encoders (for gimbal, wheel, blaster)
 
 ### Sensors
 
@@ -85,16 +80,11 @@ No| Role          |  Description                        | Assigned to       |
 * STM32 main microcontroller
 * Evasive Maneuvering Program (Spinning)
 
-### Power
-
 ### Controls
 
 * PID motion control
 * Blaster targeting controls
-* Intelligent Controller
-
-### Referee system
-
+* Intelligent Controlle
 
 ### General design and fabrication methods
 * Most parts should be bought online and machined to desired specifications. Prototype, lightweight materials can be 3D printed with Kevyn’s 3D printer, using ABS/PLA material. Samantha can buy cheap electronics and mechanical parts in Shenzhen as well if possible, as well as use laser cutting, lathing equipment etc.
@@ -135,5 +125,5 @@ No | Component Name                        |  Unit Cost (USD) | Qty | Total |
  30|  TB47D Battery|  216            | 2   | 431   |
  31|  RoboMaster GM6020 Brushless DC Motor| 189             | 1   | 567    |
 
-### Total: 8377 USD
+### Total: 4078 USD
 
