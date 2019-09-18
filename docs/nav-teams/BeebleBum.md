@@ -106,7 +106,7 @@ The Main Battle Robot in the field, performs tactical attack, defense, cooperati
 
 ### Design Requirements
 
-![Design Requirements](./assets/team-beeblebum/standard/design-requirements.png)
+<img class="himg" src="./assets/team-beeblebum/standard/design-requirements.png">
 
 ### Key Features
 
@@ -114,7 +114,7 @@ The Main Battle Robot in the field, performs tactical attack, defense, cooperati
   - Solution:
     - Remove the spinning structure from the chassis by adding an additional spinning layer.
     - Use a gear system and a counter balance load to stabilize the overall torque.
-    - The gear system is like that of a planetary gearbox, with planets connected to fixed motors and other parts of equal mass rotate accordingly. <img id="gears" src="./assets/team-beeblebum/standard/gears.png">
+    - The gear system is like that of a planetary gearbox, with planets connected to fixed motors and other parts of equal mass rotate accordingly. <img class="himg" src="./assets/team-beeblebum/standard/gears.png">
 - Problem 2: The Operator Cannot Pinpoint His Robot's Location Relative to Other Robots
   - Solution:
     - Present a real-time mini map to assist operators.
@@ -135,7 +135,7 @@ The Main Battle Robot in the field, performs tactical attack, defense, cooperati
 - Chassis rigidity and the displacement wheels position:
   - Many teams reported problems on the displacement of the wheels in the direction of the spindle. We attribute this pitfall to the lack of rigidity in the chassis design, especially around the mounting place of the wheels. We may overcome it by refine the design and make full use of open-source materials. 
 - Anti-clash protection of the wheels:
-  - Clashing is unavoidable in real-life competitions, as we discovered through analyzing the videos. By moving the wheels inwards and protect them by the outer frame of the chassis, it prevents the possible damage to the wheels owing to clashes. <img id="gears" src="./assets/team-beeblebum/standard/1.jpg">
+  - Clashing is unavoidable in real-life competitions, as we discovered through analyzing the videos. By moving the wheels inwards and protect them by the outer frame of the chassis, it prevents the possible damage to the wheels owing to clashes. <img class="himg" src="./assets/team-beeblebum/standard/1.jpg">
 - Light and efficient suspension system:
   - While some complicated suspension systems provide outstanding stability, we strive to develop a light and efficient system that consists of less movable components and provides better stability.
 - Reliable feeding and accurate firing system:
@@ -197,7 +197,7 @@ The main defense robot in the field, forms the first and the most important line
 
 ### Design Requirements
 
-![Design Requirements](./assets/team-beeblebum/sentry/design-requirements.png)
+<img class="himg" src="./assets/team-beeblebum/sentry/design-requirements.png">
 
 ### Key Features
 
@@ -231,14 +231,13 @@ For interested people to join our team, please email <a href = "mailto: liruoche
 ### Hardware List and Budget
 
 - Hardware List:
-
-![Chassis](./assets/team-beeblebum/sentry/hwlist_chassis.png)
-![Weapon](./assets/team-beeblebum/sentry/hwlist_weapon.png)
-![AI](./assets/team-beeblebum/sentry/hwlist_ai.png)
+<img class="himg" src="./assets/team-beeblebum/sentry/hwlist_chassis.png">
+<img class="himg" src="./assets/team-beeblebum/sentry/hwlist_weapon.png">
+<img class="himg" src="./assets/team-beeblebum/sentry/hwlist_ai.png">
 
 ## Project Timeline
 
-![Timeline](./assets/team-beeblebum/timeline.png)
+<img class="himg" src="./assets/team-beeblebum/timeline.png">
 
 ## Training Timeline
 
@@ -246,28 +245,28 @@ For interested people to join our team, please email <a href = "mailto: liruoche
 > Each team can divide members into subgroups to conduct group learning and regular group discussion. 
 > The proposed training timeline is shown below.
 
-![Training Timeline](./assets/team-beeblebum/training_timeline.png)
+<img class="himg" src="./assets/team-beeblebum/training_timeline.png">
 
 ## Content Sharing
 
 > As first-year participants, it is important to ensure efficient communication and sharing of information between and within the team.
 > In order to ensure efficient online collaboration, here are proposed platform and sources of information.
 
-![Sharing Platforms](./assets/team-beeblebum/sharing_platforms.png)
+<img class="himg" src="./assets/team-beeblebum/sharing_platforms.png">
 
 <style>
 details
 {
   cursor: pointer;
 }
-img
+.himg
 {
   -moz-transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-img:hover
+.himg:hover
 {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
