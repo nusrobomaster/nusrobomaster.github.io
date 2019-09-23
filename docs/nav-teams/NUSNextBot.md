@@ -146,8 +146,56 @@ No| Role          |  Description                        | Assigned to       |
 ## Proposed Budget
 
 
-![Budget1](./assets/NUSNextBot-Budget1.jpg)
-
-![Budget2](./assets/NUSNextBot-Budget2.jpg)
-
-  - Total Budget: USD 5000
+No.|Title|Quantity|Price (USD)|Total Price (USD)|
+---|--------------|--------|-----------|-----------------|
+1|Robomaster Tag for UWB Locating System|1|95|95|
+2|RoboMaster UWB Locating System|1|667|667|
+3|RoboMaster Anchor for UWB Locating System|1|133|133|
+4|RoboMaster GM3510 Brushless DC Motor|1|47|47|
+5|RoboMaster Red Dot Laser|1|13|13|
+6|RoboMaster Mecanum Wheel (right)|2|44|88|
+7|RoboMaster Mecanum Wheel (left)|2|44|88|
+8|RoboMaster 2312 ESC-420S|4|5|20|
+9|RoboMaster TB47 Battery Charger 100W (without AC cable)|1|19|19|
+10|RoboMaster Robot Remote Controller Receiver|1|16|16|
+11|Robomaster Robot Remote Controller Set|1|56|56|
+12|Robomaster ESC Centre Board|1|5|5|
+13|Robomaster Rubber Roller for Mecanum Wheel|4|6|24|
+14|Robomaster Battery Rack(compatible)|2|16|32|
+15|DJI E2000 PRO Tuned Propulsion System CCW-R|0|248|0|
+16|DJI E2000 PRO Tuned Propulsion System CW-R|0|248|0|
+17|"2170R Folding Propeller (CW set without screen-print box package)"|0|48|0|
+18|"2170R Folding Propeller (CCW set without screen-print box package)"|0|48|0|
+19|RoboMaster TB47 Battery 100W Charger AC Cable|1|4|4|
+20|N3 Standard|0|333|0|
+21|RoboMaster M3508 P19 Brushless DC Gear Motor|4|79|316|
+22|RoboMaster C620 Brushless DC Motor Speed Controller|1|63|63|
+23|RoboMaster M3508 Accessories Kit|2|54|108|
+24|RoboMaster Development Board Type A|1|68|68|
+25|RoboMaster Development Board Type B|0|35|0|
+26|RoboMaster Development Board OLED|1|14|14|
+27|RoboMaster M2006 P36 Brushless DC Gear Motor|1|41|41|
+28|RoboMaster C610 Brushless DC Motor Speed Controller|1|25|25|
+29|RoboMaster Development Board Cables|2|40|80|
+30|TB47D Battery|2|216|432|
+31|Guidance|0|952|0|
+32|RoboMaster GM6020 Brushless DC Motor|0|189|0|
+33|Manifold 2-C|0|1103.2|0|
+34|Manifold 2-G|1|879.2|879.2|
+35|RoboMaster 17mm Fluorescent Projectile(500 pcs/pack)|2|93|186|
+36|RoboMaster Referee System Main Controller Module MC02|1|72|72|
+37|RoboMaster Referee System Armor Module AM02|4|96|384|
+38|RoboMaster Referee System Armor Module AM12|1|104|104|
+39|RoboMaster Referee System Armor Module Support Frame AH02|3|51|153|
+40|RoboMaster Referee System Armor Module Support Frame AH12|0|50|0|
+41|RoboMaster Referee System Speed Monitor Module SM01|1|73|73|
+42|RoboMaster Referee System Speed Monitor Module SM11|0|84|0|
+43|RoboMaster Referee System RFID Interaction Module FI02|1|45|45|
+44|RoboMaster Referee System Power Management Module PM01|1|74|74|
+45|RoboMaster Referee System Light Indicator Module LI01|1|74|74|
+46|RoboMaster RFID Tag Card|1|47|47|
+47|RoboMaster Ocusync VTM Transmitter VT02|1|131|131|
+48|RoboMaster Ocusync VTM Receiver VT12|1|131|131|
+49|RoboMaster Cable Package CP02|1|30|30|
+|||||
+|||total|4837.2|
