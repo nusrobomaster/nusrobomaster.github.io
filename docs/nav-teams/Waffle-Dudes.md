@@ -196,7 +196,7 @@ In consideration of this playstyle, the soldier robot must be designed to be qui
     
     Propose to adapt from exisitng open source projects to design our own 
     
-    ![Stereo Camera](./WD_Stereo_Cam.png)
+    ![Stereo Camera](./assets/WD_Stereo_Cam.png)
     
     Credit: https://github.com/AlexJinlei/Stereo_Vision_Camera 
     
@@ -290,3 +290,5 @@ The objective and angle of approach that we are taking is to build a robot as qu
 Parts from hobbyist level of remote-control vehicles will be preferred. This is because they are readily available off the shelf components from hobby stores. They will provide us with the ease of access, wide range of choices and the support of hobby community.
 
 In the event that parts cannot be found, we will adapt them from exising parts found in live sized vehicles and scale them down accordingly. Small parts can be 3D printed for rapid protopying before the fabrication of the actual part. With access to the school's facilities, strongly believe that we can machine out the necessary and required parts.
+
+### Budget
