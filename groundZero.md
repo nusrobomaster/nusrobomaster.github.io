@@ -177,7 +177,6 @@ Using the dropping height, to create an interaction :
 
 ![gz_pm0](./assets/gz_pm0.png)
 In the competition, the resistance mainly from the x direction
-
 ![gz_pm0](./assets/gz_pm1.png)
 ![gz_p](./assets/gz_p.png)
 ![gz_p3](./assets/gz_p3.png)
@@ -205,4 +204,5 @@ In the competition, the resistance mainly from the x direction
 | Enclosure                            | RoboMaster TB47 Battery 100W Charger AC Cable             | 1           | 4 | 4
 |                                            |RoboMaster TB47 Battery Charger 100W (without AC cable) | 1          |19 | 19
 | Total Budget                       |                                                                                                 |             |      | 1841
+
 
