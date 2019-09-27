@@ -136,7 +136,7 @@ Both the base and gimbal module will be developed separately but in close commun
 
 Since the robot will be constantly moving and will have much impact with other robots, dish-locking washer and nuts will be used to ensure all connections are tight and will not be loosened by impact.
 
-![Screw Photo](./assets/rekt_screw.png)
+![Screw Photo](./assets/rekt_screw.PNG)
 
 ## Proposed Budget
 
