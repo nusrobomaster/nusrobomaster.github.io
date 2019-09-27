@@ -54,11 +54,9 @@ After watching through the games in the Grand Final round of 2019 competition, w
 
 First to make the robot agile and high mobility, we need to consider the weight, size, speed and acceleration of the robot with the following constraints: 
 
-<center>
  Weight   |  Size                        | Chassis Power      | 
 ----------|---                           |---                |
   20 kg   |  600 x 600 x 500             |  80 W    |
-</center>
   
 From observing the game, the maximum linear continuous traveling distance for the robot in a game is only 20 meters. In addition, it’s more important for the robot to have high initial acceleration to improve its agility. Hence, we aim to have our robot **accelerate to 2m/s within 0.7s and have a maximum speed of 4.5 m/s**. To achieve this, considering the weight and chassis power limit, we plan to have our robot to be weighted at around **15-16 kg**. It’s understandable that we can make our robot lighter to travel faster; however, we also planned to use mecanum wheels which has lower grip with ground surface (compared to a normal wheel). Hence, it’s important for the robot to be heavy enough for fast acceleration.
 
@@ -77,7 +75,9 @@ A more detailed planning and general design for each of these areas will be disc
 Our first consideration when designing the chassis is its sizing. We planned to have a square base of 600 x 600 which makes it easier to programme the base to spin still at a location (lower probability of getting hit by an enemy’s projectile). The robot will also be surrounded by an aluminium frame to ensure its sturdiness (take into account that there is collision happen in game).
 
 ![Base](./assets/robocop-base.jpg)
+
 <center>Figure 1</center>
+
 
 We choose to install **mecanum wheels** for the robot since it can be mounted like normal wheel while providing the same style of movement as omni wheel. Each wheel will also has a motor directly attached to it. (allowing the robot to turn without a steering system). 
 
