@@ -86,10 +86,10 @@ Next, we would need to consider the base elevation. We are considering using Rob
 In game, it is noticed that the robot has to jump over obstacles (Field element: Road Incline) or sometimes might jump while moving up slopes too fast. Hence, we decided to install an independent suspension system to each of the wheel. A modified version of **double wishbone suspension system combined with shock absorber** will be used to ensure robot can overcome obstacles better without bending the chassis and other connecting axles and joints. Figure 2 and 3
 
 ![Wheelside](./assets/robocop-wheelside.jpg)
-<center>Figure 2</center>
+Figure 2
 
 ![Suspension](./assets/robocop-suspension.jpg)
-<center>Figure 3</center>
+Figure 3
 
 **Fabrication method**
 * Choice of material for metal frame: aluminium 
@@ -104,7 +104,7 @@ Since we are using 2-axis gimbal system, we will need two Brushless DC motor to 
 
 The general design of the gimbal system is as follows: 
 
-![pitch](./assets/robocop-turretpitch.jpg)  ![Belt](./assets/robocop-turretbelt.jpg)
+![pitch](./assets/robocop-turretpitch.jpg)  ![Belt](./assets/robocop-turretbelt.png)
 <center>Figure 5: mechanism for pitch rotation</center>
 *All pictures for gimbal mechanism was retrieved from https://www.youtube.com/watch?v=zCV0viLxYUY*
 
