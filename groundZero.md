@@ -13,7 +13,7 @@ As the great Alan Turing once said:
 ### Introducing groundZero's builders
 We are a team of five as for now. We welcome like-minded individuals to join us in the journey of creating something magical together.
 
-#### Nathan
+#### Phan Tuan Linh
 
 Mechanical engineering student. Year 2. I study innovation and Design Program (iDP) as my second major. I have achieved several awards in Physics competitions in high school. However, I have no prior knowledge about robotics. 
 
