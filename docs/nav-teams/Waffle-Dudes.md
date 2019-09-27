@@ -83,12 +83,8 @@ In consideration of this playstyle, the soldier robot must be designed to be qui
     - Low centre of gravity while keeping within size constrains to prevent overturns
 
     - Suspension to protect the internals and at the same time increase stability of gun 
-
-    ![Suspension](./assets/Suspension_WD.png) 
     
-    to be changed
-    
-    - Types of suspension to consider: Hydraulic (from RC car), easily available from hobby stores in Singapore, magnetic dampers which we can DIY from neodymium magnets
+    - Types of shock absorbers to consider: Hydraulic (from RC car), easily available from hobby stores in Singapore, magnetic dampers which we can DIY from neodymium magnets
 
 ### Gameplay Considerations
 
@@ -105,6 +101,10 @@ In consideration of this playstyle, the soldier robot must be designed to be qui
         1. Compressed air
         2. Flywheel
 
+![Mechanism](./assets/Paintball_Mechanism_WD.png)
+
+    *Paintball mechanism using compressed air to be considered for the launcher*
+
     - Laser for visual assistance when aiming
     
     - Compressed air pressure must not exceed 20 MPa, initial firing speed limit of 30 m/s
@@ -120,10 +120,6 @@ In consideration of this playstyle, the soldier robot must be designed to be qui
     ![Funnel](./assets/Funnel_WD.png)
     
     *Funnel Design*
-    
-    ![Mechanism](./assets/Paintball_Mechanism_WD.png)
-
-    *Paintball mechanism to be considered for the launcher*
     
     **Feeding Mechanism**
     
@@ -156,6 +152,23 @@ In consideration of this playstyle, the soldier robot must be designed to be qui
     - Modify from reference design and manufacture a new chassis as reference design chassis is not able to mount a suspension system 
     
     The area of the chassis housing the wheel system have been tapered and narrowed, such that the overall area of the robot is minimized, hence the concept of being small and agile remains. Additionally, this suspension design allows the robot to achieve a lower Centre of Gravity, by making its body wide & flat as the motor & wheels are placed next to the chassis, instead of below the chassis. The shape of the chassis will resemble closely that of a square, effectively shortening the wheelbase (distance between the centers of the front & rear wheels), which allows the robot to achieve a smaller turning radius & thus be very agile & make quick & sharp turns. 
+    
+    <pic here>
+
+**Bull Bar**
+
+It is designed with intentional collision in mind for police vehicles or defensively against large animals in rural roads. AS the bar is rigid, unlike bumper which resist the impact by crumple, it actually causes injuries and death for civilian vehicles. 
+
+As such bull bar is banned in the EU. Taking into considering of mitigating damage to the opposing body, we feel that it will be effective in employing it in our robot to ensure that in the event of a collision we will not be damaged and that it will be the enemy that is damaged.  
+
+The Bull bar will be inserted on both front and back of the robot to ensure a surround coverage and defensive system. 
+
+![Bull Bar](./assets/WD_Bull_Bar.jpg)
+*Source: https://www.tjmperth.com.au/product/tjm-tradesman-steel-bull-bar-suit-toyota-hilux-2015-plus/*
+
+Can be made inhouse with just a few metal beams
+
+![Chassis](./assets/WD_Chassis.png)
 
 5. Wheels
 
