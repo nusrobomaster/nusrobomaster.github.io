@@ -153,7 +153,18 @@ In consideration of this playstyle, the soldier robot must be designed to be qui
     
     The area of the chassis housing the wheel system have been tapered and narrowed, such that the overall area of the robot is minimized, hence the concept of being small and agile remains. Additionally, this suspension design allows the robot to achieve a lower Centre of Gravity, by making its body wide & flat as the motor & wheels are placed next to the chassis, instead of below the chassis. The shape of the chassis will resemble closely that of a square, effectively shortening the wheelbase (distance between the centers of the front & rear wheels), which allows the robot to achieve a smaller turning radius & thus be very agile & make quick & sharp turns. 
     
-    <pic here>
+    **Suspension**
+    
+    As there are 20 degrees ramp that the robot has to maneuverer over. A suspension system will be immensely useful in ensuring that the internal structures of the robot is not damaged. In the small-scaled community, various remote-control vehicles use the shock absorber system and thus we have adapted / referenced from them as parts will be widely available and there will be many structures and design to study from. Further calculations will be involved once we received the reference design unit and have the relevant specs to it.
+
+    ![RC Car Suspension]()
+    
+    *Source: Own*
+    
+    Since there are 4 independent motors, drive shaft can be removed to eliminate points of failure. Instead, the axle area will be mounted with the motor and Mecanum wheel system 
+    
+    ![WD_Suspension](./assets/WD_Suspension.png)
+    *Suspension*
 
     **Bull Bar**
 
