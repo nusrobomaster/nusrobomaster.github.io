@@ -88,8 +88,8 @@ Relevant Rules (Retrieved from 2019 Robomaster Rules):
 ![Rule3](./assets/rule3.png)
 
 Drag:
-![drag](./assets/drag.png)\n
-Retrieved from https://www.grc.nasa.gov/www/K-12/airplane/dragsphere.html\
+![drag](./assets/drag.png)\
+Retrieved from https://www.grc.nasa.gov/www/K-12/airplane/dragsphere.html  
 D = Cd * .5 * rho * V^2 * A\
 Re = V * rho * l / mu\
 Since the bullet need to hit the armour at a speed of 8m/s, the initial speed cannot be less than 8m/s, and the maximum speed is 30m/s as specified in the rules.\
