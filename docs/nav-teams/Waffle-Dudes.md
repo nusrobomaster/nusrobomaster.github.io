@@ -103,13 +103,13 @@ In consideration of this playstyle, the soldier robot must be designed to be qui
 
 ![Mechanism](./assets/Paintball_Mechanism_WD.png)
 
-    *Paintball mechanism using compressed air to be considered for the launcher*
+*Paintball mechanism using compressed air to be considered for the launcher*
 
-    - Laser for visual assistance when aiming
+   - Laser for visual assistance when aiming
     
-    - Compressed air pressure must not exceed 20 MPa, initial firing speed limit of 30 m/s
+   - Compressed air pressure must not exceed 20 MPa, initial firing speed limit of 30 m/s
     
-    - There is a focus on a aggressive close quarters playstyle with close range shooting. It is important that the gun still needs to be relatively accurate to adapt to newer strategies. Longer barrel length up to 20 cm should be utilised. Should time and resources permit, rifling and Magnus effect due to imparting spin can be considered to increase accuracy. 
+   - There is a focus on a aggressive close quarters playstyle with close range shooting. It is important that the gun still needs to be relatively accurate to adapt to newer strategies. Longer barrel length up to 20 cm should be utilised. Should time and resources permit, rifling and Magnus effect due to imparting spin can be considered to increase accuracy. 
     
 2. Ammo collection and feeding mechanism 
 
@@ -155,20 +155,21 @@ In consideration of this playstyle, the soldier robot must be designed to be qui
     
     <pic here>
 
-**Bull Bar**
+    **Bull Bar**
 
-It is designed with intentional collision in mind for police vehicles or defensively against large animals in rural roads. AS the bar is rigid, unlike bumper which resist the impact by crumple, it actually causes injuries and death for civilian vehicles. 
+    It is designed with intentional collision in mind for police vehicles or defensively against large animals in rural roads. AS the bar is rigid, unlike bumper which resist the impact by crumple, it actually causes injuries and death for civilian vehicles. 
 
-As such bull bar is banned in the EU. Taking into considering of mitigating damage to the opposing body, we feel that it will be effective in employing it in our robot to ensure that in the event of a collision we will not be damaged and that it will be the enemy that is damaged.  
+    As such bull bar is banned in the EU. Taking into considering of mitigating damage to the opposing body, we feel that it will be effective in employing it in our robot to ensure that in the event of a collision we will not be damaged and that it will be the enemy that is damaged.  
 
-The Bull bar will be inserted on both front and back of the robot to ensure a surround coverage and defensive system. 
+    The Bull bar will be inserted on both front and back of the robot to ensure a surround coverage and defensive system. 
 
-![Bull Bar](./assets/WD_Bull_Bar.jpg)
+    ![Bull Bar](./assets/WD_Bull_Bar.jpg)
 *Source: https://www.tjmperth.com.au/product/tjm-tradesman-steel-bull-bar-suit-toyota-hilux-2015-plus/*
 
-Can be made inhouse with just a few metal beams
+   Can be made inhouse with just a few metal beams
 
 ![Chassis](./assets/WD_Chassis.png)
+   *Overview of Chassis*
 
 5. Wheels
 
