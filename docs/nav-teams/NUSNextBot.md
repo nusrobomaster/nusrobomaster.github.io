@@ -247,10 +247,10 @@ Red arrows refer to wheels turning forwards, while blue arrows refer to wheels t
    
    Focal length of the camera will be derived from camera calibration.
    
-   **rheight/vheight = F/d**
+   **rheight/vheight = d/F**
  
    ![Distance-Measure](./assets/NUSNextBot-Distance.png)
-   *Figure11. Mechanism of measuring the distance*
+   *Figure11. Mechanism of measuring the distance (Source: Fujian University of Technology)*
   
    It is technically difficult but may be reliable.
 
