@@ -156,12 +156,14 @@ We intend to fire projectiles at the maximum allowed velocity of 30m/s. Based on
 The ammo box will be located at the top part of the robot and it will take the shape of a funnel to ensure that the projectile will go into the conveyor belt one by one. This is to avoid jamming during the loading of projectiles from the ammo box into the conveyor belt. Subsequently, we will use indexing mechanism as a stopper. This means that each projectile delivered by the conveyor belt will be stored in the groove of the stopper and will be passed one by one to the barrel. This will ensure that there is no jam during the loading of projectiles into the barrel where the projectile will be shot through double flywheel system
 
 ![indexing](./assets/robocop-indexing.png)
+
 Figure 9
 
 
 The motor we chose for this should have a higher stalling capacity to prevent jams but a lower rpm since we do not need projectiles to be fed into the flywheel at such a high rate. Hence, we chose the motor shown below.
 
 ![indexing](./assets/robocop-indexingmotor.jpg)
+
 Figure 10
 
 Assuming that the indexing mechanism has 8 grooves, a 40RPM rotation from the motor would allow us to achieve our target of 5 projectiles fired per second.
