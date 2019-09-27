@@ -230,31 +230,10 @@ The fabrication methods listed below and not exhaustive and there are various ad
 
 Aluminium will be used as the material for fabricating the formed sheet cover that protects the top of the robot. It is chosen because of its **ease of machining**, **light-weight properties** since we like to have **as much weight saving as possible**. With proper structural design, we can make use of its property to achieve a structure with high strength to weight ratio. **Steel** will be used for the skeletal structure of the rolling chassis to **provide the rigidity and toughness** we need to reduce any deformation that could potentially occur with the enemy. Given **its high strength to toughness ratio** as well as **high Young’s Modulus**, beams and brackets produced from this material is the most suitable material for the main frame. Last but not least, we will be looking at **acrylic as a material for rapid prototyping** of chassis due to the **low cost** as well as being **easier to machine compared to steel**. Being transparent, we could visualise and check the internal mechanisms of the shooter/motors and effectively troubleshoot problems immediately as compared to using steel for prototyping. 
 
-#### Aluminium
-One of the materials used in designing and fabricating the covers that protect the top of the robot is formed sheet aluminium. Aluminium is **easy to machine**, and with proper structural design, it can possess a **high strength to weight ratio.**
-
-#### Steel
-The skeletal structure of the rolling chassis will **need to be extremely rigid and strong** to significantly reduce any deformation that can occur from collisions as well as enemy pellets. We can use steel beams and brackets to assemble the main skeleton.
-
-#### Acrylic
-Acrylic’s **transparency** makes it a suitable material for the chassis during the prototype stage. It is **inexpensive and easy to machine.** It is used so we can visualize and check the internal mechanisms of the shooter/motors and **effectively troubleshoot problems.**
-
-#### Fasteners
-Nuts and bolts are the bread and butter of most mechanical assemblies. However, in order to **save time when having to regularly take apart the modules in the prototyping phase**, we also propose **zip ties and velcro straps as an inexpensive and more efficient alternative** to traditional fastening methods.
-
 ### 6.2 Fabrication Methods
 We will be using various fabrication methods such as **laser cutting**, **CNC machining** as well as **3D printing**. For thin materials such as acrylic sheets, laser cutting can be a **quick, efficient and accurate fabrication method** - especially in the prototyping phase. 
 
 We will have a 3D design converted into a planar drawing in autocad/solidworks. The purpose of designing in Solidworks is to allow us to see the overall structure under design conditions so that we are able to test different simulations and we would not waste time and money due to certain failures. Solidworks have in-built CNC-code which can be output into the CNC machine to cut metal sheets of certain shapes. For other parts that do not require CNC machining, we will apply manual machining to it. Last but not least, for unique parts that cannot be found on the market, we will be designing and testing them, followed by printing them using 3D printers. 
-
-#### Machining
-We will have a 3D design converted into a planar drawing in autocad/solidworks (They have in-built CNC G-code output) and eventually CNC machine the metal sheets. For parts that do not require CNC machining, they can be manually machined.
-
-#### 3D Printing
-There are certain parts of the vehicle that do not require a high strength, and these are the areas we can **reduce the weight through 3D printing the parts in PLA/ABS.** One of these components are the ammo box/cover, as well as the servo brackets.
-
-#### Laser Cutting
-For thin materials (thin aluminium and acrylic sheets), **laser cutting can be a quick, efficient and accurate fabrication method.** Especially in the prototyping phase. 
 
 ## 7. System Architecture
 [Back to Top](#contents)
