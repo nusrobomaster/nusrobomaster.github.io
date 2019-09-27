@@ -164,6 +164,7 @@ In consideration of this playstyle, the soldier robot must be designed to be qui
     Since there are 4 independent motors, drive shaft can be removed to eliminate points of failure. Instead, the axle area will be mounted with the motor and Mecanum wheel system 
     
     ![WD_Suspension](./assets/WD_Suspension.png)
+    
     *Proposed Suspension design*
 
     **Bull Bar**
@@ -180,6 +181,7 @@ In consideration of this playstyle, the soldier robot must be designed to be qui
    Can be made inhouse with just a few metal beams
 
 ![Chassis](./assets/WD_Chassis.png)
+   
    *Overview of Chassis*
 
 5. Wheels
@@ -194,7 +196,7 @@ In consideration of this playstyle, the soldier robot must be designed to be qui
     
     Propose to adapt from exisitng open source projects to design our own 
     
-    ![Stereo Camera](./WD_Stereo_Cam)
+    ![Stereo Camera](./WD_Stereo_Cam.png)
     
     Credit: https://github.com/AlexJinlei/Stereo_Vision_Camera 
     
