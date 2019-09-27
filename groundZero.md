@@ -17,7 +17,7 @@ We are a team of five as for now. We welcome like-minded individuals to join us 
 
 Mechanical engineering student. Year 2. I study innovation and Design Program (iDP) as my second major. I have achieved several awards in Physics competitions in high school. However, I have no prior knowledge about robotics. 
 
-#### Wei Jie
+#### Tew Wei Jie
 
 Mechanical Engineering student, Year 2. I am studying Innovation and Design Program as my second major as well. Currently, I am involved with Space Challenge which focuses on space debris clearance. Robotics has been an interest of mine and hope to understand more about it. I first encountered robotics as my part time job as I teach students how to use EV3 to create their own robots and the programming logic for it. I would like to deal with the mechanical portion of the robotics and learn as much as possible. 
 
