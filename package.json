@@ -1,0 +1,25 @@
+{
+  "name": "nusrobomaster.github.io",
+  "version": "0.1.0",
+  "description": "Public Pages for Teams",
+  "scripts": {
+    "serve": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nusrobomaster/nusrobomaster.github.io.git"
+  },
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/nusrobomaster/nusrobomaster.github.io/issues"
+  },
+  "homepage": "https://github.com/nusrobomaster/nusrobomaster.github.io#readme",
+  "devDependencies": {
+    "markdown-it-task-lists": "^2.1.1",
+    "vuepress": "^1.0.3",
+    "vuepress-bar": "^0.1.1",
+    "vuepress-plugin-disqus": "^0.1.1"
+  }
+}
