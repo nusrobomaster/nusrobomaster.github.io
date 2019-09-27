@@ -282,10 +282,6 @@ Source: https://github.com/AlexJinlei/Stereo_Vision_Camera
 
    - Rubber / Spring cushions around the referee plates, thus when the robot is hit, the referee plates not be in the same position for the second shot. Therefore, it lowers the damage taken as the opponent might have to recalibrate their aim
    
-   - The guards (bumper system) will be designed such that it is angled and have a smooth finish to be able to deflect and incoming collision and prevent our robot from getting tangled with others
-   
-   ![Bumpers](./assets/Bumper_WD.jpeg)
-
 
 ### Fabrication Method
 
