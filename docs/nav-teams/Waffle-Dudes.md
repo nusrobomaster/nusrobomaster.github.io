@@ -157,14 +157,14 @@ In consideration of this playstyle, the soldier robot must be designed to be qui
     
     As there are 20 degrees ramp that the robot has to maneuverer over. A suspension system will be immensely useful in ensuring that the internal structures of the robot is not damaged. In the small-scaled community, various remote-control vehicles use the shock absorber system and thus we have adapted / referenced from them as parts will be widely available and there will be many structures and design to study from. Further calculations will be involved once we received the reference design unit and have the relevant specs to it.
 
-    ![RC Car Suspension]()
+    ![RC Car Suspension](./assets/WD_RC_Suspension.jpg)
     
     *Source: Own*
     
     Since there are 4 independent motors, drive shaft can be removed to eliminate points of failure. Instead, the axle area will be mounted with the motor and Mecanum wheel system 
     
     ![WD_Suspension](./assets/WD_Suspension.png)
-    *Suspension*
+    *Proposed Suspension design*
 
     **Bull Bar**
 
@@ -189,6 +189,66 @@ In consideration of this playstyle, the soldier robot must be designed to be qui
 6. Dual Camera System 
 
     - Dual cameras for depth perception using triangulation method
+    
+    - Calculating the distance of the object allows the gun system to compensate for the projectile motion of the bullet by adjusting its angle of elevation 
+    
+    Propose to adapt from exisitng open source projects to design our own 
+    
+    ![Stereo Camera](./WD_Stereo_Cam)
+    
+    Credit: https://github.com/AlexJinlei/Stereo_Vision_Camera 
+    
+    
+    
+    **Baseline**
+    The baseline is 120mm, the distance between the 2 camera’s optical axes. A short baseline stereovision system has larger overlapped visual area, which can detect the objects close to the camera. But the disparities at larger distance are too small to be distinguished. A larger baseline system has a larger detection range but cannot detect objects that are close to the camera.  
+     
+     Besides that, the larger baseline system must search the larger range when executing the stereo matching algorithm, requiring more time and hardware resources and the mismatching probability will increase. It is important to choose a proper baseline to meet a specific requirement.  
+     
+     The 12cm baseline system has a working range from 1m to 10m. This working range satisfies & covers the dimensions of the playing area.  
+     
+     This dual camera system utilizes 2 stereo vision cameras & is a low-cost alternative solution to high-end equipment & technology such as LiDAR.  
+     
+     **Focal Length**
+     
+     Focal Length = 4.35mm low distortion lens 
+
+     The focal length is the distance between the lens and the image sensor when the subject is in focus. The short focal length lens has a large view angle but will produce large distortion. The long focal length lens has a narrow view angle, but the distortion is small. The distortion will drastically reduce the accuracy of the depth map. Our Soldier bot needs the large angle view to acquire a big scene of the environment, while at the same time, it requires an accurate depth map to get position information. 4.35mm low distortion lens are suitable. 
+    
+     **Supported Frame Format**
+
+     Time is an important factor in generating the real time 3D map, especially in a varying environment, where objects move & change positions very quickly. Acquiring stereo image pair and calculating depth map will incur some time and hence when the depth map is generated, the moving objects would have changed the position. If the relative velocity of other robots to our robot is around 16m/s, to achieve a 0.5m spatial resolution, the time interval between two frames of image should be 0.3125s (0.5m divided by 16m/s). This corresponding frame rate is 32 frames per second (FPS).  
+      
+      The stereo cameras can accommodate to this & provide an FPS of 38.64 using discrete 800x600 MJPEG format (60 fps), providing a decode time=17ms. This however provides a very narrow field of view.  
+      
+      There is an alternative of using discrete 320x240 YUYV (30 fps) format to provide a FPS of 29.82, with a decode time of 0.8ms. The view angle is equal to 1920x1080.  
+       
+      **Theory**
+
+      If the images of an object are captured from two different points of view, the 3D information can be derived from the disparity of the two images (disparity = difference between xr & xl). Figure 1 is a stereovision system with two parallel cameras. The object point P is projected on the image plane of the two cameras. For left and right cameras, the position of image points of P are different.  
+      
+      xl is the distance between left camera axis and image of P on left camera image plane, and xr is the distance between the optical axis of right camera and image point of P on right camera image plane.  
+      
+      f is the focal length of the two cameras. The distance between two optical axes is called baseline (b). It is notable that the length of xl and xr are different. The equations in boxes are obtained using the concept of similar triangles. From these relations, the location of the 3D points in object space can be derived. 
+      
+       (1) 𝑧 = (𝑓∙𝑏) / (𝑥𝑙 − 𝑥𝑟) = (𝑓∙𝑏) / 𝑑 
+      
+       (2) 𝑥 = 𝑥 𝑙 ∙ (𝑧/𝑓) 
+      
+       (3) 𝑦 = 𝑦 𝑙 ∙ (𝑧/𝑓) 
+ 
+ ![Triangulation](./assets/WD_Triangulation.png)
+ 
+Source: https://github.com/AlexJinlei/Stereo_Vision_Camera 
+
+       
+   **Summary**  
+
+   Hence, considering the tactic of very fast-paced gameplay & the Soldier robots being used to tackle opponent bots head on, we might not require a large field of view since our Operator will use the Soldier robot to focus on a single opponent at a time. The attacking Soldier robots thus may not require the depth map in close quarters since the speed of the bullet is fast enough to compensate for its bullet drop. 
+
+   This depth perception can be tweaked when applied to other robots that need to stay further back at base & target opponents from a distance & thus, where the depth perception feature would be more important. Here, the depth map will be critical for the auto aim feature of the robots, where bullet drop would be significant & thus, the gun will need to be readjusted with a higher angle of elevation to account to this. 
+   
+   Code necessary for this software is available from an open-source project user AlexJinlei had developed & uploaded to GitHub. 
 
 7. Motor/ Battery/ Electronic Speed Control, Power Distribution Box
 
@@ -227,6 +287,8 @@ In consideration of this playstyle, the soldier robot must be designed to be qui
 
 ### Fabrication Method
 
-To minimise the time taken to build and debug, the robot will be based of DJI’s reference model and will be modified further to improve its performance. Parts from hobbyist level of remote-control vehicles will be preferred. This is because they are readily available off the shelf components from hobby stores. They will provide us with the ease of access, wide range of choices and the support of hobby community.
+The objective and angle of approach that we are taking is to build a robot as quickly as possible. And fine tune it via trial and error. Thus, we will be adapting solutions that are already available in the market and minimise inhouse manufacturing and development to a minimum. As we feel that the margin of performance gain is insignificant in the grand scheme of things if we do not have a functioning robot at all. Perhaps, we will leave the inhouse development to next year or if we are ahead of schedule for this year’s competition. 
+
+Parts from hobbyist level of remote-control vehicles will be preferred. This is because they are readily available off the shelf components from hobby stores. They will provide us with the ease of access, wide range of choices and the support of hobby community.
 
 In the event that parts cannot be found, we will adapt them from exising parts found in live sized vehicles and scale them down accordingly. Small parts can be 3D printed for rapid protopying before the fabrication of the actual part. With access to the school's facilities, strongly believe that we can machine out the necessary and required parts.
