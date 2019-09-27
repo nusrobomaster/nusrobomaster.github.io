@@ -97,7 +97,7 @@ No| Role          |  Description                        | Assigned to       |
 
 ### GIMBAL/TURRET
 
-![Feeder Photo](./assets/rekt_feeder.png)
+![Feeder Photo](./assets/rekt_feeder2.png)
 
 1. The gun/gimbal system shall be mounted in the centre of rotation of the base to allow for 360° rotation of the body and gimbal system. This allows a wider firing range and allows the robot to spin on its base without much effect to the gun, as one of the strategies is to keep the touch pads in motion to reduce chance of damage. As all robots are free to move, there might be incoming robots from all directions. Therefore, it is essential to design the robot in a way which can counter-attack the enemy in the shortest time possible. By allowing the gimbal to turn 360 degrees, the robot can quickly react to other enemy robot.
 
@@ -111,7 +111,7 @@ No| Role          |  Description                        | Assigned to       |
 
 6. A “carousel” like system with slanted base leading to the feeding system in the bottom of hopper to feed projectiles to the turret. Bullets will be fired by feeding the gun with projectiles to ensure continuous fire rate.
 
-7. A cone to be placed over the rotating mechanism to direct the projectiles into the firing mechanism.
+7. A cone-shaped gear to be placed over the rotating mechanism to direct the projectiles into the firing mechanism.
 
 8. The feeding system will be mounted in the centre of rotation for all axis of gimbal (i.e. axis of yaw and axis of pitch) to allow for rotation along both axis of gimbal. Each connection will be sleeved into each other to ensure unobstructed path for projectiles and all joints to be fit with rollers to ensure smooth movement.
 
