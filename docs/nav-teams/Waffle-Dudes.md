@@ -121,6 +121,10 @@ In consideration of this playstyle, the soldier robot must be designed to be qui
     
     *Funnel Design*
     
+    ![3D_Funnel](./assets/WD_3D_Funnel.jpg)
+    
+    *3D Model for funnel*
+    
     **Feeding Mechanism**
     
     Base of ammo box will have a rotating disk with a notch for storing one ball at a time. When the notch reaches the outlet, the guide will push only one ball out towards the gun. For a launcher based on a flywheel, fire rate of gun can be controlled by varying the rpm of rotating disk. Software can also be used to control the fire rate in consideration of the “barrel heat” rule. The robot can shoot the first few (e.g. 6) rounds at a faster rate before it reaches the maximum heat. Then it will slow down for the subsequent shots. This will provide the robot will large bursts of damage for an aggressive playstyle.  
