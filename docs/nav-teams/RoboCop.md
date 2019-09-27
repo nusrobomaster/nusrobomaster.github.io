@@ -76,7 +76,7 @@ Our first consideration when designing the chassis is its sizing. We planned to 
 
 ![Base](./assets/robocop-base.jpg)
 
-<center>Figure 1</center>
+<p style="text-align: center;">Figure 1</p>
 
 
 We choose to install **mecanum wheels** for the robot since it can be mounted like normal wheel while providing the same style of movement as omni wheel. Each wheel will also has a motor directly attached to it. (allowing the robot to turn without a steering system). 
