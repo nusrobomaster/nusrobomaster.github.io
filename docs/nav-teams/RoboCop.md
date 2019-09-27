@@ -100,8 +100,8 @@ Figure 3
 Since we are using 2-axis gimbal system, we will need two Brushless DC motor to allow the turret to move in the pitch and yaw axis. The turret will be designed to be able to make 360 degrees rotation in Yaw axis and <180 degrees rotation in Pitch axis.
 
 ![Rotations](./assets/robocop-rotations.jpg)
-<center>Figure 4</center>
 
+Figure 4
 
 
 The general design of the gimbal system is as follows: 
@@ -130,8 +130,7 @@ As for the active, automatic stabilisation, a gyroscope will be attached to the 
 ### Cannon (Double flywheel launcher system):
 
 ![turret](./assets/robocop-turret.jpg)
-
-<center>Figure 7</center>
+Figure 7
 
 
 For the launcher, we intend to use a double flywheel launcher system. Some of the considerations we have taken into the designs include: 
@@ -150,25 +149,20 @@ The calculation is made with the assumptions that the shooting speed is consiste
 We intend to use the motor shown in the image below to power the flywheels.
 
 ![turret](./assets/robocop-flywheelmotor.jpg)
-
-<center>Figure 8: Motor for flywheel</center>
-
+Figure 8: Motor for flywheel
 
 We intend to fire projectiles at the maximum allowed velocity of 30m/s. Based on our calculations, if the motor is spinning at 7000rpm, the diameter of each flywheel needs to be 80 mm for the launcher. The two wheels will also be spaced 16 mm apart horizontally since the projectile’s diameter is 17mm. 
 
 The ammo box will be located at the top part of the robot and it will take the shape of a funnel to ensure that the projectile will go into the conveyor belt one by one. This is to avoid jamming during the loading of projectiles from the ammo box into the conveyor belt. Subsequently, we will use indexing mechanism as a stopper. This means that each projectile delivered by the conveyor belt will be stored in the groove of the stopper and will be passed one by one to the barrel. This will ensure that there is no jam during the loading of projectiles into the barrel where the projectile will be shot through double flywheel system
 
-![indexing](./assets/robocop-indexing.jpg)
-
-<center>Figure 9</center>
+![indexing](./assets/robocop-indexing.png)
+Figure 9
 
 
 The motor we chose for this should have a higher stalling capacity to prevent jams but a lower rpm since we do not need projectiles to be fed into the flywheel at such a high rate. Hence, we chose the motor shown below.
 
 ![indexing](./assets/robocop-indexingmotor.jpg)
-
-<center>Figure 10</center>
-
+Figure 10
 
 Assuming that the indexing mechanism has 8 grooves, a 40RPM rotation from the motor would allow us to achieve our target of 5 projectiles fired per second.
 
@@ -183,13 +177,11 @@ Assuming that the indexing mechanism has 8 grooves, a 40RPM rotation from the mo
 There is a huge array of cameras for robot vision. We used this decision-making tree to aid us in choosing the right camera for our robot:
 
 ![chart](./assets/robocop-3dcamerachart.jpg)
-
-<center>Figure 11</center>
-
+Figure 11
 
  https://www.electronicproducts.com/Robotics/Designer_s_guide_to_robot_vision_cameras.aspx
 
- 
+
 
  Our robot does not need an extremely high-quality image in order to detect the in game objectives and hence we have chose the CMOS based robot vision camera due to its price, power consumption, as well as processing power needed to process the image.
 The higher the resolution the more information our algorithm will have and the more computational CPU power we will need to process it, the lower the resolution the easier it is to process it quickly and the cheaper our system will be. Given our requirements, we select the **OpenMV Cam H7**.
