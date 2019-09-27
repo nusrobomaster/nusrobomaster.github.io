@@ -48,6 +48,14 @@ With proper concept design and directions set for the robot, we will move on to 
 
 Having analysed the past year competitions and rule book we have come up with some design considerations for the soldier robot. Of course some of these are based on the previous year's rules so are subject to change.
 
+### Overall Strategy 
+
+The general strategy of the soldier robot is to play aggressively. Since the field is mostly flat with some cover, it would suit fast paced, close quarters combat. In the early phase of the game, the soldier robots' main objective is to rush towards the resource island to harass and block the opposing engineer from refilling their hero robot with the 42mm rounds. Ideally, the soldiers would be able to harass the opposing engineer while our own engineer refills the hero robot, massively increasing our damage potential over the enemy's.
+
+Once the hero robot receives the 42mm rounds, the soldier robots will spread out and start to execute quick random attacks to confuse the enemy. The soldier and hero robots can then swarm and pick off stragglers the moment the enemy breaks formation. 
+
+In consideration of this playstyle, the soldier robot must be designed to be quick and agile so that it can execute fast attacks and retreat to cover. The robot should be small and light for it to be fast and nimble. A bumper system would be also be beneficial for its aggressive playstyle. Finally, the gun placement should be low so that the robot can go up close and still be able to hit the low lying armour module. This also has the added benefit of lowering the centre of gravity of the robot to make it more stable. 
+
 ### Robot Type: Soldier Robot
  
 1. Can only shoot non-aerial robots
@@ -69,23 +77,16 @@ Having analysed the past year competitions and rule book we have come up with so
     - 600 x 600 x 500 (mm)
 
 ### Environmental Conditions
-
-1. Collisions not allowed according to rules, however, there have been some instances of knocking and damages to robot
-
-    - Mimic cars where there is a crumple zone to absorb the force with a rigid interior structure to protect the internal components
-
-    - Simple design, minimise moving parts
     
-    
-2. Some slopes up to about 20 degress including a gap on two of the roads where robot has to "jump" across (ability to climb 20 degrees also a competition requirement)
+1. Some slopes up to about 20 degress including a gap on two of the roads where robot has to "jump" across (ability to climb 20 degrees also a competition requirement)
 
     - Low centre of gravity while keeping within size constrains to prevent overturns
 
     - Suspension to protect the internals and at the same time increase stability of gun 
 
-    ![Suspension](./assets/Suspension_WD.png)
+    ![Suspension](./assets/Suspension_WD.png) 
     
-    - Suspension will be considered towards the later part of the build process where we have a rough weight of the robot and its structures. We will source the suspension to specifications of the robot.  
+    to be changed
     
     - Types of suspension to consider: Hydraulic (from RC car), easily available from hobby stores in Singapore, magnetic dampers which we can DIY from neodymium magnets
 
@@ -93,7 +94,7 @@ Having analysed the past year competitions and rule book we have come up with so
 
 1. High mobility required for tight corners and manoeuvres and fast reaction times
 
-    - High torque motors for high acceletaion
+    - High torque motors for high acceleration
     - Mecanum wheels for mobility and agility
 
 ### Robot Components
@@ -107,12 +108,14 @@ Having analysed the past year competitions and rule book we have come up with so
     - Laser for visual assistance when aiming
     
     - Compressed air pressure must not exceed 20 MPa, initial firing speed limit of 30 m/s
-
+    
+    - There is a focus on a aggressive close quarters playstyle with close range shooting. It is important that the gun still needs to be relatively accurate to adapt to newer strategies. Longer barrel length up to 20 cm should be utilised. Should time and resources permit, rifling and Magnus effect due to imparting spin can be considered to increase accuracy. 
+    
 2. Ammo collection and feeding mechanism 
 
-    - Simple “double funnel”, the interior will be lined with soft material like silicone, so the balls do not bounce back out easily 
+    - Ammo box with simple “funnel lid”, the top surface will be lined with soft material like silicone, to prevent balls from bouncing out during refilling
 
-    - Gravity feed balls into gun 
+    - In line with keeping gun placement low, ammo box is placed to the rear of the gun and gravity feed balls into chamber
 
     ![Funnel](./assets/Funnel_WD.png)
     
@@ -121,6 +124,18 @@ Having analysed the past year competitions and rule book we have come up with so
     ![Mechanism](./assets/Paintball_Mechanism_WD.png)
 
     *Paintball mechanism to be considered for the launcher*
+    
+    **Feeding Mechanism**
+    
+    Base of ammo box will have a rotating disk with a notch for storing one ball at a time. When the notch reaches the outlet, the guide will push only one ball out towards the gun. For a launcher based on a flywheel, fire rate of gun can be controlled by varying the rpm of rotating disk. Software can also be used to control the fire rate in consideration of the “barrel heat” rule. The robot can shoot the first few (e.g. 6) rounds at a faster rate before it reaches the maximum heat. Then it will slow down for the subsequent shots. This will provide the robot will large bursts of damage for an aggressive playstyle.  
+    
+    ![Feeding](./assets/WD_Feed_Mechanism.png)
+    
+    *Feeding Mechanism*
+    
+    ![Gun Overview](./assets/WD_Gun_Overview.png)
+    
+    *General Overview of Gun using Flywheel Launcher*
 
 3. Gun Stabiliser 
 
@@ -130,13 +145,17 @@ Having analysed the past year competitions and rule book we have come up with so
     
     - Inclined towards servo motors as there is a wide support for it and point of failure is low 
 
-    - It should be designed such that the gun can aim at a fixed location while the base (chassis) of the robot can spin continuously to actively avoid being shot at 
+
 
 4. Chassis
 
-    - Aluminium base. Light Weight and sufficiently strong
+    - Aluminium base. Lightweight and sufficiently strong
 
     - Can design trusses to support the wheels and suspension
+    
+    - Modify from reference design and manufacture a new chassis as reference design chassis is not able to mount a suspension system 
+    
+    The area of the chassis housing the wheel system have been tapered and narrowed, such that the overall area of the robot is minimized, hence the concept of being small and agile remains. Additionally, this suspension design allows the robot to achieve a lower Centre of Gravity, by making its body wide & flat as the motor & wheels are placed next to the chassis, instead of below the chassis. The shape of the chassis will resemble closely that of a square, effectively shortening the wheelbase (distance between the centers of the front & rear wheels), which allows the robot to achieve a smaller turning radius & thus be very agile & make quick & sharp turns. 
 
 5. Wheels
 
@@ -154,7 +173,7 @@ Having analysed the past year competitions and rule book we have come up with so
 
 8. Ultrasonic Sensor
 
-    - Close range obstacle avoidance and better environment perception
+    - Improved environment perception
 
 9. Communication Module
 
@@ -162,7 +181,7 @@ Having analysed the past year competitions and rule book we have come up with so
 
 10. On Board Processing Unit
 
-    - Certain features such as aim assist, obstacle avoidance will be processed in the local computer of the robot for fast and efficient response time and gameplay. 
+    - Certain features such as aim assist will be processed in the local computer of the robot for fast and efficient response time and gameplay. 
     
     - Can consider offloading intensive and non-time critical processing to an external workstation if onboard processing unit is too slow. This will be depend on the onboard processing unit's ability to handle all the tasks and also the bandwidth of communication module
 
