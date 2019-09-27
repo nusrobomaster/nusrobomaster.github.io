@@ -138,61 +138,29 @@ We propose a **modular based design** as seen in the diagram below, where the sh
 
 We can split the vehicle into 5 modules that can be easily taken apart from the system:
 
-**1. Head**
-	
-* Shooter Mechanism
-	> * Shooter Frame	
-	> * Motors
-	
-* Projectile Speed Monitor
-	
-* Camera
-	
-* Ammo Box
-	
-* Y and X Axis Gimbals
-	
-* Servos
-	> * Camera
-	> * Ammo Box Cover
-	
-* Remote Controller Receiver
-
-**2. Base**
-	
-* Motors x4
-	
-* Mecanum Wheels x4
-	
-* ESC x4	
-
-* ESC Center Board
-	
-* Suspension System
-
-**3. Core**
-	
-* Microcontroller Unit
-	
-* GPU
-	
-* Referee System Main Controller
-
-**4. Chassis**
-
-* Rolling Chassis
-	
-* Body Plates (To be mounted on the whole vehicle to protect its inner components)
-	
-* Head Frame (Contains the Head module)
-	
-* Referee System Armour Packs
-
-**5. Power**
-	
-* Battery
-	
-* Power Supply Management
+| Module | Components |
+| --- | --- |
+| **Head** | Shooter Mechanism (Shooter Frame, Motors) |
+| | Projectile Speed Monitor |
+| | Camera |
+| | Ammo Box |
+| | Y and X axis Gimbals |
+| | Servos (Camera, Ammo box cover) |
+| | Remote Control Receiver |
+| **Base** | Motors (4) |
+| | Mecanum wheels (4) |
+| | ESC (4) |
+| | ESC Center Board |
+| | Suspension System |
+| **Core** | Microcontroller Unity |
+| | GPU |
+| | Referee System Main Controller |
+| **Chassis** | Rolling Chassis |
+| | Body plates (To be mounted on the whole vehicle to protect it’s inner components) |
+| | Head Frame (Contains the HEAD module) |
+| | Referee System Armour packs |
+| **Power** | Battery |
+| | Power Supply Management |
 
 For our robot, we will be looking at **stabilising and improving** the moving capabilities to accommodate for high speed maneuvers within the arena. To achieve accuracy in control, we aim to ensure **dynamic stability** and **performance** through a well-designed **suspension system** and **weight distribution** over different terrain conditions. We have attached an image of the terrain overview from 2018 Robomaster Rule Manual. 
 
