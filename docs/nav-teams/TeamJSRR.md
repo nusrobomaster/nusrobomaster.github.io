@@ -196,7 +196,7 @@ We can split the vehicle into 5 modules that can be easily taken apart from the 
 
 For our robot, we will be looking at **stabilising and improving** the moving capabilities to accommodate for high speed maneuvers within the arena. To achieve accuracy in control, we aim to ensure **dynamic stability** and **performance** through a well-designed **suspension system** and **weight distribution** over different terrain conditions. We have attached an image of the terrain overview from 2018 Robomaster Rule Manual. 
 
-<p align = "center"> <img src="./assets/TeamJSRR/movement_architecture.png" alt="Movement Architecture"> </p>
+<p align = "center"> <img src="./assets/TeamJSRR/terrain_overview.png" alt="Terrain" height=70% width=70%> </p>
 
 ### 4.1 Tilting Passive and Independent Suspension System Design
 A suspension is defined as “a system of linkages, springs, dampers, and actuators that govern the relative motion between a robot’s wheels and body.”\[1] With reference to the M3 Program that showed DAROA's robotic suspension system\[2], it can be observed that without the robotic suspension system, the vehicle is prone to dynamic instability. Therefore, a well designed suspension system is required.
@@ -215,27 +215,27 @@ In our analysis and design of the structure, we make a few assumptions:
 
 This drawing below illustrates the overall design of the independent tilting suspension system.
 
-<p align = "center"> <img src="./assets/TeamJSRR/drawing1.png" alt="Movement Architecture"> </p>
+<p align = "center"> <img src="./assets/TeamJSRR/drawing1.png" alt="Movement Architecture" height=70% width=70%> </p>
 
-<p align = "center"> <img src="./assets/TeamJSRR/drawing2.png" alt="Movement Architecture"> </p>
+<p align = "center"> <img src="./assets/TeamJSRR/drawing2.png" alt="Movement Architecture" height=70% width=70%> </p>
 
 The diagram below models the suspension system.
 
-<p align = "center"> <img src="./assets/TeamJSRR/drawing3.png" alt="Movement Architecture"> </p>
+<p align = "center"> <img src="./assets/TeamJSRR/drawing3.png" alt="Movement Architecture" height=70% width=70%> </p>
 
 However, in our approximate model, the mass and stiffness of the wheels are negligible as they do not undergo considerable deformation in the terrain.
 
-<p align = "center"> <img src="./assets/TeamJSRR/drawing4.png" alt="Movement Architecture"> </p>
+<p align = "center"> <img src="./assets/TeamJSRR/drawing4.png" alt="Movement Architecture" height=70% width=70%> </p>
 
-<p align = "center"> <img src="./assets/TeamJSRR/drawing5.png" alt="Movement Architecture"> </p>
+<p align = "center"> <img src="./assets/TeamJSRR/drawing5.png" alt="Movement Architecture" height=70% width=70%> </p>
 
-<p align = "center"> <img src="./assets/TeamJSRR/drawing6.png" alt="Movement Architecture"> </p>
+<p align = "center"> <img src="./assets/TeamJSRR/drawing6.png" alt="Movement Architecture" height=70% width=70%> </p>
 
-<p align = "center"> <img src="./assets/TeamJSRR/drawing7.png" alt="Movement Architecture"> </p>
+<p align = "center"> <img src="./assets/TeamJSRR/drawing7.png" alt="Movement Architecture" height=70% width=70%> </p>
 
 We aim to keep the damping ratio as close to one, so as to prevent the system from being too overdamped or underdamped.
 
-<p align = "center"> <img src="./assets/TeamJSRR/drawing8.png" alt="Movement Architecture"> </p>
+<p align = "center"> <img src="./assets/TeamJSRR/drawing8.png" alt="Movement Architecture" height=70% width=70%> </p>
 
 **Limitations of approximation:**
 We understand that the approximation model does not take into account that the center of mass of the body does not lie within the axis of the spring or damping unit, and therefore this is a limitation we will have to address in a higher order approximation of the system. Furthermore, we will need to obtain experimental data and values of the average acceleration of such a body on uneven terrain in order to use the approximation.
