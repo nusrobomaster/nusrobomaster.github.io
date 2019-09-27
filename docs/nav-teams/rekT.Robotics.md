@@ -75,20 +75,21 @@ No| Role          |  Description                        | Assigned to       |
 
 
 
-2. Mecanum wheels are to be utilised as the main driving wheel. The base of the robot in contact with the ground would form a square/rectangle, such that the centre of rotation of the base is equidistant to all force wheels.
+3. Mecanum wheels are to be utilised as the main driving wheel. The base of the robot in contact with the ground would form a square/rectangle, such that the centre of rotation of the base is equidistant to all force wheels.
 
-3. Each individual wheel and motor assembly will be suspended by a double wishbone system to ensure stability of robot during jumps, climbing over inclined surfaces and collisions with other robots.
+4. Each individual wheel and motor assembly will be suspended by a double wishbone system to ensure stability of robot during jumps, climbing over inclined surfaces and collisions with other robots.
 
-4. The use of coilovers to dampen oscillations and provide a smoother ride and movement and allow for precision targeting of turret.
+5. The use of coilovers to dampen oscillations and provide a smoother ride and movement and allow for precision targeting of turret.
 
-5. Wheels to be directly mounted onto driving motors to reduced total suspended weight and reduce stress on suspension system and reduce positioning error due to slight flexing in the power transmission (such as flex from chains or rubber pulleys).
+6. Wheels to be directly mounted onto driving motors to reduced total suspended weight and reduce stress on suspension system and reduce positioning error due to slight flexing in the power transmission (such as flex from chains or rubber pulleys).
+	- All four of the vehicle’s wheels will always be in contact with the ground hence we will have maximum control of the vehicle and maximumly avoid the robot from flipping
 
-6. Bumper to be placed around the wheels to prevent the wheels from getting stuck in the event of collision or projectiles being stuck. Small plating and foam insulation to cover up crevices and prevent projectiles from getting stuck and robot from getting damaged.
+7. Bumper to be placed around the wheels to prevent the wheels from getting stuck in the event of collision or projectiles being stuck. Small plating and foam insulation to cover up crevices and prevent projectiles from getting stuck and robot from getting damaged.
 
-7. Electronic Speed Control (ESC) will be installed on the movement wheels.
+8. Electronic Speed Control (ESC) will be installed on the movement wheels.
 	- To monitor speed of all individual motors, while easing the calibration and accuracy of robot movements.
 	
-8. Electric Voltage and Current Limiter Control Boards should be added to prevent overcurrent and overvoltage to sensitive electronics.
+9. Electric Voltage and Current Limiter Control Boards should be added to prevent overcurrent and overvoltage to sensitive electronics.
 
 
 
