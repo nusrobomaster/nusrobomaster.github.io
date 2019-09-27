@@ -62,6 +62,7 @@ The Standard Robot used in Robomaster is a general-purpose shooter robot that is
 ### General Design and Fabrication Method
 
 ![model](./assets/HERO-pic-7.png)
+<cite>Get compress file on https://bbs.robomaster.com/forum</cite>
 
 For the bulk of material used in the robot, such as the main chassis, stabilisation system and the firing mechanism, aluminium would be used primarily due to its lightweight nature. Even though steel is stronger than aluminium, the (almost 2.5-3 times in weight) weight difference would outweigh the benefits for this robot due to the constraints such as weight limit, battery capacity, opportunity cost for essential components. Fabrication of the aluminium to fit the specifications of our robot would also be cheaper as compared to steel. Fabrication of the aluminium frames can be carried out within school workshops but can be outsourced as well for more complex dimensions (Firing mechanism).
 
