@@ -115,7 +115,7 @@ No| Role          |  Description                        | Assigned to       |
 8. The feeding system will be mounted in the centre of rotation for all axis of gimbal (i.e. axis of yaw and axis of pitch) to allow for rotation along both axis of gimbal. Each connection will be sleeved into each other to ensure unobstructed path for projectiles and all joints to be fit with rollers to ensure smooth movement.
 
 9. Electronic Speed Control (ESC) on firing mechanisms motors
-	- To regulate the speed of shooting of firing motors within the regulation maximum of 30m/s for 70mm projectiles.
+	- To regulate the speed of shooting of firing motors within the regulation maximum of 30 m/s for 17 mm projectiles.
 	- It can be used to control the amount of projectiles shot based on radius calculations of motor rotations per projectile.
 
 
@@ -136,7 +136,7 @@ Both the base and gimbal module will be developed separately but in close commun
 
 Since the robot will be constantly moving and will have much impact with other robots, dish-locking washer and nuts will be used to ensure all connections are tight and will not be loosened by impact.
 
-![Screw Photo](./assets/rekt_screw.PNG)
+![Screw Photo](./assets/rekt_screw.jpg)
 
 ## Proposed Budget
 
