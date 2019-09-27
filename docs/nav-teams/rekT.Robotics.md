@@ -43,7 +43,7 @@ No| Role          |  Description                        | Assigned to       |
 
 ## robotiKs Design Considerations
 
-![Overview Photo](./assets/rekt_overview.jpg)
+![Overview Photo](./assets/rekt_overview.png)
 
 ### BASE
 
@@ -96,7 +96,7 @@ No| Role          |  Description                        | Assigned to       |
 
 ### GIMBAL/TURRET
 
-![Feeder Photo](./assets/rekt_feeder.jpg)
+![Feeder Photo](./assets/rekt_feeder.png)
 
 1. The gun/gimbal system shall be mounted in the centre of rotation of the base to allow for 360° rotation of the body and gimbal system. This allows a wider firing range and allows the robot to spin on its base without much effect to the gun, as one of the strategies is to keep the touch pads in motion to reduce chance of damage. As all robots are free to move, there might be incoming robots from all directions. Therefore, it is essential to design the robot in a way which can counter-attack the enemy in the shortest time possible. By allowing the gimbal to turn 360 degrees, the robot can quickly react to other enemy robot.
 
@@ -119,7 +119,7 @@ No| Role          |  Description                        | Assigned to       |
 	- It can be used to control the amount of projectiles shot based on radius calculations of motor rotations per projectile.
 
 
-![Gun Photo](./assets/rekt_gun.jpg)
+![Gun Photo](./assets/rekt_gun.png)
 
 
 ## General Design and Fabrication Methods
