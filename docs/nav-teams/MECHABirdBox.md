@@ -36,20 +36,48 @@ No| Role          |  Description                        | Assigned to       |
  15|  Mechanical        | Blaster System  |  Samantha            |
  16|  Operations        | Media: Camera, video  |  Damien, Kevyn            |  
 
+## Battlefield Role of Standard Robot
+
+* Objective: To make the battlespace as confusing as possible for the opposing team while being able to pose a threat to enemy robots through a combination of burst damage and mobility
+
+* To accomplish this objective, several modifications will be required. For one, the turret of standard robots will be provided with “bodykits” to make them look like the turret of a Hero robot. The dimensions for Heroes are larger than Standard robots, but if designed with similar silhouettes and when projected onto a screen, it is possible to mistake a smaller Standard at a certain distance from the viewer as being a Hero at a slightly further distance away.
+
+* Another modification is to augment the mecanum wheels with small weights attached via a strip of connective material. When in motion, these weights are intended to extend normal to the axis of rotation of the wheel due to the influence of rotational inertia and deflect incoming projectiles. There is a maximum of 10cm allowed for in-game structural expansion, so the max legal increase in radius, the length of the connective strip, of each wheel is 5cm.
+
 ## Key aspects of the robot to consider
 
 ### Mecanum wheels
 
 * Lower part: spin stabilisation, Upper part: stationary
 * Consists of wheel rollers and damping rings.
-* Expandable wheels -> May reduce hits while in motion and technically not illegal until they patch this next year. There is a maximum of 10cm allowed for in-game expansion, so the max legal increase in radius of each wheel is 5cm.
+* Wheel extensions -> Objects secured to the wheels via a strip of connective material. When in motion, these weights are intended to extend normal to the axis of rotation of the wheel due to the influence of rotational inertia and deflect incoming projectiles. This idea works with mecanum wheels because the angle the wheel makes with the chassis is constant in all motions, so there will be no interference of the wheel and the extension.
 
 ### Chassis
 
-* Front, Rear, Left, Right Armor. If possible, shock absorbers incorporated to reduce damage to robot parts.
+* Front, Rear, Left, Right chassis have shock absorbers incorporated to reduce damage to robot parts.
+
+![ChassisBottom](./assets/MECHABirdBox-chassis-1.1.png)
+
+![ChassisFront](./assets/MECHABirdBox-chassis-1.2.png)
+
 * Impact detector: Transmit health of robot efficiently to controls system, direction of impact to the pilot UI.
 * Intelligent sensing armour -> Infrared sensors near armour to detect when aiming beam lands on robot. Or gel pads to detect which part of the robot is being hit to move away accordingly
-* Suspension system: to increase the stability of the robot especially during climbing, fly landing. Maneuvering robot should be as agile as possible.
+* Suspension system: as our design involves wheel extensions, we will not be including suspensions to minimize the risk of entanglement. Furthermore, since horizontal forces will already be damped by the shock absorber, the benefit of a suspensions lies in damping vertical forces, which will be minimal since its only experienced when mounting ramps and curbs. As long as the curb is significantly small, the robot should still be able to cross it.
+* Motor selection: RoboMaster M2006 P36 Brushless DC Gear Motor (Side note: also used by DJI RoboMaster AI Challenge Robot)
+
+![SpeedTorqueGraph](./assets/MECHABirdBox-speedtorquegraph.png)
+
+ No load speed|  500rpm   |
+ No load current|  0.6A   |
+ Rated speed|  416rpm   |
+ Largest continuous torque|  1Nm   |
+ Rated voltage|  24V   |
+
+ * For a 20kg robot to move off,
+	W = mg = 20 x 9.81 = 196N
+	Frictional force = 𝜇N = 0.45 x 196 = 88.3N
+	Torque required = Fr = 88.3 x 0.04 = 3.53Nm
+	Torque per wheel = T/4 = 0.883Nm (well within specs)
 
 ### Gimbal
 
@@ -58,27 +86,36 @@ No| Role          |  Description                        | Assigned to       |
 ### Sensors
 
 * IMU
-* Lidar system: detect nearby robots (both ally and enemy) and location given in red/blue.
 * Monitoring sensors: detect any malfunctioning parts.
 * Ammo sensor: detect amount of ammunition available, when under a certain amount signal warning to pilot.
 * Targeting system: Smart sensors to help robot target objectives, assist pilot in aiming. Estimated projectile trajectory motion to help compensate for long-distance shooting. 
 
 ### Ammo launching/loading system 
 
-* Fire 17mm projectiles (maximum barrel speed: 45m/s)
 * Ammo loading should not have jamming of projectiles
 * Ammo should be fed to launching mechanism at a fast and steady rate.
+* The launching mechanism will be calibrated to launch the official 17mm, 3.2g projectile through a barrel angled at ϴ degrees to have a speed of approximately 12m/s (the value at which the armor sensor best detects 17mm projectiles) after travelling a displacement of roughly 3m parallel to the ground such that the absolute values of the maximum upwards (normal to ground) and final downwards (towards ground) displacement does not exceed ⅓ of the vertical height of the sensing portion of the armor module when measured on a plane normal to the ground that contains the midpoint of the front of the robot and the midpoint of the rear of the robot. From the Referee Specification manual, the vertical height is 128mm. The restriction on the maximum upwards displacement is to allow operators to be able to fire accurately at close range.
+* Using an iterative method accounting for air resistance and a timestep of 0.01ms, a ϴ of 4 in conjunction with an initial velocity of 13m/s would have a final velocity of 12.33m/s at 2.82m before the downwards displacement exceeded 42 ⅔ mm, with a maximum positive displacement of 42.0mm.
+* This would add 13 heat per shot, which is 21.67% of the Barrel Cooling Value Per Second, 60, allowing for indefinite firing at a rate of 4.61 projectiles per second.
+
 
 ### Media
 
-* Camera (vision), GPU: should transmit a FPS view of the robot with clear resolution and minimal time lag from control system(pilot). Vision should be steady when robot moves across slopes/bumps, in-flight.
-* Speaker (sound effects)
+* Camera (vision), GPU: should transmit a FPV view of the robot with clear resolution and minimal time lag from control system(pilot). Vision should be steady when robot moves across slopes/bumps, in-flight.
 
 ### Programming
 
 * Targeting system, AI tracking systems
 * STM32 main microcontroller
 * Evasive Maneuvering Program (Spinning)
+
+### Power
+
+* TB47D Li Po Battery selected for high energy density
+* Voltage: 22.8V, Capacity: 4500mAh, Weight: 0.676kg
+* Regulations state that total power capacity must be <200Wh, this one adds up to 103Wh.
+* Side note: also used by DJI RoboMaster AI Challenge Robot
+
 
 ### Controls
 
