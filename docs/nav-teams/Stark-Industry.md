@@ -68,7 +68,7 @@ We would be having an efficient Heat dissipation system for preventing overheati
 
 1. Wheel System:
    - 4 Mecanum omnidirectional wheels that allow the robot to rotate, move sideways, back and forth freely.
-   ![Mecanum](./assets/mecanum.png)\n
+   ![Mecanum](./assets/mecanum.png)\
    Retrieved from https://robu.in/product/100mm-aluminium-mecanum-wheels-bush-type-rollers-left/
 
 
@@ -89,13 +89,13 @@ Relevant Rules (Retrieved from 2019 Robomaster Rules):
 
 Drag:
 ![drag](./assets/drag.png)\n
-Retrieved from https://www.grc.nasa.gov/www/K-12/airplane/dragsphere.html\n
-D = Cd * .5 * rho * V^2 * A\n
-Re = V * rho * l / mu\n
-Since the bullet need to hit the armour at a speed of 8m/s, the initial speed cannot be less than 8m/s, and the maximum speed is 30m/s as specified in the rules.\n
-Re12 = 12*1.225*0.017/1.86*10^-5=13435\n
-Re30 =  30*1.225*0.017/1.86*10^-5=33589\n
-Reynolds number is around 0.5.\n
+Retrieved from https://www.grc.nasa.gov/www/K-12/airplane/dragsphere.html\
+D = Cd * .5 * rho * V^2 * A\
+Re = V * rho * l / mu\
+Since the bullet need to hit the armour at a speed of 8m/s, the initial speed cannot be less than 8m/s, and the maximum speed is 30m/s as specified in the rules.\
+Re12 = 12*1.225*0.017/1.86*10^-5=13435\
+Re30 =  30*1.225*0.017/1.86*10^-5=33589\
+Reynolds number is around 0.5.\
 ![calculation](./assets/calculation.png)
 
 ## General Design and Fabrication Methods
