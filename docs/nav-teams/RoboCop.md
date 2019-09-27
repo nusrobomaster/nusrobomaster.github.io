@@ -54,9 +54,11 @@ After watching through the games in the Grand Final round of 2019 competition, w
 
 First to make the robot agile and high mobility, we need to consider the weight, size, speed and acceleration of the robot with the following constraints: 
 
+<center>
  Weight   |  Size                        | Chassis Power      | 
 ----------|---                           |---                |
   20 kg   |  600 x 600 x 500             |  80 W    |
+</center>
   
 From observing the game, the maximum linear continuous traveling distance for the robot in a game is only 20 meters. In addition, it’s more important for the robot to have high initial acceleration to improve its agility. Hence, we aim to have our robot **accelerate to 2m/s within 0.7s and have a maximum speed of 4.5 m/s**. To achieve this, considering the weight and chassis power limit, we plan to have our robot to be weighted at around **15-16 kg**. It’s understandable that we can make our robot lighter to travel faster; however, we also planned to use mecanum wheels which has lower grip with ground surface (compared to a normal wheel). Hence, it’s important for the robot to be heavy enough for fast acceleration.
 
