@@ -79,7 +79,7 @@ We would be having an efficient Heat dissipation system for preventing overheati
 3. Anti-collision:
    - The structure design of the standard robot should be rigid so that it can withstand any possible collision with other robots.
 
-4. Projectile Calculation:
+4. Projectile Calculation:  
 Relevant Rules (Retrieved from 2019 Robomaster Rules):
 ![Rule1](./assets/rule1.png)
 
