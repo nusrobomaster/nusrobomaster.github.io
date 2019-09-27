@@ -56,16 +56,16 @@ No| Role          |  Description                        | Assigned to       |
 
 * Front, Rear, Left, Right chassis have shock absorbers incorporated to reduce damage to robot parts.
 
-![ChassisBottom](./assets/MECHABirdBox-chassis-1.1.png)
+![ChassisBottom](./assets/MECHABirdBox-chassis-1.1.PNG)
 
-![ChassisFront](./assets/MECHABirdBox-chassis-1.2.png)
+![ChassisFront](./assets/MECHABirdBox-chassis-1.2.PNG)
 
 * Impact detector: Transmit health of robot efficiently to controls system, direction of impact to the pilot UI.
 * Intelligent sensing armour -> Infrared sensors near armour to detect when aiming beam lands on robot. Or gel pads to detect which part of the robot is being hit to move away accordingly
 * Suspension system: as our design involves wheel extensions, we will not be including suspensions to minimize the risk of entanglement. Furthermore, since horizontal forces will already be damped by the shock absorber, the benefit of a suspensions lies in damping vertical forces, which will be minimal since its only experienced when mounting ramps and curbs. As long as the curb is significantly small, the robot should still be able to cross it.
 * Motor selection: RoboMaster M2006 P36 Brushless DC Gear Motor (Side note: also used by DJI RoboMaster AI Challenge Robot)
 
-![SpeedTorqueGraph](./assets/MECHABirdBox-speedtorquegraph.png)
+![SpeedTorqueGraph](./assets/MECHABirdBox-speedtorquegraph.PNG)
 
  No load speed|  500rpm   |
  No load current|  0.6A   |
