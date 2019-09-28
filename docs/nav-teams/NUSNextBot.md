@@ -256,7 +256,7 @@ Red arrows refer to wheels turning forwards, while blue arrows refer to wheels t
 
  - We will test and choose one of them based on their performance.
 
- - Consider drivers will operate the robot according to the images transferred back from the camera, and the accuracy of auto-aiming, we prefer a camera with a high resolution. Since the agility of the robot is the other key point we focused on, we prefer to use a small size and light camera. Thus, we will choose [Sony IMX179 camera](https://www.dhgate.com/product/8mp-hd-mjpeg-usb-camera-sony-imx179-sensor/416524185.html), which can maintain 800X600 resolution when the transfer rate reaches 30fps, a wide vision angle(75 degree), and a small size(38mm*38mm).
+ - Consider drivers will operate the robot according to the images transferred back from the camera, and the accuracy of auto-aiming, we prefer a camera with a high resolution. Since the agility of the robot is the other key point we focused on, we prefer to use a small size and light camera. Thus, we will choose [8MP HD Mjpeg usb camera Sony IMX179 sensor mini OEM usb2.0 webcam video security camera module mini for industrial application](https://www.dhgate.com/product/8mp-hd-mjpeg-usb-camera-sony-imx179-sensor/416524185.html), which can maintain 800X600 resolution when the transfer rate reaches 30fps, a wide vision angle(75 degree), and a small size(38mm*38mm).
 
 ### Choice of MCU
 
@@ -300,6 +300,7 @@ Red arrows refer to wheels turning forwards, while blue arrows refer to wheels t
 | 26 | RoboMaster Development Board Cables | 1 | 40 | 40 |
 | 27 | TB47D Battery | 1 | 216 | 216 |
 | 31 | Manifold 2-G | 1 | 879.2 | 879.2 |
-|  |  |  | total | 2147.2 |
+| 32 | 8MP HD Mjpeg usb camera Sony IMX179 sensor mini OEM usb2.0 webcam video security camera module mini for industrial application | 1 | 60.05 | 60.05 |
+|  |  |  | total | 2207.25 |
 
 *Components in referee system are omitted.*
