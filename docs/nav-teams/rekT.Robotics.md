@@ -6,25 +6,17 @@
 
 ### Mong Juin Hwaye (Hwaye)
 
-![Hwaye](./assets/rekt_hwaye.jpg)
-
 A dare-to-dream Mechanical Engineering freshman from NUS. With a strong passion, I have been active in the field of robotics and automation for about a decade. Prior to joining NUS, I was part of the NUS-MOE Science Research Program, specializing in the mapping and simulation of self-driving vehicles in the SMART-FUM Lab. This 1.5 year attachment was where I delved into learning about the Robot Operating System (ROS) and Gazebo simulation platforms. I was an active representative of the school team, where I represented the country to several robotic competitions including the First Lego League 2016 World Festival in the USA - Mechanical Design Award. These experiences reassured me that I would always enjoy working with mechanical structures and software controls. What motivates even further is that the DJI Robomasters requires a large collective effort, including so many more fields that I’m also interested in! Can’t wait to compete in the finals, and finally visit the Silicon Valley of the East as a robotics specialist!
 
 ### Tan Je Sean (Je Sean)
-
-![Je Sean](./assets/rekt_jesean.jpg)
 
 I am currently a Year 1 Mechanical Engineering student and have quite a large interest in the field of robotics. I was part of the robotics team back in Secondary and High School. Having also had the opportunity to participate in WRO, it showed me how designs and concepts can vary widely between others and my own and this really sparked a fire within me to further dive into the field of robotics. I loved seeing when my robot is able to run as designed, it is almost as if watching your child grow up. From the stages of conception or the final stage of completion, every step of the way is a learning journey. Whenever I stumble across an obstacle I will take it as a challenge and not rest until it has been solved. I have also undertaken an apprenticeship in a mechanic shop, providing me with relevant skills on how to use power tools and the use of nuts and bolts for fabrication techniques and mechanical systems that are readily-used in the industry.
 
 ### Teo Ru Min (Ru Min)
 
-![Ru Min](./assets/rekt_rumin.jpeg)
-
 As a current Mechanical Engineering student, I had been into the robotics team in secondary school and had developed a passion in this area. I would really like to join this competition, and it is mainly to deepen my knowledge and understanding in this specific sector. Out of the 7 robots, I am particularly interested in the Engineer robot since this robot have more freedom in terms of the designing of mechanism. Since I plan to venture into this sector, I would like to take this opportunity to learn more about it. 
 
 ### Kelly Ha (Kelly)
-
-![Kelly](./assets/rekt_kelly.jpeg)
 
 Being a biomedical engineering undergraduate, I always wonder how the robot mechanism can help humans. Taking this opportunity, I can adapt the future technologies with the properties and characteristics of homo sapiens in order to have a real high intelligence robot. Things including how the movement of the body or fluid mechanism of the human body can be adapted to the machine. I have never been into any robotics event unlike the rest of my team, however, I'm willing to learn and support them with my passion. I take this as one of my obstacles, and like always, I will find a way to go across it. By the meantime, I will like to take this opportunity to reach my hand to those talented in electrical components to join our team!
 
@@ -51,63 +43,84 @@ No| Role          |  Description                        | Assigned to       |
 
 ## robotiKs Design Considerations
 
-![Overview Photo](./assets/rekt_overview.jpg)
+![Overview Photo](./assets/rekt_overview.png)
 
 ### BASE
 
-1. Mecanum wheels are to be utilised as the main driving wheel. The base of the robot in contact with the ground would form a square/rectangle, such that the centre of rotation of the base is equidistant to all force wheels.
+1. Standard guidelines for Hero robot (from DJIRoboMaster 2019 Technical Challenge Rules Manual V2.1 (20190725)):
 
-2. Each individual wheel and motor assembly will be suspended by a double wishbone system to ensure stability of robot during jumps, climbing over inclined surfaces and collisions with other robots.
+	- Allowed Targets: non-Aerial robots
+	- Total Power Supply Capacity: 200 Wh
+	- Power Supply Voltage: 30V
+	- Robot Chassis Power Consumption: 80W
+	- Initial Firing Speed Limit: 30 m/s (Note: Barrel Heat game mechanic)
+	- Maximum Weight: 20 kg
+	- Maximum Initial Size (mm): 600(L) x 600(W) x 500 (H)   (L & W: Orthographic Projection)
+	- Maximum Expansion Size (mm): 700(L) x 700(W) x 600 (H) (L & W: Orthographic Projection)
+	- Only 17mm standard projectiles can be received and launched
+	
+2. RoboMaster Referee System (from DJIRoboMaster 2019 Technical Challenge Rules Manual V2.1 (20190725)):
+	- 4 Small Armor Modules 
+	- 1 Large Armor Module
+	- Speed Monitor Module (17 mm projectile)
+	- Video Transmission Module (VTM)
+	- RFID Interaction Module
+	- Positioning Module
+	- Main Control ModulE
+	- Power Supply Management Module
+	- Light Strip Module
+	- Projectiles:
+		- 42mm, Similar to Golf Ball, 42mm +- 0.5mm, 40.2 +- 0.2g, 90A Shore Hardness, TPE Plastic
+		- 17mm, Round, 16.9 +- 0.1g, 2.9 +- 0.1g, 90A Shore Hardness, TPU Plastic
 
-3. The use of coilovers to dampen oscillations and provide a smoother ride and movement and allow for precision targeting of turret.
 
-4. Wheels to be directly mounted onto driving motors to reduced total suspended weight and reduce stress on suspension system and reduce positioning error due to slight flexing in the power transmission (such as flex from chains or rubber pulleys).
 
-5. Bumper to be placed around the wheels to prevent the wheels from getting stuck in the event of collision or projectiles being stuck. Small plating and foam insulation to cover up crevices and prevent projectiles from getting stuck and robot from getting damaged.
+3. Mecanum wheels are to be utilised as the main driving wheel. The base of the robot in contact with the ground would form a square/rectangle, such that the centre of rotation of the base is equidistant to all force wheels.
+
+4. Each individual wheel and motor assembly will be suspended by a double wishbone system to ensure stability of robot during jumps, climbing over inclined surfaces and collisions with other robots.
+
+5. The use of coilovers to dampen oscillations and provide a smoother ride and movement and allow for precision targeting of turret.
+
+6. Wheels to be directly mounted onto driving motors to reduced total suspended weight and reduce stress on suspension system and reduce positioning error due to slight flexing in the power transmission (such as flex from chains or rubber pulleys).
+	- All four of the vehicle’s wheels will always be in contact with the ground hence we will have maximum control of the vehicle and maximumly avoid the robot from flipping
+
+7. Bumper to be placed around the wheels to prevent the wheels from getting stuck in the event of collision or projectiles being stuck. Small plating and foam insulation to cover up crevices and prevent projectiles from getting stuck and robot from getting damaged.
+
+8. Electronic Speed Control (ESC) will be installed on the movement wheels.
+	- To monitor speed of all individual motors, while easing the calibration and accuracy of robot movements.
+	
+9. Electric Voltage and Current Limiter Control Boards should be added to prevent overcurrent and overvoltage to sensitive electronics.
+
+
 
 ![Wheel Photo](./assets/rekt_wheel.jpg)
 
 ### GIMBAL/TURRET
 
-![Feeder Photo](./assets/rekt_feeder.jpg)
+![Feeder Photo](./assets/rekt_feeder2.png)
 
-1. The gun/gimbal system shall be mounted in the centre of rotation of the base to allow for 360° rotation of the body and gimbal system. This allows a wider firing range and allows the robot to spin on its base without much effect to the gun, as one of the strategies is to keep the touch pads in motion to reduce chance of damage.
+1. The gun/gimbal system shall be mounted in the centre of rotation of the base to allow for 360° rotation of the body and gimbal system. This allows a wider firing range and allows the robot to spin on its base without much effect to the gun, as one of the strategies is to keep the touch pads in motion to reduce chance of damage. As all robots are free to move, there might be incoming robots from all directions. Therefore, it is essential to design the robot in a way which can counter-attack the enemy in the shortest time possible. By allowing the gimbal to turn 360 degrees, the robot can quickly react to other enemy robot.
 
-2. The gimbal firing turret would be mounted as high as possible to allow for a larger degree of impact, increasing the damage output as the touchpad are pressure sensitive. However, majority of the motor/movement systems will be mounted lower to reduce the centre of gravity, increasing stability.
+2. Majority of the motor/movement systems will be mounted lower to reduce the centre of gravity, increasing stability of robot.
 
-3. The gimbal systems will be designed separately as its own module to allow for ease of maintenance. A separate MCU mounted in the gimbal to reduce the amount of wires running through the system and allow 360° rotation of gimbal.
+3. The turret will have minimum 45° degrees angle relative to the horizon for maximum transverse distance and 360 degrees left and right sweep angle to allow maximum firing range.
 
-4. The projectile hopper will be mounted on the base itself to reduce weight on the gimbal system to ensure mobility of turret and reduce the overall centre of gravity.
+4. Gimbal systems will be designed separately with its own MCU mounted within the module. This will prevent entanglement of wires and allow for unrestricted movement of turret.
 
-5. A “carousel” like system with slanted base leading to the feeding system in the bottom of hopper to feed projectiles to the turret. Bullets will be fired by feeding the gun with projectiles to ensure continuous fire rate.
+5. The projectile hopper will be mounted on the base itself to reduce weight on the gimbal system to ensure mobility of turret and reduce the overall centre of gravity.
 
-6. A cone to be placed over the rotating mechanism to direct the projectiles into the firing mechanism.
+6. A “carousel” like system with slanted base leading to the feeding system in the bottom of hopper to feed projectiles to the turret. Bullets will be fired by feeding the gun with projectiles to ensure continuous fire rate.
 
-7. The feeding system will be mounted in the centre of rotation for all axis of gimbal (i.e. axis of yaw and axis of pitch) to allow for rotation along both axis of gimbal. Each connection will be sleeved into each other to ensure unobstructed path for projectiles and all joints to be fit with rollers to ensure smooth movement.
+7. A cone-shaped gear to be placed over the rotating mechanism to direct the projectiles into the firing mechanism.
+
+8. The feeding system will be mounted in the centre of rotation for all axis of gimbal (i.e. axis of yaw and axis of pitch) to allow for rotation along both axis of gimbal. Each connection will be sleeved into each other to ensure unobstructed path for projectiles and all joints to be fit with rollers to ensure smooth movement.
+
+9. Electronic Speed Control (ESC) on firing mechanisms motors
+	- To regulate the speed of shooting of firing motors within the regulation maximum of 30 m/s for 17 mm projectiles.
+	- It can be used to control the amount of projectiles shot based on radius calculations of motor rotations per projectile.
 
 
-![Gun Photo](./assets/rekt_gun.jpg)
-
-### RADAS (reKt.robotiKs Advanced Driver Assistance System)
-
-The RADAS aims to provide the robot with spatial awareness, while increasing accuracy and intuitive driver controls.
-
-LIDAR (Light Detection and Ranging) serves as the robot’s eyes on long haul obstacles. However, the blind spot pertaining to LIDAR at short distances (approximately 0.3m)  is compensated by the Ultrasonic Sensor. The set of LIDAR and Ultrasonic Sensors are mounted at all directions of the robot, providing a 360 degree obstacle detection mechanism. With the help of the GPS module, the robot is able to map the tournament grounds on the fly.
-
- - Main Controller   : Nvidia Jetson Nano Developer Kit
- - LIDAR Module      : TFMini - Micro LIDAR Module (SN-LIDAR-TFMINI)
- - Ultrasonic Module :  Adafruit 3942 Ultrasonic Kit 
- - GPS module        : Robomaster UWB Positioning System Set
-
-Mapping through Hector SLAM methods, by constantly comparing the current surrounding situations with provided data of map dimensions,  will allow the robot to be localised on the map. It provides the robot with knowledge about pin-point locations on the map. This is especially useful for functions that require exact locations, eg., Activating runes or performing certain team strategy formations.
-
-Our proposed in-house driver cockpit assistant (“r.Kockpit”) will provide a highlighted augmented reality (AR) experience for the driver. The Point Cloud (3D) system from ROS’ Robot Visualisation provides high contrast edge definitions of obstacles, enemy robots and objects to improve the driver’s awareness of the playing field during intensive situations.
-
-### Fail Safe Mechanisms
-
-Based on Murphy’s Law, we should always plan for the worse. Stress test would be conducted to prepare the robot in the most stringent conditions. Every component of the robot should be labelled to facilitate troubleshooting. 
-
-Electric Voltage and Current Limiter Control Boards should be added to prevent over-current and over-voltage to sensitive electronics. Cooling systems are added to dissipate heat to prevent overheating and maximise efficiency of electronic components.
+![Gun Photo](./assets/rekt_gun.png)
 
 
 ## General Design and Fabrication Methods
@@ -122,6 +135,9 @@ Certain parts that cannot be sourced or require more strength than 3D printed st
 
 Both the base and gimbal module will be developed separately but in close communication to allow modularity and ease of maintenance in the case of a need to swap. Easy to remove mounts as well as standardised mounting frames will be incorporated as modularity will remain a large part in our design process.
 
+Since the robot will be constantly moving and will have much impact with other robots, dish-locking washer and nuts will be used to ensure all connections are tight and will not be loosened by impact.
+
+![Screw Photo](./assets/rekt_screw.jpg)
 
 ## Proposed Budget
 
