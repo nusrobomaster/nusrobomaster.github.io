@@ -79,7 +79,7 @@ Specs         | Value|
 
  * Table 1.1: M2006 P36 Specs (taken from https://rm-static.djicdn.com/tem/17348/RM%20M2006%20P36直流无刷减速电机使用说明.pdf)
 
- * For a 20kg robot to move off,
+ * For a 20kg robot to move off ,
  * W = mg = 20 x 9.81 = 196N
  * Frictional force = 𝜇N = 0.45 x 196 = 88.3N
  * Torque required = Fr = 88.3 x 0.04 = 3.53Nm
