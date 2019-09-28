@@ -48,6 +48,14 @@ With proper concept design and directions set for the robot, we will move on to 
 
 Having analysed the past year competitions and rule book we have come up with some design considerations for the soldier robot. Of course some of these are based on the previous year's rules so are subject to change.
 
+### Overall Strategy 
+
+The general strategy of the soldier robot is to play aggressively. Since the field is mostly flat with some cover, it would suit fast paced, close quarters combat. In the early phase of the game, the soldier robots' main objective is to rush towards the resource island to harass and block the opposing engineer from refilling their hero robot with the 42mm rounds. Ideally, the soldiers would be able to harass the opposing engineer while our own engineer refills the hero robot, massively increasing our damage potential over the enemy's.
+
+Once the hero robot receives the 42mm rounds, the soldier robots will spread out and start to execute quick random attacks to confuse the enemy. The soldier and hero robots can then swarm and pick off stragglers the moment the enemy breaks formation. 
+
+In consideration of this playstyle, the soldier robot must be designed to be quick and agile so that it can execute fast attacks and retreat to cover. The robot should be small and light for it to be fast and nimble. A bumper system would be also be beneficial for its aggressive playstyle. Finally, the gun placement should be low so that the robot can go up close and still be able to hit the low lying armour module. This also has the added benefit of lowering the centre of gravity of the robot to make it more stable. 
+
 ### Robot Type: Soldier Robot
  
 1. Can only shoot non-aerial robots
@@ -69,31 +77,20 @@ Having analysed the past year competitions and rule book we have come up with so
     - 600 x 600 x 500 (mm)
 
 ### Environmental Conditions
-
-1. Collisions not allowed according to rules, however, there have been some instances of knocking and damages to robot
-
-    - Mimic cars where there is a crumple zone to absorb the force with a rigid interior structure to protect the internal components
-
-    - Simple design, minimise moving parts
     
-    
-2. Some slopes up to about 20 degress including a gap on two of the roads where robot has to "jump" across (ability to climb 20 degrees also a competition requirement)
+1. Some slopes up to about 20 degress including a gap on two of the roads where robot has to "jump" across (ability to climb 20 degrees also a competition requirement)
 
     - Low centre of gravity while keeping within size constrains to prevent overturns
 
     - Suspension to protect the internals and at the same time increase stability of gun 
-
-    ![Suspension](./assets/Suspension_WD.png)
     
-    - Suspension will be considered towards the later part of the build process where we have a rough weight of the robot and its structures. We will source the suspension to specifications of the robot.  
-    
-    - Types of suspension to consider: Hydraulic (from RC car), easily available from hobby stores in Singapore, magnetic dampers which we can DIY from neodymium magnets
+    - Types of shock absorbers to consider: Hydraulic (from RC car), easily available from hobby stores in Singapore, magnetic dampers which we can DIY from neodymium magnets
 
 ### Gameplay Considerations
 
 1. High mobility required for tight corners and manoeuvres and fast reaction times
 
-    - High torque motors for high acceletaion
+    - High torque motors for high acceleration
     - Mecanum wheels for mobility and agility
 
 ### Robot Components
@@ -104,23 +101,41 @@ Having analysed the past year competitions and rule book we have come up with so
         1. Compressed air
         2. Flywheel
 
-    - Laser for visual assistance when aiming
-    
-    - Compressed air pressure must not exceed 20 MPa, initial firing speed limit of 30 m/s
+![Mechanism](./assets/Paintball_Mechanism_WD.png)
 
+*Paintball mechanism using compressed air to be considered for the launcher*
+
+   - Laser for visual assistance when aiming
+    
+   - Compressed air pressure must not exceed 20 MPa, initial firing speed limit of 30 m/s
+    
+   - There is a focus on a aggressive close quarters playstyle with close range shooting. It is important that the gun still needs to be relatively accurate to adapt to newer strategies. Longer barrel length up to 20 cm should be utilised. Should time and resources permit, rifling and Magnus effect due to imparting spin can be considered to increase accuracy. 
+    
 2. Ammo collection and feeding mechanism 
 
-    - Simple “double funnel”, the interior will be lined with soft material like silicone, so the balls do not bounce back out easily 
+    - Ammo box with simple “funnel lid”, the top surface will be lined with soft material like silicone, to prevent balls from bouncing out during refilling
 
-    - Gravity feed balls into gun 
+    - In line with keeping gun placement low, ammo box is placed to the rear of the gun and gravity feed balls into chamber
 
     ![Funnel](./assets/Funnel_WD.png)
     
     *Funnel Design*
     
-    ![Mechanism](./assets/Paintball_Mechanism_WD.png)
-
-    *Paintball mechanism to be considered for the launcher*
+    ![3D_Funnel](./assets/WD_3D_Funnel.jpg)
+    
+    *3D Model for funnel*
+    
+    **Feeding Mechanism**
+    
+    Base of ammo box will have a rotating disk with a notch for storing one ball at a time. When the notch reaches the outlet, the guide will push only one ball out towards the gun. For a launcher based on a flywheel, fire rate of gun can be controlled by varying the rpm of rotating disk. Software can also be used to control the fire rate in consideration of the “barrel heat” rule. The robot can shoot the first few (e.g. 6) rounds at a faster rate before it reaches the maximum heat. Then it will slow down for the subsequent shots. This will provide the robot will large bursts of damage for an aggressive playstyle.  
+    
+    ![Feeding](./assets/WD_Feed_Mechanism.png)
+    
+    *Feeding Mechanism*
+    
+    ![Gun Overview](./assets/WD_Gun_Overview.png)
+    
+    *General Overview of Gun using Flywheel Launcher*
 
 3. Gun Stabiliser 
 
@@ -130,13 +145,48 @@ Having analysed the past year competitions and rule book we have come up with so
     
     - Inclined towards servo motors as there is a wide support for it and point of failure is low 
 
-    - It should be designed such that the gun can aim at a fixed location while the base (chassis) of the robot can spin continuously to actively avoid being shot at 
+
 
 4. Chassis
 
-    - Aluminium base. Light Weight and sufficiently strong
+    - Aluminium base. Lightweight and sufficiently strong
 
     - Can design trusses to support the wheels and suspension
+    
+    - Modify from reference design and manufacture a new chassis as reference design chassis is not able to mount a suspension system 
+    
+    The area of the chassis housing the wheel system have been tapered and narrowed, such that the overall area of the robot is minimized, hence the concept of being small and agile remains. Additionally, this suspension design allows the robot to achieve a lower Centre of Gravity, by making its body wide & flat as the motor & wheels are placed next to the chassis, instead of below the chassis. The shape of the chassis will resemble closely that of a square, effectively shortening the wheelbase (distance between the centers of the front & rear wheels), which allows the robot to achieve a smaller turning radius & thus be very agile & make quick & sharp turns. 
+    
+    **Suspension**
+    
+    As there are 20 degrees ramp that the robot has to maneuverer over. A suspension system will be immensely useful in ensuring that the internal structures of the robot is not damaged. In the small-scaled community, various remote-control vehicles use the shock absorber system and thus we have adapted / referenced from them as parts will be widely available and there will be many structures and design to study from. Further calculations will be involved once we received the reference design unit and have the relevant specs to it.
+
+    ![RC Car Suspension](./assets/WD_RC_Suspension.jpg)
+    
+    *Source: Own*
+    
+    Since there are 4 independent motors, drive shaft can be removed to eliminate points of failure. Instead, the axle area will be mounted with the motor and Mecanum wheel system 
+    
+    ![WD_Suspension](./assets/WD_Suspension.png)
+    
+    *Proposed Suspension design*
+
+    **Bull Bar**
+
+    It is designed with intentional collision in mind for police vehicles or defensively against large animals in rural roads. AS the bar is rigid, unlike bumper which resist the impact by crumple, it actually causes injuries and death for civilian vehicles. 
+
+    As such bull bar is banned in the EU. Taking into considering of mitigating damage to the opposing body, we feel that it will be effective in employing it in our robot to ensure that in the event of a collision we will not be damaged and that it will be the enemy that is damaged.  
+
+    The Bull bar will be inserted on both front and back of the robot to ensure a surround coverage and defensive system. 
+
+    ![Bull Bar](./assets/WD_Bull_Bar.jpg)
+*Source: https://www.tjmperth.com.au/product/tjm-tradesman-steel-bull-bar-suit-toyota-hilux-2015-plus/*
+
+   Can be made inhouse with just a few metal beams
+
+![Chassis](./assets/WD_Chassis.png)
+   
+   *Overview of Chassis*
 
 5. Wheels
 
@@ -145,6 +195,66 @@ Having analysed the past year competitions and rule book we have come up with so
 6. Dual Camera System 
 
     - Dual cameras for depth perception using triangulation method
+    
+    - Calculating the distance of the object allows the gun system to compensate for the projectile motion of the bullet by adjusting its angle of elevation 
+    
+    Propose to adapt from exisitng open source projects to design our own 
+    
+    ![Stereo Camera](./assets/WD_Stereo_Cam.png)
+    
+    Credit: https://github.com/AlexJinlei/Stereo_Vision_Camera 
+    
+    
+    
+    **Baseline**
+    The baseline is 120mm, the distance between the 2 camera’s optical axes. A short baseline stereovision system has larger overlapped visual area, which can detect the objects close to the camera. But the disparities at larger distance are too small to be distinguished. A larger baseline system has a larger detection range but cannot detect objects that are close to the camera.  
+     
+     Besides that, the larger baseline system must search the larger range when executing the stereo matching algorithm, requiring more time and hardware resources and the mismatching probability will increase. It is important to choose a proper baseline to meet a specific requirement.  
+     
+     The 12cm baseline system has a working range from 1m to 10m. This working range satisfies & covers the dimensions of the playing area.  
+     
+     This dual camera system utilizes 2 stereo vision cameras & is a low-cost alternative solution to high-end equipment & technology such as LiDAR.  
+     
+     **Focal Length**
+     
+     Focal Length = 4.35mm low distortion lens 
+
+     The focal length is the distance between the lens and the image sensor when the subject is in focus. The short focal length lens has a large view angle but will produce large distortion. The long focal length lens has a narrow view angle, but the distortion is small. The distortion will drastically reduce the accuracy of the depth map. Our Soldier bot needs the large angle view to acquire a big scene of the environment, while at the same time, it requires an accurate depth map to get position information. 4.35mm low distortion lens are suitable. 
+    
+     **Supported Frame Format**
+
+     Time is an important factor in generating the real time 3D map, especially in a varying environment, where objects move & change positions very quickly. Acquiring stereo image pair and calculating depth map will incur some time and hence when the depth map is generated, the moving objects would have changed the position. If the relative velocity of other robots to our robot is around 16m/s, to achieve a 0.5m spatial resolution, the time interval between two frames of image should be 0.3125s (0.5m divided by 16m/s). This corresponding frame rate is 32 frames per second (FPS).  
+      
+      The stereo cameras can accommodate to this & provide an FPS of 38.64 using discrete 800x600 MJPEG format (60 fps), providing a decode time=17ms. This however provides a very narrow field of view.  
+      
+      There is an alternative of using discrete 320x240 YUYV (30 fps) format to provide a FPS of 29.82, with a decode time of 0.8ms. The view angle is equal to 1920x1080.  
+       
+      **Theory**
+
+      If the images of an object are captured from two different points of view, the 3D information can be derived from the disparity of the two images (disparity = difference between xr & xl). Figure 1 is a stereovision system with two parallel cameras. The object point P is projected on the image plane of the two cameras. For left and right cameras, the position of image points of P are different.  
+      
+      xl is the distance between left camera axis and image of P on left camera image plane, and xr is the distance between the optical axis of right camera and image point of P on right camera image plane.  
+      
+      f is the focal length of the two cameras. The distance between two optical axes is called baseline (b). It is notable that the length of xl and xr are different. The equations in boxes are obtained using the concept of similar triangles. From these relations, the location of the 3D points in object space can be derived. 
+      
+       (1) 𝑧 = (𝑓∙𝑏) / (𝑥𝑙 − 𝑥𝑟) = (𝑓∙𝑏) / 𝑑 
+      
+       (2) 𝑥 = 𝑥 𝑙 ∙ (𝑧/𝑓) 
+      
+       (3) 𝑦 = 𝑦 𝑙 ∙ (𝑧/𝑓) 
+ 
+ ![Triangulation](./assets/WD_Triangulation.png)
+ 
+Source: https://github.com/AlexJinlei/Stereo_Vision_Camera 
+
+       
+   **Summary**  
+
+   Hence, considering the tactic of very fast-paced gameplay & the Soldier robots being used to tackle opponent bots head on, we might not require a large field of view since our Operator will use the Soldier robot to focus on a single opponent at a time. The attacking Soldier robots thus may not require the depth map in close quarters since the speed of the bullet is fast enough to compensate for its bullet drop. 
+
+   This depth perception can be tweaked when applied to other robots that need to stay further back at base & target opponents from a distance & thus, where the depth perception feature would be more important. Here, the depth map will be critical for the auto aim feature of the robots, where bullet drop would be significant & thus, the gun will need to be readjusted with a higher angle of elevation to account to this. 
+   
+   Code necessary for this software is available from an open-source project user AlexJinlei had developed & uploaded to GitHub. 
 
 7. Motor/ Battery/ Electronic Speed Control, Power Distribution Box
 
@@ -154,7 +264,7 @@ Having analysed the past year competitions and rule book we have come up with so
 
 8. Ultrasonic Sensor
 
-    - Close range obstacle avoidance and better environment perception
+    - Improved environment perception
 
 9. Communication Module
 
@@ -162,7 +272,7 @@ Having analysed the past year competitions and rule book we have come up with so
 
 10. On Board Processing Unit
 
-    - Certain features such as aim assist, obstacle avoidance will be processed in the local computer of the robot for fast and efficient response time and gameplay. 
+    - Certain features such as aim assist will be processed in the local computer of the robot for fast and efficient response time and gameplay. 
     
     - Can consider offloading intensive and non-time critical processing to an external workstation if onboard processing unit is too slow. This will be depend on the onboard processing unit's ability to handle all the tasks and also the bandwidth of communication module
 
@@ -176,13 +286,17 @@ Having analysed the past year competitions and rule book we have come up with so
 
    - Rubber / Spring cushions around the referee plates, thus when the robot is hit, the referee plates not be in the same position for the second shot. Therefore, it lowers the damage taken as the opponent might have to recalibrate their aim
    
-   - The guards (bumper system) will be designed such that it is angled and have a smooth finish to be able to deflect and incoming collision and prevent our robot from getting tangled with others
-   
-   ![Bumpers](./assets/Bumper_WD.jpeg)
-
 
 ### Fabrication Method
 
-To minimise the time taken to build and debug, the robot will be based of DJI’s reference model and will be modified further to improve its performance. Parts from hobbyist level of remote-control vehicles will be preferred. This is because they are readily available off the shelf components from hobby stores. They will provide us with the ease of access, wide range of choices and the support of hobby community.
+The objective and angle of approach that we are taking is to build a robot as quickly as possible. And fine tune it via trial and error. Thus, we will be adapting solutions that are already available in the market and minimise inhouse manufacturing and development to a minimum. As we feel that the margin of performance gain is insignificant in the grand scheme of things if we do not have a functioning robot at all. Perhaps, we will leave the inhouse development to next year or if we are ahead of schedule for this year’s competition. 
+
+Parts from hobbyist level of remote-control vehicles will be preferred. This is because they are readily available off the shelf components from hobby stores. They will provide us with the ease of access, wide range of choices and the support of hobby community.
 
 In the event that parts cannot be found, we will adapt them from exising parts found in live sized vehicles and scale them down accordingly. Small parts can be 3D printed for rapid protopying before the fabrication of the actual part. With access to the school's facilities, strongly believe that we can machine out the necessary and required parts.
+
+### Budget
+
+![Budget](./assets/WD_Budget.png)
+
+
