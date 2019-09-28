@@ -116,7 +116,7 @@ The height of the chassis is 5 cm from the ground, to lower the center of gravit
 
 &nbsp;&nbsp;&nbsp;&nbsp;We would like to use Mecanum wheels in the robot to make it agile. The reason is that if we use traditional wheels, the changing of direction of movement will take one more additional step than using Mecanum wheels, turning, which takes much time and space. However, using Mecanum wheels, by controlling the direction of rotation of the wheels, the robot can move in different directions instantaneously without turning. Moreover, it does not need a rotating shaft to yaw rotate the direction of the wheels, so that it simplifies the mechanical designs and reduces the weight of the vehicle, enabling it to run faster and become more agile. The movement of individual wheels will be programmed so that the pilot can easily control the movement of the robot using WASD keys. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;Unlike traditional wheels that only create friction force point forward and backward, Mecanum wheels create a diagonal force so that different combinations of rotation directions on different wheels can create four movement patterns. These are forward/backward, leftward/rightward (Figure 1), diagonal movements (Figure 2) and on-spot yaw rotations.
+&nbsp;&nbsp;&nbsp;&nbsp;Unlike traditional wheels that only create friction force point forward and backward, Mecanum wheels create a diagonal force so that different combinations of rotation directions on different wheels can create four movement patterns. These are forward/backward, leftward/rightward (Figure 3), diagonal movements (Figure 4) and on-spot yaw rotations.
 
 ![Mech-Wheels1](./assets/NUSNextBot-Wheels1.png)
 [*Figure3. Rotation of the wheels to achieve sideways movement
@@ -155,7 +155,7 @@ Red arrows refer to wheels turning forwards, while blue arrows refer to wheels t
 
 &nbsp;&nbsp;&nbsp;&nbsp;The launching system is important for the robot to attack opponents in the competition. There are four main methods of launching, namely gunpowder launching, pneumatic launching, spring launching and friction wheel launching. Among these four methods, friction wheel launching has the advantages of security, simple design, low cost and stable launching.
 
-![Mech-Launching-System](./assets/NUSNextBot-Lauching_System.jpeg)
+![Mech-Launching-System](./assets/NUSNextBot-Lauching_System.jpg)
 *Figure 7. Overview of the launching mechanism*
 
 ### Design of the structure (Mechanical)
@@ -185,14 +185,14 @@ Red arrows refer to wheels turning forwards, while blue arrows refer to wheels t
 
 ### PID Controllers (Software)
 
-&nbsp;&nbsp;&nbsp;&nbsp;In order to improve the robot’s agility, we should have a fine degree of control over the motors, which will allow it to move by the exact distance and angle that we want. For instance, the shooting speed of the gun should be limited under a specific value, and the robot should move and stop precisely as controlled. 
+&nbsp;&nbsp;&nbsp;&nbsp;In order to improve the robot’s agility, we should have a fine degree of control over the motors, which will allow it to move at the exact speed or angle that we want. For instance, the shooting speed of the gun should be limited under a specific value, and the robot should move and stop precisely as controlled. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;A proportional–integral–derivative (PID) controller is a control loop mechanism with feedback loop to provide a parameter to adjust the current value. It is employed here in order to control the actuators.
 
-&nbsp;&nbsp;&nbsp;&nbsp;Thus, PID controllers will be implemented in projectile, chassis, gimbal control modules to control the motors on friction wheels, Mecanum wheels and gimbal respectively. PID controllers will work together with Inertial measurement unit (IMU) and wheel encoders to improve the agility (Figure7).
+&nbsp;&nbsp;&nbsp;&nbsp;Thus, PID controllers will be implemented in projectile, chassis, gimbal control modules to control the motors on friction wheels, Mecanum wheels and gimbal respectively. PID controllers will work together with Inertial measurement unit (IMU) and wheel encoders to improve the agility (Figure 8).
 
 ![PID-Flowchart](./assets/NUSNextBot-PID.png)
-*Figure 8. Flow chart for PID controller*
+*Figure 8. Rough Structure of PID controllers*
 
 ### Auto-aiming (Software)
 
@@ -201,7 +201,7 @@ Red arrows refer to wheels turning forwards, while blue arrows refer to wheels t
 ![Auto-Aiming](./assets/NUSNextBot-Auto_Aiming.png)
 *Figure 9. auto-aiming workflow*
 
-&nbsp;&nbsp;&nbsp;&nbsp;We will use Kalman filters to predict the armor areas, since it only needs estimated state from the previous time step and the current measurement without history of observations or estimates to compute. To simplify, we decide to assume the robot has a constant speed in a short period of time. The use of Kalman filter is shown in Figure 8. In Figure 8, x represents state, P represents error covariance, F is the prediction function, Bk is the control matrix, uk is the control vector depends on known external influences, Qk is additional uncertainty from environment, K is the Kalman gain, Hk is a set of sensor readings, Rk is the covariance of the sensors’ uncertainty, and zk is the mean according to the reading we observed. We will use position and velocity of the target as state components, and then predict its current state. 
+&nbsp;&nbsp;&nbsp;&nbsp;We will use Kalman filters to predict the armor areas, since it only needs estimated state from the previous time step and the current measurement without history of observations or estimates to compute. To simplify, we decide to assume the robot has a constant speed in a short period of time. The use of Kalman filter is shown in Figure 10. In Figure 10, x represents state, P represents error covariance, F is the prediction function, Bk is the control matrix, uk is the control vector depends on known external influences, Qk is additional uncertainty from environment, K is the Kalman gain, Hk is a set of sensor readings, Rk is the covariance of the sensors’ uncertainty, and zk is the mean according to the reading we observed. We will use position and velocity of the target as state components, and then predict its current state. 
 
 ![Kalman-Filter](./assets/NUSNextBot-Kalman_Filter.jpg)
 [*Figure 10. Process of Kalman filters*](https://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/)
@@ -254,7 +254,9 @@ Red arrows refer to wheels turning forwards, while blue arrows refer to wheels t
   
    It is technically difficult but may be reliable.
 
- - We will test and choose one of them based on their performance. 
+ - We will test and choose one of them based on their performance.
+
+ - Consider drivers will operate the robot according to the images transferred back from the camera, and the accuracy of auto-aiming, we prefer a camera with a high resolution. Since the agility of the robot is the other key point we focused on, we prefer to use a small size and light camera. Thus, we will choose [Sony IMX179 camera](https://www.dhgate.com/product/8mp-hd-mjpeg-usb-camera-sony-imx179-sensor/416524185.html), which can maintain 800X600 resolution when the transfer rate reaches 30fps, a wide vision angle(75 degree), and a small size(38mm*38mm).
 
 ### Choice of MCU
 
@@ -299,4 +301,5 @@ Red arrows refer to wheels turning forwards, while blue arrows refer to wheels t
 | 27 | TB47D Battery | 1 | 216 | 216 |
 | 31 | Manifold 2-G | 1 | 879.2 | 879.2 |
 |  |  |  | total | 2147.2 |
+
 *Components in referee system are omitted.*
