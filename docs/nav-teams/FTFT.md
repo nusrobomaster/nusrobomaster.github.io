@@ -71,6 +71,8 @@ The guard for the wheels can be improved by covering the entire corner of the wh
 
 This design of the suspension system is very simple and easy to manufacture. The motor and the holder is connected to a plate hinged to the main body. Two suspension piston is connecting the hinged plate and the main chassis, serving as the suspension system for the standard robot. The function of this design is to minimize the vibration of the standard robot during maneuvering, increasing the stability of the vehicle, and ensuring that the body of the standard robot remains upright when driving through uneven terrain or slope. Two suspension springs are used instead of one to prevent misalignment of the hinged plate and the main body. 
 
+The orientation of the suspension spring is for balancing the vehicle's pitch axis. This will enable the vehicle to remain stable and reduce the vibration when it is passing through uneven terrains and climbing slopes. When the vehicle is moving at a high speed, the suspension system is able to minimize the vibration on teh vehicle and ensuring that the wheels remain in contact with the ground at all times.
+
 ![Chassis3](./assets/TeamFTFT/Chassis3.PNG)
 
 ### Two-Axis Gimbal:
