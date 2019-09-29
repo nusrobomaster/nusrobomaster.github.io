@@ -139,7 +139,8 @@ For people interested to join our team, please contact Kai Yang, Telegram @kaiya
 
 ## Timeline & Milestones
 
-![alt_text](assets/arigato_timeline.jpg "image_tooltip")
+![Timeline](./assets/Team_Arigato/arigato_timeline.jpg)
+
 
 ## Robot Design Considerations
 
@@ -149,10 +150,10 @@ Competition Constraints:
 
 *   Total Power Supply Capacity: 200 Wh 
 *   Power Supply Voltage: 30 V 
-*   Robot Chassis Power Consumption: 80 W 
-*   Maximum Weight: 20kg 
+*   Robot Chassis Power Consumption: 120 W 
+*   Maximum Weight: 25kg 
 *   Maximum Initial Size: 600 x 600 x 500 (mm)
-*   Maximum Expansion Size: 700 x 700 x 500 (mm)   
+*   Maximum Expansion Size: 800 x 700 x 500 (mm)   
 
 The job of the standard robot is to complete on field tasks that activate boosts. Therefore, it will be constantly moving through the field and jumping ramps. As such, we agreed that it should be compact, resilient to impact as well as light and agile to navigate the battlefield. Below are the proposed designs to match the role of the standard robot.
 
@@ -179,14 +180,13 @@ Motors for wheels: (4 x M3508 Brushless DC motors)
 
 Suspension Model: (4 x HSP Purple Aluminium 65-87mm Shocks) 
 
-![alt_text](assets/arigato_1a.png "image_tooltip")
+![Figure_1a](./assets/Team_Arigato/arigato_1a.png)
 
 
 Figure 1a:  Wheels and suspension system (front view)
 
 
-![alt_text](assets/arigato_1b.png "image_tooltip")
-
+![Figure_1b](./assets/Team_Arigato/arigato_1b.png)
 
 Figure 1b: Wheels and suspension system (isometric view)
 
@@ -199,13 +199,12 @@ Bumper:
 **Turret module:**
 
 
-![alt_text](assets/arigato_2.jpg "image_tooltip")
-
+![Figure_2](./assets/Team_Arigato/arigato_2.jpg)
 
 Figure 2: Overall design for the turret module
 
 
-![alt_text](assets/arigato_3.jpg "image_tooltip")
+![Figure_3](./assets/Team_Arigato/arigato_3.jpg)
 
 
 Figure 3: Side view of turret module
@@ -221,8 +220,7 @@ Gimbal: (2x RoboMaster GM6020 Brushless DC Motor)
     
 
 
-![alt_text](assets/arigato_4.jpg "image_tooltip")
-
+![Figure_4](./assets/Team_Arigato/arigato_4.jpg)
 
 
 Figure 4: Robomaster 2019 Robotics Competition Power Rune
@@ -272,9 +270,7 @@ We plan to set a maximum tilt angle of 50° as any more will make it difficult f
 
 Feeder: (1x RoboMaster M2006 P36 Brushless DC Gear Motor with RoboMaster C610 Brushless DC Motor Speed Controller)
 
-
-![alt_text](assets/arigato_5.jpg "image_tooltip")
-
+![Figure_5](./assets/Team_Arigato/arigato_5.jpg)
 
 Figure 5: Proposed feeder design
 
@@ -336,6 +332,7 @@ Firing System:(2x DJI Snail 2305 Racing Motor with Snail 430-R Racing ESC)
    <td rowspan="4" >Wheels/
 <p>
 Suspensions
+</p>
    </td>
    <td>Robomaster Mecanum Wheels
    </td>
@@ -354,6 +351,7 @@ Suspensions
    <td rowspan="3" >Required to control and power the Mecanum wheels
 <p>
 Required for suspension system
+</p>
    </td>
    <td>316
    </td>
@@ -486,6 +484,7 @@ RoboMaster Development Board Cables
    <td>CP.RM.000061
 <p>
 To hold the battery within the robot
+</p>
    </td>
    <td>16
    </td>
