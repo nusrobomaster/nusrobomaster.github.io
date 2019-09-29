@@ -1,7 +1,3 @@
----
-title: BOT groundZero
-lang: en-US
----
 #  groundZero 
 
  The story of groundZero begins with a team of five engineering undergraduates who share the same excitement towards robotics and artificial intelligence. We strive to idealize, pilot and launch awesome robots that result in maximum impact on the job.
@@ -48,7 +44,6 @@ No| Role          |  Description                        | Assigned to       |
 ## Robot Design Considerations
 
 After reviewing relevant resources, these are some ideas we have for our first robot design.
-![robot-componenets](./assets/gz_overview-compo.png)
 
 ### Battery 
 
@@ -84,7 +79,7 @@ In addition, our group plan to attach the gyro sensor at the top of the camera t
 For our team, what we will be looking at is a digital gyro sensor that range between 3.3V to 5V. One of the main advantages of it will be the low power that it consumes and can be used in battery powered applications. Moreover, having discrete information rather than analog will make the software portion easier to code as well. 
 
 A general logic for this portion will be as follows: 
-![gz_sensor](./assets/gz_sensor.png)
+![gz_sensor](./assets/gz_h1.png)
 
 #### Considerations: 
 
@@ -93,9 +88,13 @@ The weight distribution of the robot must be spread evenly to ensure that there 
 ### Problem :
 
 ### Stabilization: 
+
 - Gimbal
+
 ![gz_gimbal](./assets/gz_gimbal.png)
+
 ![gz_gimbal2](./assets/gz_gimbal2.png)
+
 ![gz_gimbal3](./assets/gz_gimbal3.png)
 
 As mentioned above, we use a 2-axis gimbal. In terms of detecting enemy, error in direction of coordinates pitch and yaw between target location and the location of gun turret are processed by PID controllers. This control system follows two identical loops.
@@ -169,13 +168,19 @@ Using the dropping height, to create an interaction :
 
 + Algorithm
 
-![gz_pm0](./assets/gz_pm0.png)
+- Set the final target ‘targetPoint' 
+- Set temporary tempPoint=targetPoint
+- Loop the following part:
+- Compute the angle=tempPoint’s angle
+- Using projectile model to compute the real point to hit realPoint.
+- Receive the error，deltaH=targetPoint-realPoint
+- If deltaH <= expected error: break out the loop 
+- Update tempPoint=tempPoint+deltaH 
+- Output angle and error deltaH 
 
-
-### Modeling with air resistance
-
-![gz_pm0](./assets/gz_pm0.png)
+Different position have different k, so this is the parameter that needs to be adjusted
 In the competition, the resistance mainly from the x direction
+
 ![gz_pm0](./assets/gz_pm1.png)
 ![gz_p](./assets/gz_p.png)
 ![gz_p3](./assets/gz_p3.png)
