@@ -22,7 +22,7 @@ I am a year 2 Electrical Engineering w/ 2nd major in Economics undergraduate. I 
  
  ## Proposed timeline and milestones 
  
-![Timeline](./assets/TeamFTFT/Timeline.PNG)
+![Timeline](./assets/FTFT/Timeline.jpg)
 
 
 ## Standard Robot Specifications:
@@ -49,7 +49,7 @@ The design of the Standard robot is referred to the open source from Hubei Unive
 
 ### Chassis design: 
 
-![Chassis1](./assets/TeamFTFT/Chassis1.PNG)
+![Chassis1](./assets/FTFT/Chassis1.jpg)
 
 ### Mecanum wheels
 * Robots can move parallel in all directions without turning their visual fields around in the game, so as to achieve a variety of ‘zigzag’ movement and precise strikes in the battle.
@@ -67,18 +67,18 @@ The chassis allows it to move in multiple directions, including forwards, sidewa
 
 The guard for the wheels can be improved by covering the entire corner of the wheels, the improvement of the design will provide a better protection for the wheels to prevent it from external impact from other vehicles or structures. The guard can be fabricated with aluminium due to it's light weight to strength ratio.
 
-![Chassis2](./assets/TeamFTFT/Chassis2.PNG)
+![Chassis2](./assets/FTFT/Chassis2.jpg)
 
 This design of the suspension system is very simple and easy to manufacture. The motor and the holder is connected to a plate hinged to the main body. Two suspension piston is connecting the hinged plate and the main chassis, serving as the suspension system for the standard robot. The function of this design is to minimize the vibration of the standard robot during maneuvering, increasing the stability of the vehicle, and ensuring that the body of the standard robot remains upright when driving through uneven terrain or slope. Two suspension springs are used instead of one to prevent misalignment of the hinged plate and the main body. 
 
 The orientation of the suspension spring is for balancing the vehicle's pitch axis. This will enable the vehicle to remain stable and reduce the vibration when it is passing through uneven terrains and climbing slopes. When the vehicle is moving at a high speed, the suspension system is able to minimize the vibration on teh vehicle and ensuring that the wheels remain in contact with the ground at all times.
 
-![Chassis3](./assets/TeamFTFT/Chassis3.PNG)
+![Chassis3](./assets/FTFT/Chassis3.jpg)
 
 ### Two-Axis Gimbal:
 Robot must be able to have a stabilized gimbal platform of which a camera and the launching mechanism would be mounted.The camera should be able to transmit a live first person view of the camera with clear resolution and little time delay back to its controller. The launching mechanism could be mounted on the same or different gimbal platform as the camera feed.
 
-![Gimbal](./assets/TeamFTFT/Gimbal.PNG)
+![Gimbal](./assets/FTFT/Gimbal.jpg)
 
 Two motors will be installed on the gimbal with two different orientation based on the axis. The motor below the frame will be controlling the x-axis, allowing the firing mechanism and the camera to turn left and right, while the motor on the side of the frame will be controlling the y-axis of the gimbal, allowing it to turn up and down. Brushed motor will be used to allow the gimbal to turn in both directions by inverting the polarity of the applied voltage. Brushed motor will be used to allow the gimbal to turn in both directions by inverting the polarity of the applied voltage. 
 
@@ -94,10 +94,10 @@ Initial firing speed Limit (m/s) | 30 | 16.9mm (±0.1 mm) |
 
 The design on the feeding system is shown below. A plate will be manufactured to as shown in the figure to act as a funnel to contain the projectiles and to direct them to the feeding system. A wall will be 3D printed and fixed at the sides of the funnel to contain all the projectiles. This is to prevent the projectiles from falling out from the container as the vehicle will be maneuvering across uneven terrains. There will be a rotating gear at the bottom of the funnel to feed the projectiles into the pipe.
 
-![Firing1](./assets/TeamFTFT/Firing1.PNG)
-![Firing2](./assets/TeamFTFT/Firing2.PNG)
-![Firing3](./assets/TeamFTFT/Firing3.PNG)
-![Firing4](./assets/TeamFTFT/Firing4.PNG)
+![Firing1](./assets/FTFT/Firing1.jpg)
+![Firing2](./assets/FTFT/Firing2.jpg)
+![Firing3](./assets/FTFT/Firing3.jpg)
+![Firing4](./assets/FTFT/Firing4.jpg)
 
 In order to reduce the launch response time (delay) and to ensure the accuracy of the number of projectile launches.For example, to ensure that only one projectile is launched at a time, and no consecutive shots are allowed at some circumstances.A limit switch is installed before the projectile moves along the pipeline and touches the friction wheel. Its working logic is as follows:
 
@@ -109,7 +109,7 @@ When automatic mode is needed, the continuous firing command can be sent, the fe
 
 This projectile feeding mechanism needs greater torque, because there are more ammunition stored in the projectile feeding pipe, the projectiles are easy to bump against each other, and the resistance is relatively large when passing through the elbow. Therefore, in order to transport the projectiles to the launching mechanism, it is necessary to optimize the design of the projectile feeding mechanism.
 
-![Firing5](./assets/TeamFTFT/Firing5.PNG)
+![Firing5](./assets/FTFT/Firing5.jpg)
 
 Here are three points of feeding mechanism to be considered:
 
@@ -170,6 +170,6 @@ For some of the components that does not require high strength, we will be using
 
 ## Proposed Budget
 
-![Budget1](./assets/TeamFTFT/Budget1.PNG)
-![Budget2](./assets/TeamFTFT/Budget2.PNG)
+![Budget1](./assets/FTFT/Budget1.jpg)
+![Budget2](./assets/FTFT/Budget2.jpg)
 
