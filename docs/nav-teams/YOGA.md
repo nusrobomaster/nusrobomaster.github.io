@@ -106,19 +106,19 @@ Slight incline is present at the base of the storage chamber to allow for balls 
 # General Design and Fabrication Methods
 ### Machinery Available
 Harrison CNC Lathe Alpha 330 Plus
- - For custom shafts and axles
+  For custom shafts and axles
 
 Avemax Conventional Mill & DMG Mori NVX 5080 3-Axis CNC Mill
- - For custom aluminium stock
+  For custom aluminium stock
 
 UP!BOX 3D Printer
- - For custom 3D Printed ABS/PLA Parts
+  For custom 3D Printed ABS/PLA Parts
 
 Epilog M2 40 Laser Cutting Machine
- - For custom acrylic sheet patterns
+  For custom acrylic sheet patterns
 
 Basic Workshop Tools (Bandsaws/Drill Press)
- - For quick fabrication of simple custom parts that do not require a high level of precision
+  For quick fabrication of simple custom parts that do not require a high level of precision
 
 ### Raw Materials
 In order to maintain continuity and form a design language, we plan to use standard Aluminium tube and Aluminium plate stock for custom components on the robot. Components should be designed such that they are easy to fabricate by hand for low tolerances and with workshop machinery for high tolerances. Other materials used include acrylic/polycarbonate sheets for the electronics board and 3D printed parts for components under low-stress.
