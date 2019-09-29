@@ -150,10 +150,10 @@ Competition Constraints:
 
 *   Total Power Supply Capacity: 200 Wh 
 *   Power Supply Voltage: 30 V 
-*   Robot Chassis Power Consumption: 80 W 
-*   Maximum Weight: 20kg 
+*   Robot Chassis Power Consumption: 120 W 
+*   Maximum Weight: 25kg 
 *   Maximum Initial Size: 600 x 600 x 500 (mm)
-*   Maximum Expansion Size: 700 x 700 x 500 (mm)   
+*   Maximum Expansion Size: 800 x 700 x 500 (mm)   
 
 The job of the standard robot is to complete on field tasks that activate boosts. Therefore, it will be constantly moving through the field and jumping ramps. As such, we agreed that it should be compact, resilient to impact as well as light and agile to navigate the battlefield. Below are the proposed designs to match the role of the standard robot.
 
