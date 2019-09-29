@@ -223,7 +223,6 @@ Gimbal: (2x RoboMaster GM6020 Brushless DC Motor)
 ![Figure_4](./assets/Team_Arigato/arigato_4.jpg)
 
 
-
 Figure 4: Robomaster 2019 Robotics Competition Power Rune
 
 
@@ -271,9 +270,7 @@ We plan to set a maximum tilt angle of 50° as any more will make it difficult f
 
 Feeder: (1x RoboMaster M2006 P36 Brushless DC Gear Motor with RoboMaster C610 Brushless DC Motor Speed Controller)
 
-
 ![Figure_5](./assets/Team_Arigato/arigato_5.jpg)
-
 
 Figure 5: Proposed feeder design
 
