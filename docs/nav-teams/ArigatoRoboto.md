@@ -332,6 +332,7 @@ Firing System:(2x DJI Snail 2305 Racing Motor with Snail 430-R Racing ESC)
    <td rowspan="4" >Wheels/
 <p>
 Suspensions
+</p>
    </td>
    <td>Robomaster Mecanum Wheels
    </td>
@@ -350,6 +351,7 @@ Suspensions
    <td rowspan="3" >Required to control and power the Mecanum wheels
 <p>
 Required for suspension system
+</p>
    </td>
    <td>316
    </td>
@@ -482,6 +484,7 @@ RoboMaster Development Board Cables
    <td>CP.RM.000061
 <p>
 To hold the battery within the robot
+</p>
    </td>
    <td>16
    </td>
