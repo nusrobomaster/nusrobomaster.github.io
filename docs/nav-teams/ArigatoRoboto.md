@@ -139,7 +139,7 @@ For people interested to join our team, please contact Kai Yang, Telegram @kaiya
 
 ## Timeline & Milestones
 
-![alt_text](assets/arigato_timeline.jpg "image_tooltip")
+![timeline](assets/Team_Arigato/arigato_timeline.jpg "image_tooltip")
 
 ## Robot Design Considerations
 
@@ -179,13 +179,13 @@ Motors for wheels: (4 x M3508 Brushless DC motors)
 
 Suspension Model: (4 x HSP Purple Aluminium 65-87mm Shocks) 
 
-![alt_text](assets/arigato_1a.png "image_tooltip")
+![Figure_1a](assets/Team_Arigato/arigato_1a.png "image_tooltip")
 
 
 Figure 1a:  Wheels and suspension system (front view)
 
 
-![alt_text](assets/arigato_1b.png "image_tooltip")
+![Figure_1b](assets/Team_Arigato/arigato_1b.png "image_tooltip")
 
 
 Figure 1b: Wheels and suspension system (isometric view)
@@ -199,13 +199,13 @@ Bumper:
 **Turret module:**
 
 
-![alt_text](assets/arigato_2.jpg "image_tooltip")
+![Figure_2](assets/Team_Arigato/arigato_2.jpg "image_tooltip")
 
 
 Figure 2: Overall design for the turret module
 
 
-![alt_text](assets/arigato_3.jpg "image_tooltip")
+![Figure_3](assets/Team_Arigato/arigato_3.jpg "image_tooltip")
 
 
 Figure 3: Side view of turret module
@@ -221,7 +221,7 @@ Gimbal: (2x RoboMaster GM6020 Brushless DC Motor)
     
 
 
-![alt_text](assets/arigato_4.jpg "image_tooltip")
+![Figure_4](assets/Team_Arigato/arigato_4.jpg "image_tooltip")
 
 
 
@@ -273,7 +273,7 @@ We plan to set a maximum tilt angle of 50° as any more will make it difficult f
 Feeder: (1x RoboMaster M2006 P36 Brushless DC Gear Motor with RoboMaster C610 Brushless DC Motor Speed Controller)
 
 
-![alt_text](assets/arigato_5.jpg "image_tooltip")
+![Figure_5](assets/Team_Arigato/arigato_5.jpg "image_tooltip")
 
 
 Figure 5: Proposed feeder design
