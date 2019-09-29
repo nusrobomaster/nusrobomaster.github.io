@@ -186,4 +186,14 @@ No| Component     |  Unit Price (USD)                   | Quantity       | Total
 | | | | TOTAL | 3837 |
 
    
- 
+## References
+
+1. https://www.amazon.com/Hosim-Absorber-Adjustable-Assembled-Suspension/dp/B07L7817V2
+2. https://www.robomaster.com/en-US/products/components/general
+3. https://www.robomaster.com/en-US/products/components/competition
+4. https://www.getfpv.com/dji-snail-2305-racing-motor.html
+5. https://sea.banggood.com/Machifit-300mm-Length-3030-T-Slot-Aluminum-Profiles-Extrusion-Frame-For-CNC-p-1254141.html?gmcCountry=SG&currency=SGD&createTmp=1&utm_source=googleshopping&utm_medium=cpc_bgcs&utm_content=lijing&utm_campaign=ssc-sg-all-0906&ad_id=381136082592&gclid=CjwKCAjwwvfrBRBIEiwA2nFiPfqlpOhnduIX3e-04M6a7qzGKNhxbp0BkIlsDdCyOU3vJnYeGm2J9hoCuiEQAvD_BwE&cur_warehouse=CN
+6. https://www.containerstore.com/shopping/metal-containers.html
+7. https://www.monotaro.sg/p/07015845?gclid=CjwKCAjwwvfrBRBIEiwA2nFiPbTffxfBvv-QfdMjCmW978AhTergxU2yfkjNcJSl8m2_ytPMwdO_qxoCRmsQAvD_BwE&utm_medium=cpc&utm_source=googleps&ef_id=CjwKCAjwwvfrBRBIEiwA2nFiPbTffxfBvv-QfdMjCmW978AhTergxU2yfkjNcJSl8m2_ytPMwdO_qxoCRmsQAvD_BwE:G:s
+8. https://sg.cytron.io/p-mecanum-wheel-152mm-left?gclid=CjwKCAjwwvfrBRBIEiwA2nFiPWYLwsPn6oVmdGRT4MPl5sN6OX6718UfKRpCjT0saEBXE8SYwyWcixoCeIcQAvD_BwE
+9. https://www.robomaster.com/en-US
