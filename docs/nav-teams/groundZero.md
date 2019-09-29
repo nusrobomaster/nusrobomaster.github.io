@@ -178,7 +178,6 @@ Using the dropping height, to create an interaction :
 
 ### Modeling with air resistance
 
-![gz_pm0](./assets/gz_pm1.png)
 ![gz_p3](./assets/gz_airresistance.png)
 ![gz_p](./assets/gz_para.png)
 ![gz_p1](./assets/gz_proj1.png)
