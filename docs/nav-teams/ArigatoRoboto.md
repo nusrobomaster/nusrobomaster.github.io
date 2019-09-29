@@ -141,6 +141,7 @@ For people interested to join our team, please contact Kai Yang, Telegram @kaiya
 
 ![timeline](./assets/Team_Arigato/arigato_timeline.jpg)
 
+
 ## Robot Design Considerations
 
 Competition Constraints:
@@ -187,7 +188,6 @@ Figure 1a:  Wheels and suspension system (front view)
 
 ![Figure_1b](./assets/Team_Arigato/arigato_1b.png)
 
-
 Figure 1b: Wheels and suspension system (isometric view)
 
 Bumper: 
@@ -200,7 +200,6 @@ Bumper:
 
 
 ![Figure_2](./assets/Team_Arigato/arigato_2.jpg)
-
 
 Figure 2: Overall design for the turret module
 
