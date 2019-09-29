@@ -17,7 +17,7 @@ Interested in Robotics and planning to specialise in AI and communication system
 I am a year 2 Electrical Engineering w/ 2nd major in Economics undergraduate. I have basic knowledge on CAD and coding on several platforms. I am interested in robotics and the idea of building a working object from scratch. I feel that it is the best way to explore my interests and apply what I have learnt so far by putting it into practical uses. I feel that this journey will provide a different angle of learning, process and fulfilment that will be both memorable and valuable.
 
 
-![Proposed Manpower arrangement](./assets/FTFT/Proposad_Manpower.JPG)
+![Proposed Manpower arrangement](./assets/FTFT/Proposad_Manpower.jpg)
  
  
  ## Proposed timeline and milestones 
