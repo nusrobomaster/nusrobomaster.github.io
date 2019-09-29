@@ -59,7 +59,9 @@ No| Role          |  Description                        | Assigned to       |
 ![ChassisBottom](./assets/MECHABirdBox-chassisbottom.png)
 
 ![ChassisFront](./assets/MECHABirdBox-chassisfront.png)
+
 * Figure 1.1 and 1.2: bottom and front view of shock absorber added to mecanum wheels (drawing taken from https://www.robomaster.com/en-US/products/components/detail/1843, edited to include shock absorber)
+
 
 * Impact detector: Transmit health of robot efficiently to controls system, direction of impact to the pilot UI.
 * Intelligent sensing armour -> Infrared sensors near armour to detect when aiming beam lands on robot. Or gel pads to detect which part of the robot is being hit to move away accordingly
@@ -67,6 +69,7 @@ No| Role          |  Description                        | Assigned to       |
 * Motor selection: RoboMaster M2006 P36 Brushless DC Gear Motor (Side note: also used by DJI RoboMaster AI Challenge Robot)
 
 ![SpeedTorqueGraph](./assets/MECHABirdBox-graph.png)
+
 * Figure 2.1: Speed Torque characteristics of M2006 P36 Brushless Motor.
 
 Specs         | Value|
@@ -76,6 +79,7 @@ Specs         | Value|
  Rated speed|  416rpm   |
  Largest continuous torque|  1Nm   |
  Rated voltage|  24V   |
+
 
  * Table 1.1: M2006 P36 Specs (taken from https://rm-static.djicdn.com/tem/17348/RM%20M2006%20P36直流无刷减速电机使用说明.pdf)
 
