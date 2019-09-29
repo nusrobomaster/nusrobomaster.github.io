@@ -43,7 +43,7 @@ No| Role          |  Description                        | Assigned to       |
   For interested people to join our team, please contact Telegram @xxxx 
 
 ## Timeline & Milestones
-![Timeline](./assets/team-awesome-timeline.png)
+![Timeline](./assets/gz_timeline.png)
 
 ## Robot Design Considerations
 
@@ -208,11 +208,11 @@ Using the dropping height, to create an interaction :
 
 ### References 
 
-https://robomaster.github.io/RoboRTS-Tutorial/#/en/hardware_specifications
-https://cdn-hz.robomaster.com/documents/935c504aecb741521451469256431010.pdf
-https://normxu.github.io/resource/Johns_Hopkins_University__Hopkins_AI_ICRA_Technical_Report-ilovepdf-compressed.pdf
-https://www5.epsondevice.com/en/information/technical_info/gyro/
-https://hub.hamamatsu.com/us/en/application-note/measuring-distance-with-light/index.html
-https://bbs.robomaster.com/thread-7873-1-1.html
-https://bbs.robomaster.com/thread-7873-1-1.html
+1. https://robomaster.github.io/RoboRTS-Tutorial/#/en/hardware_specifications
+2. https://cdn-hz.robomaster.com/documents/935c504aecb741521451469256431010.pdf
+3. https://normxu.github.io/resource/Johns_Hopkins_University__Hopkins_AI_ICRA_Technical_Report-ilovepdf-compressed.pdf
+4. https://www5.epsondevice.com/en/information/technical_info/gyro/
+5. https://hub.hamamatsu.com/us/en/application-note/measuring-distance-with-light/index.html
+6. https://bbs.robomaster.com/thread-7873-1-1.html
+7. https://bbs.robomaster.com/thread-7873-1-1.html
 
