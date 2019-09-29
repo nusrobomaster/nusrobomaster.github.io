@@ -84,7 +84,7 @@ In addition, our group plan to attach the gyro sensor at the top of the camera t
 For our team, what we will be looking at is a digital gyro sensor that range between 3.3V to 5V. One of the main advantages of it will be the low power that it consumes and can be used in battery powered applications. Moreover, having discrete information rather than analog will make the software portion easier to code as well. 
 
 A general logic for this portion will be as follows: 
-![gz_sensor](./assets/gz_sensor.png)
+![gz_sensor](./assets/gz_logic.png)
 
 #### Considerations: 
 
@@ -96,18 +96,13 @@ The weight distribution of the robot must be spread evenly to ensure that there 
 - Gimbal
 ![gz_gimbal](./assets/gz_gimbal.png)
 ![gz_gimbal2](./assets/gz_gimbal2.png)
-![gz_gimbal3](./assets/gz_gimbal3.png)
-
 As mentioned above, we use a 2-axis gimbal. In terms of detecting enemy, error in direction of coordinates pitch and yaw between target location and the location of gun turret are processed by PID controllers. This control system follows two identical loops.
-
-![gz_gimbal4](./assets/gz_gimbal4.png)
-
+![gz_gimbal3](./assets/gz_gimbal3.png)
 PID is used to mitigate error down to zero. Proportional control generates an output that is proportional to the error when it senses an error. To avoid saturation (constant error) that might occur, the integral controller is used. However, with high integral gain, the robot might experience high oscillations. Derivative controller is introduced to overcome this. The gyro outputs are served as feedback to torque motors of the gimbal in order to provide error tracking and stabilization purpose.
 
--   Suspension system at the connection of the chassis and the wheels
+- 2)    Suspension system at the connection of the chassis and the wheels
 
 ![gz_jss](./assets/gz_jss.png)
-Source: ICRA 2018 DJI RoboMaster AI Robot – user Manual
 
 ## Computer vision
 ### Programming language options: C++ VS Python
@@ -169,18 +164,25 @@ Using the dropping height, to create an interaction :
 
 + Algorithm
 
-![gz_pm0](./assets/gz_pm0.png)
+- Set the final target ‘targetPoint' 
+- Set temporary tempPoint=targetPoint
+- Loop the following part:
+  -  Compute the angle=tempPoint’s angle
+  -  Using projectile model to compute the real point to hit realPoint.
+  -  Receive the error，deltaH=targetPoint-realPoint
+  -  If deltaH <= expected error: break out the loop 
+  -  Update tempPoint=tempPoint+deltaH 
+- Output angle and error deltaH 
+
 
 
 ### Modeling with air resistance
 
-![gz_pm0](./assets/gz_pm0.png)
-In the competition, the resistance mainly from the x direction
 ![gz_pm0](./assets/gz_pm1.png)
-![gz_p](./assets/gz_p.png)
-![gz_p3](./assets/gz_p3.png)
-![gz_p1](./assets/gz_p1.png)
-![gz_p4](./assets/gz_p4.png)
+![gz_p3](./assets/gz_airresistance.png)
+![gz_p](./assets/gz_para.png)
+![gz_p1](./assets/gz_proj1.png)
+![gz_p4](./assets/gz_proj2.png)
 
 ### Proposed Budget
 
