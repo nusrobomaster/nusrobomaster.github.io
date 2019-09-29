@@ -139,7 +139,7 @@ For people interested to join our team, please contact Kai Yang, Telegram @kaiya
 
 ## Timeline & Milestones
 
-![timeline](./assets/Team_Arigato/arigato_timeline.jpg)
+![Timeline](./assets/Team_Arigato/arigato_timeline.jpg)
 
 
 ## Robot Design Considerations
