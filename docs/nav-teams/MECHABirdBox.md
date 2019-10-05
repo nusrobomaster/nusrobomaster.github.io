@@ -57,37 +57,36 @@ No| Role          |  Description                        | Assigned to       |
 * Front, Rear, Left, Right chassis have shock absorbers incorporated to reduce damage to robot parts.
 
 ![ChassisBottom](./assets/MECHABirdBox-chassisbottom.png)
+*Figure1.1 bottom view of shock absorber added to mecanum wheels (drawing taken from https://www.robomaster.com/en-US/products/components/detail/1843, edited to include shock absorber)*
 
 ![ChassisFront](./assets/MECHABirdBox-chassisfront.png)
-
-* Figure 1.1 and 1.2: bottom and front view of shock absorber added to mecanum wheels (drawing taken from https://www.robomaster.com/en-US/products/components/detail/1843, edited to include shock absorber)
-
+*Figure1.2 front view of shock absorber added to mecanum wheels (drawing taken from https://www.robomaster.com/en-US/products/components/detail/1843, edited to include shock absorber)*
 
 * Impact detector: Transmit health of robot efficiently to controls system, direction of impact to the pilot UI.
 * Intelligent sensing armour -> Infrared sensors near armour to detect when aiming beam lands on robot. Or gel pads to detect which part of the robot is being hit to move away accordingly
-* Suspension system: as our design involves wheel extensions, we will not be including suspensions to minimize the risk of entanglement. Furthermore, since horizontal forces will already be damped by the shock absorber, the benefit of a suspensions lies in damping vertical forces, which will be minimal since its only experienced when mounting ramps and curbs. As long as the curb is significantly small, the robot should still be able to cross it.
+* Suspension system: Suspension will be added for each wheel according to Figure 2 below, connecting the wheel to the frame
+![SuspensionSystem](./assets/MECHABirdBox-suspension.png)
+*Figure 2: Suspension complementing the shock absorber*
+
 * Motor selection: RoboMaster M2006 P36 Brushless DC Gear Motor (Side note: also used by DJI RoboMaster AI Challenge Robot)
 
 ![SpeedTorqueGraph](./assets/MECHABirdBox-graph.png)
+*Figure 3: Speed Torque characteristics of M2006 P36 Brushless Motor*
 
-* Figure 2.1: Speed Torque characteristics of M2006 P36 Brushless Motor.
-
-Specs         | Value|
+Variable         | Value|
 -----------------|---   |
  No load speed|  500rpm   |
  No load current|  0.6A   |
  Rated speed|  416rpm   |
  Largest continuous torque|  1Nm   |
  Rated voltage|  24V   |
-
-
- * Table 1.1: M2006 P36 Specs (taken from https://rm-static.djicdn.com/tem/17348/RM%20M2006%20P36直流无刷减速电机使用说明.pdf)
+*Table 1.1: M2006 P36 Specs (taken from https://rm-static.djicdn.com/tem/17348/RM%20M2006%20P36直流无刷减速电机使用说明.pdf)*
 
  * For a 20kg robot to move off ,
- * W = mg = 20 x 9.81 = 196N
- * Frictional force = 𝜇N = 0.45 x 196 = 88.3N
- * Torque required = Fr = 88.3 x 0.04 = 3.53Nm
- * Torque per wheel = T/4 = 0.883Nm (well within specs)
+ 	*W = mg = 20 x 9.81 = 196N*
+    *Frictional force = 𝜇N = 0.45 x 196 = 88.3N*
+    *Torque required = Fr = 88.3 x 0.04 = 3.53Nm*
+    *Torque per wheel = T/4 = 0.883Nm (well within specs)*
 
 ### Gimbal
 
@@ -131,7 +130,7 @@ Specs         | Value|
 
 * PID motion control
 * Blaster targeting controls
-* Intelligent Controlle
+* Intelligent Controller
 
 ### General design and fabrication methods
 * Most parts should be bought online and machined to desired specifications. Prototype, lightweight materials can be 3D printed with Kevyn’s 3D printer, using ABS/PLA material. Samantha can buy cheap electronics and mechanical parts in Shenzhen as well if possible, as well as use laser cutting, lathing equipment etc.
