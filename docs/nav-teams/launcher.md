@@ -1,4 +1,5 @@
-# Overview
+# Launcher
+### Andre
 
 There are 2 types of launchers: 17mm and 34mm.
 
@@ -11,28 +12,28 @@ Aerial | 1 x 17mm
 
 In the 2020 rules, there is an additional 17mm that can be added to any of the ground robots.
 
-# Barrel heat
+## Barrel heat
 Firing the launchers generates a "barrel heat" value. Exceeding a threshold results in certain penalties.
 
-## 1. Current heat > heat limit
+### 1. Current heat > heat limit
 First person camera view gets blurred
 
-## 2. Current heat > 2$\times$(limit)
+### 2. Current heat > 2$\times$(limit)
 $\frac{current - 2\times limit}{250} \times hp_{max}$ is deducted, and current heat is reset to $2 \times limit$.
 
-## 3. Barrel velocity > velocity limit
+### 3. Barrel velocity > velocity limit
 Exceed by | HP penalty (of max hp)
 :---: | :---:
 <5$ms^{-1}$ | 10%
 <10$ms^{-1}$ | 50%
 $\geq$ 10$ms^{-1}$ | 100%
 
-# Analysis
+### Analysis
 Taking into account the above, 
 1. Minimizing projectile velocity means that we get to fire more projectiles (assuming the same accuracy at lower velocity)
 2. Launching mechanism must ensure that we do not exceed the velocity limits, because the penalties are extremely harsh (10/50/100% of max hp)
 
-# Sensor
+## Sensor
 The sensor should give
 1. tangential (left/right/up/down relative to camera)
 2. radial (forward/backward relative to camera)
@@ -52,7 +53,7 @@ Structured light does not perform well in certain lighting conditions. This is l
 
 Due to budget constraints, stereo is the most feasible solution. To reduce the computational load on the computer, the Intel Realsense D435 has onboard stereo block matching.
 
-## Realsense D435
+### Realsense D435
 ![d435_rms]
 
 [d435_rms]: ./assets/Launcher/d435_rms_error.png "D435 RMS error"
@@ -79,7 +80,7 @@ Dist | $\theta (\degree)$ | Time
 
 Which shows that at 30$ms^{-1}$ the amount of projectile drop is negligible. This also means that the RMS error of the D435 is unlikely to have any significant impact on aiming performance.
 
-# Motors for ejecting wheels
+### Motors for ejecting wheels
 I propose BLDC motors with field-oriented control (FOC) ESCs ([Holybro Kotleta20](http://www.holybro.com/product/kotleta20/)) running open source firmware ([Sapog](https://github.com/PX4/sapog)).
 
 BLDC motors have excellent performance (in terms of torque, torque-to-weight) compared to other types of motors. This will allow us to use smaller, lighter motors on the launcher, reducing the weight of the turret. Which further improves the performance of the pan and tilt mechanism.
@@ -100,7 +101,7 @@ By mounting the ejecting wheels at an angle, they impart a spin to the projectil
 
 
 
-# Controller requirements
+## Controller requirements
 To start designing the controller, we must first identify the key system requirements.
 
 1. ~~Compensate for projectile drop~~
@@ -125,8 +126,8 @@ By minimizing velocity (and therefore barrel heat), we will be able to get more 
 
 
 
-# Model
-## Initial velocity $\rightarrow$ target location
+## Model
+### Initial velocity $\rightarrow$ target location
 $$ \dot{x} = Ax + Bu $$
 $$ y = Cx + Du $$
 
@@ -175,5 +176,3 @@ B = \begin{bmatrix}
 u = \begin{bmatrix} 
     i_1 \\ i_2
 \end{bmatrix} $$ -->
-
-### Andre
