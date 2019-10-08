@@ -55,13 +55,13 @@ Due to budget constraints, stereo is the most feasible solution. To reduce the c
 ## Realsense D435
 ![d435_rms]
 
-[d435_rms]: ./assets/launcher/d435_rms_error.png "D435 RMS error"
+[d435_rms]: ./assets/Launcher/d435_rms_error.png "D435 RMS error"
 
 The predicted engagement range should be around 4 - 10m, therefore we need some extrapolated date. By fitting a quadratic curve to the data above:
 
 ![extrapolated_d435_rms]
 
-[extrapolated_d435_rms]: ./assets/launcher/extrapolated_d435_rms_error.png "D435 RMS error"
+[extrapolated_d435_rms]: ./assets/Launcher/extrapolated_d435_rms_error.png "D435 RMS error"
 
 Between 4 to 10m, there should be an RMS error of 60 - 350mm (6 - 35cm).
 
@@ -93,8 +93,8 @@ Opensource firmware will allow to make any changes or fine-tune the performance 
 :---: | :---:
 ![diagram] | ![spin_stab]
 
-[diagram]: ./assets/launcher/launcher_diagram.png 
-[spin_stab]: ./assets/launcher/spin_stabilization.png
+[diagram]: ./assets/Launcher/launcher_diagram.png 
+[spin_stab]: ./assets/Launcher/spin_stabilization.png
 
 By mounting the ejecting wheels at an angle, they impart a spin to the projectile. -->
 
