@@ -38,7 +38,8 @@ module.exports = {
     }
   },
 
-  plugins: {
-    'disqus': true
-  }
+  plugins: [
+    'disqus',
+    'latex'
+  ]
 };
