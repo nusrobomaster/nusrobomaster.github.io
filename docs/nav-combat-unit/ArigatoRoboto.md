@@ -3,32 +3,26 @@
 
 ## Introductions
 
-
-## 
 **Tay Kai Yang**
 
 I am currently a Year 2 Electrical Engineering Student. I have always been excited about how technology has had a profound impact in changing the world. I try to apply  whatever EE has taught me wherever possible. I find that I learn best through trial and error, tinkering with stuff till I find the solution. Thus was born my enthusiasm to partake in this competition where the only way to learn is through independent exploration. I believe that the only two possible outcomes of this competition are that either we learn or we win and I strongly believe in the latter.
 
 
-## 
 **Prabhakaran Gokul**
 
 I am a Year 2 Mechanical Engineering Student. I enjoy hands on work and thus I joined competitions such as Innoventure Programme and Hornet. I got to hone my skills as a mechanical engineer,especially in CAD, through these programmes. I am interested in robotics/AI thus I self learnt computer vision. I also exposed myself to software development by participating in orbital program. I want to pursue my passion in robotics/AI in the future. 
 
 
-## 
 **Karnati Sai Abhishek**
 
 I am a Year 2 Student majoring in Computer Engineering. I am a core believer of the motto that learning does not stop outside the classroom and hence during my time at NUS, I have done self-initiated projects like orbital and also taken part in competitions like Hack & Roll. My immense interest in the real-life application of the concepts I learned in my modules also made me take up a software engineering internship at A*Star during my summer break. My experiences have aided in developing me as a holistic student with both soft and hard skills. Over the past year, I have also grown to like the fascinating field of artificial intelligence and wish to pursue this passion in the future. I believe that the challenging self-learning journey as a Robomasters core team member will aid me in gaining intriguing insights into artificial intelligence.
 
 
-## 
 **Hans Kurnia**
 
 I am a Year 3 Computer Engineering student. Since my polytechnic days i have participated in several drone involved projects and competitions, such as SAFMC. From these experiences, I have developed an interest in drones as a hobby. Given my interest in drones and remote controlled platforms, I want to take part in the Robomasters competition.
 
 
-## 
 **Ijaz Ahmed Navas**
 
 ---

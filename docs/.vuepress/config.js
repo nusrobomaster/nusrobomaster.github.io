@@ -39,7 +39,20 @@ module.exports = {
   },
 
   plugins: [
-    'disqus',
-    'latex'
-  ]
+    // 'disqus',
+    'latex',
+    'medium-zoom'
+  ],
+
+  // not working now in dev mode, as https://github.com/vuejs/vuepress/issues/1334 , https://github.com/prettier/prettier/issues/4784
+  chainWebpack: config => {
+    config.module
+      .rule('vue')
+      .use('vue-loader')
+        .loader('vue-loader')
+        .tap(options => {
+          options.prettify = false
+          return options
+        })
+  }
 };

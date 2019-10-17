@@ -1,5 +1,5 @@
 # Launcher
-### Andre
+
 
 There are 2 types of launchers: 17mm and 34mm.
 
@@ -17,6 +17,7 @@ Firing the launchers generates a "barrel heat" value. Exceeding a threshold resu
 
 ### 1. Current heat > heat limit
 First person camera view gets blurred
+
 
 ### 2. Current heat > 2$\times$(limit)
 $\frac{current - 2\times limit}{250} \times hp_{max}$ is deducted, and current heat is reset to $2 \times limit$.

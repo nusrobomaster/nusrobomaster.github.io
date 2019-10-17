@@ -38,7 +38,7 @@ No| Role          |  Description                        | Assigned to       |
 
 ## Timeline & Milestones
 
-![Timeline](./assets/timeline.png)
+![Timeline](./assets/stark-industry/timeline.png)
 
 
 ## Key Aspects of Our Robot
@@ -68,7 +68,7 @@ We would be having an efficient Heat dissipation system for preventing overheati
 
 1. Wheel System:
    - 4 Mecanum omnidirectional wheels that allow the robot to rotate, move sideways, back and forth freely.
-   ![Mecanum](./assets/mecanum.png)\
+   ![Mecanum](./assets/stark-industry/mecanum.png)\
    Retrieved from https://robu.in/product/100mm-aluminium-mecanum-wheels-bush-type-rollers-left/
 
 
@@ -81,14 +81,14 @@ We would be having an efficient Heat dissipation system for preventing overheati
 
 4. Projectile Calculation:  
 Relevant Rules (Retrieved from 2019 Robomaster Rules):
-![Rule1](./assets/rule1.png)
+![Rule1](./assets/stark-industry/rule1.png)
 
-![Rule2](./assets/rule2.png)
+![Rule2](./assets/stark-industry/rule2.png)
 
-![Rule3](./assets/rule3.png)
+![Rule3](./assets/stark-industry/rule3.png)
 
 Drag:
-![drag](./assets/drag.png)\
+![drag](./assets/stark-industry/drag.png)\
 Retrieved from https://www.grc.nasa.gov/www/K-12/airplane/dragsphere.html  
 D = Cd * .5 * rho * V^2 * A\
 Re = V * rho * l / mu\
@@ -96,7 +96,7 @@ Since the bullet need to hit the armour at a speed of 8m/s, the initial speed ca
 Re12 = 12*1.225*0.017/1.86*10^-5=13435\
 Re30 =  30*1.225*0.017/1.86*10^-5=33589\
 Reynolds number is around 0.5.\
-![calculation](./assets/calculation.png)
+![calculation](./assets/stark-industry/calculation.png)
 
 ## General Design and Fabrication Methods
 
@@ -118,4 +118,4 @@ Reynolds number is around 0.5.\
 ## Proposed Budget
 
 We have estimated a budget of about _S$ 2143_.
-   ![Budget](./assets/budget.png)
+   ![Budget](./assets/stark-industry/budget.png)
